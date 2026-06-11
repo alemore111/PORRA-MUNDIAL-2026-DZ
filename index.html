@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Porra Dazia Mundial 2026</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -64,6 +65,10 @@ header{background:var(--panel);border-bottom:2px solid var(--verde-dk);padding:0
 .pod-chips{margin-top:8px;display:flex;justify-content:center;gap:5px;flex-wrap:wrap}
 .chip{background:var(--panel2);border-radius:3px;padding:2px 7px;font-size:10px;color:var(--texto2)}
  
+/* ── GRÁFICA EVOLUCIÓN ── */
+.chart-wrap{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r);padding:16px;position:relative;height:340px}
+@media(max-width:560px){.chart-wrap{height:280px;padding:10px}}
+ 
 /* ── TABLA CLASIFICACIÓN ── */
 .tbl-wrap{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r);overflow:hidden}
 table{width:100%;border-collapse:collapse}
@@ -80,9 +85,6 @@ td.pos-td{width:42px;text-align:center}
 .pnum.s{background:rgba(180,180,180,.1);color:#bbb}
 .pnum.b{background:rgba(180,100,30,.1);color:#c87}
 td.nom-td{font-weight:600}
-.bf{display:flex;align-items:center;gap:10px}
-.barra{flex:1;height:6px;background:var(--borde);border-radius:3px;min-width:60px;max-width:180px;overflow:hidden}
-.bf-fill{height:100%;background:linear-gradient(90deg,var(--verde-dk),var(--verde));border-radius:3px;transition:width .6s ease}
 td.tot-td{text-align:center;font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--verde)}
  
 /* ── PRONÓSTICOS ── */
@@ -192,6 +194,9 @@ footer strong{color:var(--verde)}
     <div class="panel-tab active" id="tab-clasificacion">
       <div class="sec-label" style="margin-top:8px">🏅 Podio</div>
       <div class="podio" id="podio"></div>
+ 
+      <div class="sec-label">📈 Evolución de puntos</div>
+      <div class="chart-wrap"><canvas id="chart-evolucion"></canvas></div>
  
       <div class="sec-label">📊 Clasificación completa</div>
       <div class="tbl-wrap">
@@ -305,7 +310,7 @@ function renderClasificacion(clas) {
       : `<span class="pnum">${i+1}</span>`;
     return `<tr class="${i < 3 ? 'top' : ''}">
       <td class="pos-td">${pos}</td>
-      <td class="nom-td"><div class="bf"><span>${p.nombre}</span><div class="barra"><div class="bf-fill" style="width:${pct}%"></div></div></div></td>
+      <td class="nom-td">${p.nombre}</td>
       <td class="tc">${p.grupos}</td>
       <td class="tc">${p.eliminatoria}</td>
       <td class="tc">${p.bonus}</td>
@@ -422,7 +427,75 @@ function renderPartidos(partidos) {
   }
 }
  
-// ── INIT ───────────────────────────────────────────────────────
+// ── GRÁFICA EVOLUCIÓN DE PUNTOS ─────────────────────────────────
+const PALETA = ['#00C853','#FFD600','#2979FF','#E53935','#AB47BC','#FF7043','#26C6DA','#8D6E63','#9CCC65','#EC407A','#5C6BC0','#FFA726','#78909C'];
+ 
+function renderEvolucion(partidos, clas) {
+  // Solo partidos jugados, en orden
+  const jugados = partidos.filter(p => p.jugado);
+  if (!jugados.length) {
+    document.getElementById('chart-evolucion').parentElement.innerHTML =
+      '<div class="empty" style="padding:60px 0">Aún no hay partidos jugados para mostrar la evolución</div>';
+    return;
+  }
+ 
+  // Etiquetas eje X: "J1·1", "J1·2", ...
+  const labels = jugados.map((p, i) => `${p.jornada}·${i+1}`);
+ 
+  // Para cada participante, acumular puntos partido a partido
+  const nombres = clas.map(c => c.nombre);
+  const datasets = nombres.map((nombre, idx) => {
+    let acc = 0;
+    const data = jugados.map(partido => {
+      const pro = partido.pronosticos.find(x => x.nombre === nombre);
+      acc += (pro?.puntos || 0);
+      return acc;
+    });
+    const color = PALETA[idx % PALETA.length];
+    // Destacar top 3
+    const top3 = idx < 3;
+    return {
+      label: nombre,
+      data,
+      borderColor: color,
+      backgroundColor: color,
+      borderWidth: top3 ? 3 : 1.5,
+      pointRadius: top3 ? 3 : 0,
+      pointHoverRadius: 5,
+      tension: 0.25,
+      order: top3 ? 0 : 1,
+    };
+  });
+ 
+  new Chart(document.getElementById('chart-evolucion'), {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          position: 'bottom',
+          labels: { color: '#aaa', font: { family: 'Barlow', size: 11 }, boxWidth: 12, padding: 8 }
+        },
+        tooltip: {
+          backgroundColor: '#181818', borderColor: '#333', borderWidth: 1,
+          titleColor: '#fff', bodyColor: '#ccc',
+          callbacks: {
+            label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y} pts`
+          }
+        }
+      },
+      scales: {
+        x: { ticks: { color: '#777', font: { family: 'Barlow Condensed', size: 11 } }, grid: { color: '#222' } },
+        y: { beginAtZero: true, ticks: { color: '#777', font: { family: 'Barlow Condensed', size: 11 }, precision:0 }, grid: { color: '#222' } }
+      }
+    }
+  });
+}
+ 
+ 
 async function init() {
   try {
     const { clas, partidos } = await cargarTodo();
@@ -440,6 +513,7 @@ async function init() {
       jugados < 72  ? 'Fase de Grupos — 3ª Jornada' : 'Fase Eliminatoria';
  
     renderClasificacion(clas);
+    renderEvolucion(partidos, clas);
     renderPronosticos();
     renderPartidos(partidos);
  
@@ -454,4 +528,3 @@ init();
 </script>
 </body>
 </html>
- 
