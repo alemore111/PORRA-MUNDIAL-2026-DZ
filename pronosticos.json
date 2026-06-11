@@ -1,0 +1,6580 @@
+{
+  "generado": "auto",
+  "partidos": [
+    {
+      "id": 1,
+      "jornada": "J1",
+      "local": "México",
+      "visitante": "Sudáfrica",
+      "gl_real": 2,
+      "gv_real": 0,
+      "jugado": true,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 3
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 3
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 3
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 3
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 3
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 1
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 1
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 1
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 1
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 1
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 1
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "jornada": "J1",
+      "local": "Corea del Sur",
+      "visitante": "Chequia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 0,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 0,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "jornada": "J1",
+      "local": "Canadá",
+      "visitante": "Bosnia-Herz.",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "jornada": "J1",
+      "local": "Catar",
+      "visitante": "Suiza",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 1,
+          "gv": 4,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 0,
+          "gv": 4,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "jornada": "J1",
+      "local": "Brasil",
+      "visitante": "Marruecos",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 4,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
+          "gv": 2,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "jornada": "J1",
+      "local": "Haití",
+      "visitante": "Escocia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 0,
+          "gv": 5,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 0,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "jornada": "J1",
+      "local": "USA",
+      "visitante": "Paraguay",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "jornada": "J1",
+      "local": "Australia",
+      "visitante": "Turquía",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 0,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "jornada": "J1",
+      "local": "Alemania",
+      "visitante": "Curazao",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 5,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 5,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 6,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "jornada": "J1",
+      "local": "C. de Marfil",
+      "visitante": "Ecuador",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 0,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 0,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "jornada": "J1",
+      "local": "Países Bajos",
+      "visitante": "Japón",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 2,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 3,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 3,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "jornada": "J1",
+      "local": "Suecia",
+      "visitante": "Túnez",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "jornada": "J1",
+      "local": "Bélgica",
+      "visitante": "Egipto",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 4,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 4,
+          "gv": 1,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "jornada": "J1",
+      "local": "Irán",
+      "visitante": "Nueva Zelanda",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 0,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "jornada": "J1",
+      "local": "España",
+      "visitante": "Cabo Verde",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "jornada": "J1",
+      "local": "Arabia Saudí",
+      "visitante": "Uruguay",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 0,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 1,
+          "gv": 5,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "jornada": "J1",
+      "local": "Francia",
+      "visitante": "Senegal",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 4,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 4,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "jornada": "J1",
+      "local": "Irak",
+      "visitante": "Noruega",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 0,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "jornada": "J1",
+      "local": "Argentina",
+      "visitante": "Argelia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "jornada": "J1",
+      "local": "Austria",
+      "visitante": "Jordania",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "jornada": "J1",
+      "local": "Portugal",
+      "visitante": "RD Congo",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "jornada": "J1",
+      "local": "Uzbekistán",
+      "visitante": "Colombia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "jornada": "J1",
+      "local": "Inglaterra",
+      "visitante": "Croacia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
+          "gv": 2,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "jornada": "J1",
+      "local": "Ghana",
+      "visitante": "Panamá",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "jornada": "J2",
+      "local": "México",
+      "visitante": "Corea del Sur",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "jornada": "J2",
+      "local": "Sudáfrica",
+      "visitante": "Chequia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "jornada": "J2",
+      "local": "Canadá",
+      "visitante": "Catar",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "jornada": "J2",
+      "local": "Bosnia-Herz.",
+      "visitante": "Suiza",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "jornada": "J2",
+      "local": "Brasil",
+      "visitante": "Haití",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "jornada": "J2",
+      "local": "Marruecos",
+      "visitante": "Escocia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "jornada": "J2",
+      "local": "USA",
+      "visitante": "Australia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "jornada": "J2",
+      "local": "Paraguay",
+      "visitante": "Turquía",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "jornada": "J2",
+      "local": "Alemania",
+      "visitante": "C. de Marfil",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "jornada": "J2",
+      "local": "Curazao",
+      "visitante": "Ecuador",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "jornada": "J2",
+      "local": "Países Bajos",
+      "visitante": "Suecia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "jornada": "J2",
+      "local": "Japón",
+      "visitante": "Túnez",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "jornada": "J2",
+      "local": "Bélgica",
+      "visitante": "Irán",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "jornada": "J2",
+      "local": "Egipto",
+      "visitante": "Nueva Zelanda",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "jornada": "J2",
+      "local": "España",
+      "visitante": "Arabia Saudí",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "jornada": "J2",
+      "local": "Cabo Verde",
+      "visitante": "Uruguay",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "jornada": "J2",
+      "local": "Francia",
+      "visitante": "Irak",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "jornada": "J2",
+      "local": "Senegal",
+      "visitante": "Noruega",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "jornada": "J2",
+      "local": "Argentina",
+      "visitante": "Austria",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "jornada": "J2",
+      "local": "Argelia",
+      "visitante": "Jordania",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "jornada": "J2",
+      "local": "Portugal",
+      "visitante": "Uzbekistán",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "jornada": "J2",
+      "local": "RD Congo",
+      "visitante": "Colombia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "jornada": "J2",
+      "local": "Inglaterra",
+      "visitante": "Ghana",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "jornada": "J2",
+      "local": "Croacia",
+      "visitante": "Panamá",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "jornada": "J3",
+      "local": "México",
+      "visitante": "Chequia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "jornada": "J3",
+      "local": "Sudáfrica",
+      "visitante": "Corea del Sur",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "jornada": "J3",
+      "local": "Canadá",
+      "visitante": "Suiza",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "jornada": "J3",
+      "local": "Bosnia-Herz.",
+      "visitante": "Catar",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "jornada": "J3",
+      "local": "Brasil",
+      "visitante": "Escocia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "jornada": "J3",
+      "local": "Marruecos",
+      "visitante": "Haití",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "jornada": "J3",
+      "local": "USA",
+      "visitante": "Turquía",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "jornada": "J3",
+      "local": "Paraguay",
+      "visitante": "Australia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "jornada": "J3",
+      "local": "Alemania",
+      "visitante": "Ecuador",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "jornada": "J3",
+      "local": "Curazao",
+      "visitante": "C. de Marfil",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "jornada": "J3",
+      "local": "Países Bajos",
+      "visitante": "Túnez",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "jornada": "J3",
+      "local": "Japón",
+      "visitante": "Suecia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "jornada": "J3",
+      "local": "Bélgica",
+      "visitante": "Nueva Zelanda",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "jornada": "J3",
+      "local": "Egipto",
+      "visitante": "Irán",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "jornada": "J3",
+      "local": "España",
+      "visitante": "Uruguay",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "jornada": "J3",
+      "local": "Cabo Verde",
+      "visitante": "Arabia Saudí",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "jornada": "J3",
+      "local": "Francia",
+      "visitante": "Noruega",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "jornada": "J3",
+      "local": "Senegal",
+      "visitante": "Irak",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "jornada": "J3",
+      "local": "Argentina",
+      "visitante": "Jordania",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "jornada": "J3",
+      "local": "Argelia",
+      "visitante": "Austria",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "jornada": "J3",
+      "local": "Portugal",
+      "visitante": "Colombia",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "jornada": "J3",
+      "local": "RD Congo",
+      "visitante": "Uzbekistán",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "jornada": "J3",
+      "local": "Inglaterra",
+      "visitante": "Panamá",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "jornada": "J3",
+      "local": "Croacia",
+      "visitante": "Ghana",
+      "gl_real": null,
+      "gv_real": null,
+      "jugado": false,
+      "pronosticos": [
+        {
+          "nombre": "NG",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Álvaro Cisneros",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANA JIMÉNEZ LUQUE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "ANTONIO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Alejandro CALIDO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "OLALLA RIVAS",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "JUAN DIEGO NAVARRO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "GIOVANNI",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "IRENE",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "CARMEN",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        }
+      ]
+    }
+  ],
+  "bonus_reales": {
+    "campeon": null,
+    "subcampeon": null,
+    "tercero": null,
+    "bota_oro": null,
+    "total_goles_bota": null,
+    "guante_oro": null,
+    "revelacion": null
+  },
+  "bonus_participantes": [
+    {
+      "nombre": "NG",
+      "bonus": {
+        "campeon": "España",
+        "subcampeon": "Francia",
+        "tercero": "Argentina",
+        "bota_oro": "Kylian Mbappé",
+        "total_goles_bota": "7",
+        "guante_oro": "Unai Simón",
+        "revelacion": "Japón"
+      }
+    },
+    {
+      "nombre": "Álvaro Cisneros",
+      "bonus": {
+        "campeon": "España",
+        "subcampeon": "Portugal",
+        "tercero": "Francia",
+        "bota_oro": "Mbappe",
+        "total_goles_bota": "8",
+        "guante_oro": "Unai Simón",
+        "revelacion": "Japón"
+      }
+    },
+    {
+      "nombre": "ANA JIMÉNEZ LUQUE",
+      "bonus": {
+        "campeon": null,
+        "subcampeon": null,
+        "tercero": null,
+        "bota_oro": null,
+        "total_goles_bota": null,
+        "guante_oro": null,
+        "revelacion": null
+      }
+    },
+    {
+      "nombre": "DAVID EL BRUJO",
+      "bonus": {
+        "campeon": "ESPAÑA",
+        "subcampeon": "ARGENTINA",
+        "tercero": "FRANCIA",
+        "bota_oro": "OLISSE",
+        "total_goles_bota": "7",
+        "guante_oro": "ALISSON",
+        "revelacion": "SENEGAL"
+      }
+    },
+    {
+      "nombre": "ANTONIO",
+      "bonus": {
+        "campeon": null,
+        "subcampeon": null,
+        "tercero": null,
+        "bota_oro": null,
+        "total_goles_bota": null,
+        "guante_oro": null,
+        "revelacion": null
+      }
+    },
+    {
+      "nombre": "Alejandro CALIDO",
+      "bonus": {
+        "campeon": "España",
+        "subcampeon": "Francia",
+        "tercero": "Inglaterra",
+        "bota_oro": "Lamine Yamal",
+        "total_goles_bota": "6",
+        "guante_oro": "Unai Simón",
+        "revelacion": "Ecuador"
+      }
+    },
+    {
+      "nombre": "OLALLA RIVAS",
+      "bonus": {
+        "campeon": null,
+        "subcampeon": null,
+        "tercero": null,
+        "bota_oro": null,
+        "total_goles_bota": null,
+        "guante_oro": null,
+        "revelacion": null
+      }
+    },
+    {
+      "nombre": "JUAN DIEGO NAVARRO",
+      "bonus": {
+        "campeon": "Marruecos",
+        "subcampeon": "Alemania",
+        "tercero": "España",
+        "bota_oro": "Kai Havertz",
+        "total_goles_bota": "8",
+        "guante_oro": "Bono",
+        "revelacion": "Arabia Saudi"
+      }
+    },
+    {
+      "nombre": "GIOVANNI",
+      "bonus": {
+        "campeon": "ARGENTINA",
+        "subcampeon": "PORTUGAL",
+        "tercero": "FRANCIA",
+        "bota_oro": "JULIÁN",
+        "total_goles_bota": "6",
+        "guante_oro": "DIBU MARTINEZ",
+        "revelacion": "MARRUECOS"
+      }
+    },
+    {
+      "nombre": "IRENE",
+      "bonus": {
+        "campeon": "ESPAÑA",
+        "subcampeon": "FRANCIA",
+        "tercero": "MARRUECOS",
+        "bota_oro": "MBAPPE",
+        "total_goles_bota": "10",
+        "guante_oro": "COURTOIS",
+        "revelacion": "MARRUECOS"
+      }
+    },
+    {
+      "nombre": "CARMEN",
+      "bonus": {
+        "campeon": "Portugal",
+        "subcampeon": "Francia",
+        "tercero": "Alemania",
+        "bota_oro": "Kylian Mbappé",
+        "total_goles_bota": "7",
+        "guante_oro": "Diogo Costa",
+        "revelacion": "Marruecos"
+      }
+    },
+    {
+      "nombre": "Inés Turegano",
+      "bonus": {
+        "campeon": "España",
+        "subcampeon": "Francia",
+        "tercero": "Argentina",
+        "bota_oro": "Lamine Yamal",
+        "total_goles_bota": "8",
+        "guante_oro": "Courtois",
+        "revelacion": "Noruega"
+      }
+    },
+    {
+      "nombre": "Víctor del Rey",
+      "bonus": {
+        "campeon": "España",
+        "subcampeon": "Francia",
+        "tercero": "Brasil",
+        "bota_oro": "Kylian Mbappe",
+        "total_goles_bota": "8",
+        "guante_oro": "Courtois",
+        "revelacion": "Noruega"
+      }
+    }
+  ]
+}
