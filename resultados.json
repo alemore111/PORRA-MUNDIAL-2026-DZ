@@ -1,0 +1,870 @@
+{
+  "grupos": [
+    {
+      "id": 1,
+      "jornada": "J1",
+      "local": "México",
+      "visitante": "Sudáfrica",
+      "gl": 2,
+      "gv": 0
+    },
+    {
+      "id": 2,
+      "jornada": "J1",
+      "local": "Corea del Sur",
+      "visitante": "Chequia",
+      "gl": 2,
+      "gv": 1
+    },
+    {
+      "id": 3,
+      "jornada": "J1",
+      "local": "Canadá",
+      "visitante": "Bosnia-Herz.",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 4,
+      "jornada": "J1",
+      "local": "Catar",
+      "visitante": "Suiza",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 5,
+      "jornada": "J1",
+      "local": "Brasil",
+      "visitante": "Marruecos",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 6,
+      "jornada": "J1",
+      "local": "Haití",
+      "visitante": "Escocia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 7,
+      "jornada": "J1",
+      "local": "USA",
+      "visitante": "Paraguay",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 8,
+      "jornada": "J1",
+      "local": "Australia",
+      "visitante": "Turquía",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 9,
+      "jornada": "J1",
+      "local": "Alemania",
+      "visitante": "Curazao",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 10,
+      "jornada": "J1",
+      "local": "C. de Marfil",
+      "visitante": "Ecuador",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 11,
+      "jornada": "J1",
+      "local": "Países Bajos",
+      "visitante": "Japón",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 12,
+      "jornada": "J1",
+      "local": "Suecia",
+      "visitante": "Túnez",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 13,
+      "jornada": "J1",
+      "local": "Bélgica",
+      "visitante": "Egipto",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 14,
+      "jornada": "J1",
+      "local": "Irán",
+      "visitante": "Nueva Zelanda",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 15,
+      "jornada": "J1",
+      "local": "España",
+      "visitante": "Cabo Verde",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 16,
+      "jornada": "J1",
+      "local": "Arabia Saudí",
+      "visitante": "Uruguay",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 17,
+      "jornada": "J1",
+      "local": "Francia",
+      "visitante": "Senegal",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 18,
+      "jornada": "J1",
+      "local": "Irak",
+      "visitante": "Noruega",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 19,
+      "jornada": "J1",
+      "local": "Argentina",
+      "visitante": "Argelia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 20,
+      "jornada": "J1",
+      "local": "Austria",
+      "visitante": "Jordania",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 21,
+      "jornada": "J1",
+      "local": "Portugal",
+      "visitante": "RD Congo",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 22,
+      "jornada": "J1",
+      "local": "Uzbekistán",
+      "visitante": "Colombia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 23,
+      "jornada": "J1",
+      "local": "Inglaterra",
+      "visitante": "Croacia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 24,
+      "jornada": "J1",
+      "local": "Ghana",
+      "visitante": "Panamá",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 25,
+      "jornada": "J2",
+      "local": "México",
+      "visitante": "Corea del Sur",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 26,
+      "jornada": "J2",
+      "local": "Sudáfrica",
+      "visitante": "Chequia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 27,
+      "jornada": "J2",
+      "local": "Canadá",
+      "visitante": "Catar",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 28,
+      "jornada": "J2",
+      "local": "Bosnia-Herz.",
+      "visitante": "Suiza",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 29,
+      "jornada": "J2",
+      "local": "Brasil",
+      "visitante": "Haití",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 30,
+      "jornada": "J2",
+      "local": "Marruecos",
+      "visitante": "Escocia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 31,
+      "jornada": "J2",
+      "local": "USA",
+      "visitante": "Australia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 32,
+      "jornada": "J2",
+      "local": "Paraguay",
+      "visitante": "Turquía",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 33,
+      "jornada": "J2",
+      "local": "Alemania",
+      "visitante": "C. de Marfil",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 34,
+      "jornada": "J2",
+      "local": "Curazao",
+      "visitante": "Ecuador",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 35,
+      "jornada": "J2",
+      "local": "Países Bajos",
+      "visitante": "Suecia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 36,
+      "jornada": "J2",
+      "local": "Japón",
+      "visitante": "Túnez",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 37,
+      "jornada": "J2",
+      "local": "Bélgica",
+      "visitante": "Irán",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 38,
+      "jornada": "J2",
+      "local": "Egipto",
+      "visitante": "Nueva Zelanda",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 39,
+      "jornada": "J2",
+      "local": "España",
+      "visitante": "Arabia Saudí",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 40,
+      "jornada": "J2",
+      "local": "Cabo Verde",
+      "visitante": "Uruguay",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 41,
+      "jornada": "J2",
+      "local": "Francia",
+      "visitante": "Irak",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 42,
+      "jornada": "J2",
+      "local": "Senegal",
+      "visitante": "Noruega",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 43,
+      "jornada": "J2",
+      "local": "Argentina",
+      "visitante": "Austria",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 44,
+      "jornada": "J2",
+      "local": "Argelia",
+      "visitante": "Jordania",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 45,
+      "jornada": "J2",
+      "local": "Portugal",
+      "visitante": "Uzbekistán",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 46,
+      "jornada": "J2",
+      "local": "RD Congo",
+      "visitante": "Colombia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 47,
+      "jornada": "J2",
+      "local": "Inglaterra",
+      "visitante": "Ghana",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 48,
+      "jornada": "J2",
+      "local": "Croacia",
+      "visitante": "Panamá",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 49,
+      "jornada": "J3",
+      "local": "México",
+      "visitante": "Chequia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 50,
+      "jornada": "J3",
+      "local": "Sudáfrica",
+      "visitante": "Corea del Sur",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 51,
+      "jornada": "J3",
+      "local": "Canadá",
+      "visitante": "Suiza",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 52,
+      "jornada": "J3",
+      "local": "Bosnia-Herz.",
+      "visitante": "Catar",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 53,
+      "jornada": "J3",
+      "local": "Brasil",
+      "visitante": "Escocia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 54,
+      "jornada": "J3",
+      "local": "Marruecos",
+      "visitante": "Haití",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 55,
+      "jornada": "J3",
+      "local": "USA",
+      "visitante": "Turquía",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 56,
+      "jornada": "J3",
+      "local": "Paraguay",
+      "visitante": "Australia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 57,
+      "jornada": "J3",
+      "local": "Alemania",
+      "visitante": "Ecuador",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 58,
+      "jornada": "J3",
+      "local": "Curazao",
+      "visitante": "C. de Marfil",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 59,
+      "jornada": "J3",
+      "local": "Países Bajos",
+      "visitante": "Túnez",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 60,
+      "jornada": "J3",
+      "local": "Japón",
+      "visitante": "Suecia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 61,
+      "jornada": "J3",
+      "local": "Bélgica",
+      "visitante": "Nueva Zelanda",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 62,
+      "jornada": "J3",
+      "local": "Egipto",
+      "visitante": "Irán",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 63,
+      "jornada": "J3",
+      "local": "España",
+      "visitante": "Uruguay",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 64,
+      "jornada": "J3",
+      "local": "Cabo Verde",
+      "visitante": "Arabia Saudí",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 65,
+      "jornada": "J3",
+      "local": "Francia",
+      "visitante": "Noruega",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 66,
+      "jornada": "J3",
+      "local": "Senegal",
+      "visitante": "Irak",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 67,
+      "jornada": "J3",
+      "local": "Argentina",
+      "visitante": "Jordania",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 68,
+      "jornada": "J3",
+      "local": "Argelia",
+      "visitante": "Austria",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 69,
+      "jornada": "J3",
+      "local": "Portugal",
+      "visitante": "Colombia",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 70,
+      "jornada": "J3",
+      "local": "RD Congo",
+      "visitante": "Uzbekistán",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 71,
+      "jornada": "J3",
+      "local": "Inglaterra",
+      "visitante": "Panamá",
+      "gl": null,
+      "gv": null
+    },
+    {
+      "id": 72,
+      "jornada": "J3",
+      "local": "Croacia",
+      "visitante": "Ghana",
+      "gl": null,
+      "gv": null
+    }
+  ],
+  "eliminatoria": [
+    {
+      "id": 1,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 2,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 3,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 4,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 5,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 6,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 7,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 8,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 9,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 10,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 11,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 12,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 13,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 14,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 15,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 16,
+      "ronda": "16avos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 17,
+      "ronda": "Octavos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 18,
+      "ronda": "Octavos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 19,
+      "ronda": "Octavos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 20,
+      "ronda": "Octavos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 21,
+      "ronda": "Octavos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 22,
+      "ronda": "Octavos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 23,
+      "ronda": "Octavos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 24,
+      "ronda": "Octavos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 25,
+      "ronda": "Cuartos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 26,
+      "ronda": "Cuartos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 27,
+      "ronda": "Cuartos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 28,
+      "ronda": "Cuartos",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 29,
+      "ronda": "Semis",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 30,
+      "ronda": "Semis",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    },
+    {
+      "id": 31,
+      "ronda": "Final",
+      "equipo1": null,
+      "equipo2": null,
+      "gl": null,
+      "gv": null,
+      "ganador": null
+    }
+  ],
+  "bonus": {
+    "campeon": null,
+    "subcampeon": null,
+    "tercero": null,
+    "bota_oro": null,
+    "total_goles_bota": null,
+    "guante_oro": null,
+    "revelacion": null
+  }
+}
