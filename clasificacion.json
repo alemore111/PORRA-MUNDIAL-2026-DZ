@@ -3,6 +3,22 @@
   "clasificacion": [
     {
       "pos": 1,
+      "nombre": "DAVID EL BRUJO",
+      "grupos": 4,
+      "eliminatoria": 0,
+      "bonus": 0,
+      "total": 4
+    },
+    {
+      "pos": 2,
+      "nombre": "Rafa",
+      "grupos": 4,
+      "eliminatoria": 0,
+      "bonus": 0,
+      "total": 4
+    },
+    {
+      "pos": 3,
       "nombre": "NG",
       "grupos": 3,
       "eliminatoria": 0,
@@ -10,7 +26,7 @@
       "total": 3
     },
     {
-      "pos": 2,
+      "pos": 4,
       "nombre": "Álvaro Cisneros",
       "grupos": 3,
       "eliminatoria": 0,
@@ -18,7 +34,7 @@
       "total": 3
     },
     {
-      "pos": 3,
+      "pos": 5,
       "nombre": "ANA JIMÉNEZ LUQUE",
       "grupos": 3,
       "eliminatoria": 0,
@@ -26,15 +42,7 @@
       "total": 3
     },
     {
-      "pos": 4,
-      "nombre": "DAVID EL BRUJO",
-      "grupos": 3,
-      "eliminatoria": 0,
-      "bonus": 0,
-      "total": 3
-    },
-    {
-      "pos": 5,
+      "pos": 6,
       "nombre": "ANTONIO",
       "grupos": 3,
       "eliminatoria": 0,
@@ -42,7 +50,23 @@
       "total": 3
     },
     {
-      "pos": 6,
+      "pos": 7,
+      "nombre": "alejo copilot",
+      "grupos": 3,
+      "eliminatoria": 0,
+      "bonus": 0,
+      "total": 3
+    },
+    {
+      "pos": 8,
+      "nombre": "Stefi",
+      "grupos": 3,
+      "eliminatoria": 0,
+      "bonus": 0,
+      "total": 3
+    },
+    {
+      "pos": 9,
       "nombre": "Alejandro CALIDO",
       "grupos": 1,
       "eliminatoria": 0,
@@ -50,7 +74,7 @@
       "total": 1
     },
     {
-      "pos": 7,
+      "pos": 10,
       "nombre": "OLALLA RIVAS",
       "grupos": 1,
       "eliminatoria": 0,
@@ -58,32 +82,8 @@
       "total": 1
     },
     {
-      "pos": 8,
-      "nombre": "JUAN DIEGO NAVARRO",
-      "grupos": 1,
-      "eliminatoria": 0,
-      "bonus": 0,
-      "total": 1
-    },
-    {
-      "pos": 9,
-      "nombre": "GIOVANNI",
-      "grupos": 1,
-      "eliminatoria": 0,
-      "bonus": 0,
-      "total": 1
-    },
-    {
-      "pos": 10,
-      "nombre": "IRENE",
-      "grupos": 1,
-      "eliminatoria": 0,
-      "bonus": 0,
-      "total": 1
-    },
-    {
       "pos": 11,
-      "nombre": "CARMEN",
+      "nombre": "JUAN DIEGO NAVARRO",
       "grupos": 1,
       "eliminatoria": 0,
       "bonus": 0,
@@ -92,18 +92,58 @@
     {
       "pos": 12,
       "nombre": "Inés Turegano",
-      "grupos": 0,
+      "grupos": 1,
       "eliminatoria": 0,
       "bonus": 0,
-      "total": 0
+      "total": 1
     },
     {
       "pos": 13,
       "nombre": "Víctor del Rey",
-      "grupos": 0,
+      "grupos": 1,
       "eliminatoria": 0,
       "bonus": 0,
-      "total": 0
+      "total": 1
+    },
+    {
+      "pos": 14,
+      "nombre": "GIOVANNI",
+      "grupos": 1,
+      "eliminatoria": 0,
+      "bonus": 0,
+      "total": 1
+    },
+    {
+      "pos": 15,
+      "nombre": "IRENE",
+      "grupos": 1,
+      "eliminatoria": 0,
+      "bonus": 0,
+      "total": 1
+    },
+    {
+      "pos": 16,
+      "nombre": "CARMEN",
+      "grupos": 1,
+      "eliminatoria": 0,
+      "bonus": 0,
+      "total": 1
+    },
+    {
+      "pos": 17,
+      "nombre": "Belén Sánchez",
+      "grupos": 1,
+      "eliminatoria": 0,
+      "bonus": 0,
+      "total": 1
+    },
+    {
+      "pos": 18,
+      "nombre": "Javi",
+      "grupos": 1,
+      "eliminatoria": 0,
+      "bonus": 0,
+      "total": 1
     }
   ]
 }
