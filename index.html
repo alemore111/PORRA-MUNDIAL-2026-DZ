@@ -15,7 +15,7 @@
   --borde:#252525;--texto:#F0F0F0;--texto2:#777;--r:6px;
 }
 body{background:var(--carbon);color:var(--texto);font-family:'Barlow',sans-serif;font-size:15px;line-height:1.5;min-height:100vh}
- 
+
 /* ── HEADER ── */
 header{background:var(--panel);border-bottom:2px solid var(--verde-dk);padding:0 20px;position:sticky;top:0;z-index:99}
 .hdr{max-width:1100px;margin:0 auto;height:54px;display:flex;align-items:center;justify-content:space-between;gap:16px}
@@ -23,7 +23,7 @@ header{background:var(--panel);border-bottom:2px solid var(--verde-dk);padding:0
 .logo span{color:var(--oro)}
 .hdr-right{text-align:right;font-size:11px;color:var(--texto2);line-height:1.4}
 .hdr-right strong{display:block;color:var(--texto);font-size:12px}
- 
+
 /* ── HERO ── */
 .hero{background:linear-gradient(160deg,#0a1a0a,#0d1a0d 60%,#111);border-bottom:1px solid var(--borde);padding:48px 20px 40px;text-align:center;position:relative;overflow:hidden}
 .hero::before{content:'⚽';font-size:260px;position:absolute;right:-40px;top:-30px;opacity:.03;line-height:1;pointer-events:none}
@@ -31,26 +31,31 @@ header{background:var(--panel);border-bottom:2px solid var(--verde-dk);padding:0
 .hero h1{font-family:'Bebas Neue',sans-serif;font-size:clamp(48px,9vw,80px);letter-spacing:5px;line-height:.95}
 .hero h1 em{font-style:normal;color:var(--verde)}
 .hero-fase{display:inline-block;margin-top:14px;background:var(--verde-gl);border:1px solid var(--verde-dk);border-radius:20px;padding:4px 18px;font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--verde)}
- 
+
 /* ── TABS ── */
 .tabs-bar{background:var(--panel);border-bottom:1px solid var(--borde);position:sticky;top:54px;z-index:98}
-.tabs{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;gap:0}
+.tabs{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;gap:0;overflow-x:auto}
 .tab{padding:13px 20px;font-family:'Barlow Condensed',sans-serif;font-size:13px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--texto2);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .15s,border-color .15s;white-space:nowrap;user-select:none}
 .tab:hover{color:var(--texto)}
 .tab.active{color:var(--verde);border-bottom-color:var(--verde)}
- 
+
 /* ── LAYOUT ── */
 .wrap{max-width:1100px;margin:0 auto;padding:20px 20px 56px}
 .panel-tab{display:none}
 .panel-tab.active{display:block}
 .sec-label{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--verde);margin:28px 0 14px;display:flex;align-items:center;gap:12px}
+.sec-label:first-child{margin-top:8px}
 .sec-label::after{content:'';flex:1;height:1px;background:var(--borde)}
- 
+
 /* ── PODIO ── */
 .podio{display:grid;grid-template-columns:1fr 1.1fr 1fr;gap:10px;align-items:end;margin-bottom:4px}
 .pod{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r);padding:20px 14px 16px;text-align:center;transition:transform .15s}
 .pod:hover{transform:translateY(-2px)}
-.pod.p1{border-color:var(--oro);background:linear-gradient(160deg,#1a1500,var(--panel))}
+.pod.p1{border-color:var(--oro);background:linear-gradient(160deg,#1a1500,var(--panel));animation:glow-oro 2.8s ease-in-out infinite}
+@keyframes glow-oro{
+  0%,100%{box-shadow:0 0 12px -2px rgba(255,214,0,.25),0 0 0 1px rgba(255,214,0,.15) inset}
+  50%{box-shadow:0 0 28px 2px rgba(255,214,0,.45),0 0 0 1px rgba(255,214,0,.3) inset}
+}
 .pod.p2{border-color:#555}
 .pod.p3{border-color:#7a4a1a}
 .pod-ico{font-size:30px;margin-bottom:5px;display:block}
@@ -64,11 +69,11 @@ header{background:var(--panel);border-bottom:2px solid var(--verde-dk);padding:0
 .pod-lbl{font-size:10px;color:var(--texto2);margin-top:1px}
 .pod-chips{margin-top:8px;display:flex;justify-content:center;gap:5px;flex-wrap:wrap}
 .chip{background:var(--panel2);border-radius:3px;padding:2px 7px;font-size:10px;color:var(--texto2)}
- 
+
 /* ── GRÁFICA EVOLUCIÓN ── */
 .chart-wrap{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r);padding:16px;position:relative;height:340px}
 @media(max-width:560px){.chart-wrap{height:280px;padding:10px}}
- 
+
 /* ── TABLA CLASIFICACIÓN ── */
 .tbl-wrap{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r);overflow:hidden}
 table{width:100%;border-collapse:collapse}
@@ -86,24 +91,24 @@ td.pos-td{width:42px;text-align:center}
 .pnum.b{background:rgba(180,100,30,.1);color:#c87}
 td.nom-td{font-weight:600}
 td.tot-td{text-align:center;font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--verde)}
- 
+
 /* ── PRONÓSTICOS ── */
 .filtros{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
 .filtro-btn{padding:5px 14px;border:1px solid var(--borde);border-radius:20px;background:var(--panel);color:var(--texto2);font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:1px;text-transform:uppercase;cursor:pointer;transition:all .15s}
 .filtro-btn:hover{border-color:var(--verde);color:var(--verde)}
 .filtro-btn.active{background:var(--verde-gl);border-color:var(--verde);color:var(--verde)}
- 
+
 .partido-bloque{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r);overflow:hidden;margin-bottom:12px}
 .partido-head{background:var(--panel2);padding:11px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;cursor:pointer;user-select:none}
 .partido-head:hover{background:var(--panel3)}
-.ph-left{display:flex;align-items:center;gap:12px}
+.ph-left{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
 .ph-jornada{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;color:var(--texto2);text-transform:uppercase}
 .ph-partido{font-weight:700;font-size:15px}
 .ph-resultado{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--verde);white-space:nowrap}
 .ph-resultado.pendiente{color:var(--texto2);font-size:14px;font-family:'Barlow',sans-serif;font-weight:500}
 .ph-toggle{color:var(--texto2);font-size:12px;transition:transform .2s}
 .ph-toggle.open{transform:rotate(180deg)}
- 
+
 .partido-pros{display:none;border-top:1px solid var(--borde)}
 .partido-pros.open{display:block}
 .pros-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:1px;background:var(--borde)}
@@ -116,12 +121,12 @@ td.tot-td{text-align:center;font-family:'Bebas Neue',sans-serif;font-size:22px;c
 .pro-marca.fallo{color:var(--rojo);opacity:.7}
 .pro-marca.pendiente{color:var(--texto2)}
 .pro-pts{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;padding:1px 5px;border-radius:3px;min-width:22px;text-align:center}
-.pro-pts.pts3{background:rgba(0,200,83,.2);color:var(--verde)}
-.pro-pts.pts1{background:rgba(255,214,0,.15);color:var(--oro)}
+.pro-pts.ptsmax{background:rgba(0,200,83,.2);color:var(--verde)}
+.pro-pts.ptsmin{background:rgba(255,214,0,.15);color:var(--oro)}
 .pro-pts.pts0{background:rgba(229,57,53,.1);color:var(--rojo);opacity:.6}
 .pro-pts.pend{background:var(--panel2);color:var(--texto2)}
 .sin-pro{font-size:12px;color:var(--texto2);font-style:italic}
- 
+
 /* ── RESULTADOS / PRÓXIMOS ── */
 .two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:620px){.two-col{grid-template-columns:1fr}}
@@ -134,28 +139,37 @@ td.tot-td{text-align:center;font-family:'Bebas Neue',sans-serif;font-size:22px;c
 .badge-r{background:var(--verde-gl);border:1px solid var(--verde-dk);border-radius:5px;padding:3px 12px;font-family:'Bebas Neue',sans-serif;font-size:19px;color:var(--verde);white-space:nowrap}
 .badge-f{background:var(--panel2);border-radius:5px;padding:3px 10px;font-size:11px;font-weight:600;color:var(--texto2);white-space:nowrap;text-align:right}
 .empty{padding:22px 16px;text-align:center;color:var(--texto2);font-size:13px}
- 
+
+/* ── BONUS ── */
+.bonus-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.bonus-card{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r);padding:14px 16px}
+.bonus-q{font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--texto2);margin-bottom:6px}
+.bonus-a{font-size:16px;font-weight:700;color:var(--oro)}
+.bonus-a.pendiente{color:var(--texto2);font-size:13px;font-weight:500;font-style:italic}
+.bonus-pts{font-size:11px;color:var(--texto2);margin-top:4px}
+
 /* ── LOADING / ERROR ── */
 #loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:50vh;gap:14px;color:var(--texto2)}
 .spin{width:34px;height:34px;border:3px solid var(--borde);border-top-color:var(--verde);border-radius:50%;animation:spin .7s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
-#err{display:none;max-width:440px;margin:60px auto;padding:24px;background:var(--panel);border:1px solid var(--rojo);border-radius:var(--r);text-align:center}
+#err{display:none;max-width:480px;margin:60px auto;padding:24px;background:var(--panel);border:1px solid var(--rojo);border-radius:var(--r);text-align:center}
 #err h3{color:var(--rojo);margin-bottom:8px}
 #err p{color:var(--texto2);font-size:13px;line-height:1.6}
 #err code{font-size:11px;background:var(--panel2);padding:2px 6px;border-radius:3px}
- 
+
 footer{border-top:1px solid var(--borde);padding:18px;text-align:center;font-size:12px;color:var(--texto2)}
 footer strong{color:var(--verde)}
- 
+
 @media(max-width:560px){
   .podio{grid-template-columns:1fr}.pod.p1{order:-1}
   thead th.tc:not(:last-child){display:none}td.tc:not(:last-child){display:none}
-  .tab{padding:12px 12px;font-size:11px}
+  .tab{padding:12px 16px;font-size:20px;flex:1;text-align:center}
+  .tab-txt{display:none}
 }
 </style>
 </head>
 <body>
- 
+
 <header>
   <div class="hdr">
     <div class="logo">⚽ Porra <span>Dazia</span> 2026</div>
@@ -165,39 +179,40 @@ footer strong{color:var(--verde)}
     </div>
   </div>
 </header>
- 
+
 <div id="loading"><div class="spin"></div><span>Cargando datos…</span></div>
 <div id="err">
   <h3>Error al cargar datos</h3>
-  <p>Asegúrate de que <code>clasificacion.json</code> y <code>pronosticos.json</code> están en la misma carpeta.</p>
+  <p>Asegúrate de que <code>resultados.json</code> y <code>pronosticos.json</code> están en la misma carpeta que <code>index.html</code>.</p>
 </div>
- 
+
 <div id="app" style="display:none">
- 
+
   <section class="hero">
     <div class="hero-flags">🇺🇸 🇲🇽 🇨🇦</div>
     <h1>PORRA <em>DAZIA</em> MUNDIAL 2026</h1>
     <div class="hero-fase" id="hero-fase"></div>
   </section>
- 
+
   <div class="tabs-bar">
     <div class="tabs">
-      <div class="tab active" data-tab="clasificacion">🏅 Clasificación</div>
-      <div class="tab" data-tab="pronosticos">🔍 Pronósticos</div>
-      <div class="tab" data-tab="partidos">⚽ Partidos</div>
+      <div class="tab active" data-tab="clasificacion">🏅 <span class="tab-txt">Clasificación</span></div>
+      <div class="tab" data-tab="pronosticos">🔍 <span class="tab-txt">Pronósticos</span></div>
+      <div class="tab" data-tab="partidos">⚽ <span class="tab-txt">Partidos</span></div>
+      <div class="tab" data-tab="bonus">🌟 <span class="tab-txt">Bonus</span></div>
     </div>
   </div>
- 
+
   <div class="wrap">
- 
+
     <!-- TAB 1: CLASIFICACIÓN -->
     <div class="panel-tab active" id="tab-clasificacion">
-      <div class="sec-label" style="margin-top:8px">🏅 Podio</div>
+      <div class="sec-label">🏅 Podio</div>
       <div class="podio" id="podio"></div>
- 
+
       <div class="sec-label">📈 Evolución de puntos</div>
       <div class="chart-wrap"><canvas id="chart-evolucion"></canvas></div>
- 
+
       <div class="sec-label">📊 Clasificación completa</div>
       <div class="tbl-wrap">
         <table>
@@ -210,55 +225,196 @@ footer strong{color:var(--verde)}
         </table>
       </div>
     </div>
- 
+
     <!-- TAB 2: PRONÓSTICOS -->
     <div class="panel-tab" id="tab-pronosticos">
-      <div class="sec-label" style="margin-top:8px">🔍 Pronósticos por partido</div>
+      <div class="sec-label">🔍 Pronósticos por partido</div>
       <div class="filtros" id="filtros">
         <button class="filtro-btn active" data-filtro="todos">Todos</button>
         <button class="filtro-btn" data-filtro="J1">Jornada 1</button>
         <button class="filtro-btn" data-filtro="J2">Jornada 2</button>
         <button class="filtro-btn" data-filtro="J3">Jornada 3</button>
+        <button class="filtro-btn" data-filtro="elim">Eliminatoria</button>
         <button class="filtro-btn" data-filtro="jugados">Solo jugados</button>
       </div>
       <div id="lista-pronosticos"></div>
     </div>
- 
+
     <!-- TAB 3: PARTIDOS -->
     <div class="panel-tab" id="tab-partidos">
-      <div class="sec-label" style="margin-top:8px">✅ Resultados jugados</div>
+      <div class="sec-label">⚽ Partidos</div>
       <div class="two-col">
         <div class="card">
           <div class="card-h">✅ Jugados</div>
           <div id="jugados-lista"></div>
         </div>
         <div class="card">
-          <div class="card-h">🗓 Próximos</div>
+          <div class="card-h">🗓 Próximos (grupos)</div>
           <div id="proximos-lista"></div>
         </div>
       </div>
     </div>
- 
+
+    <!-- TAB 4: BONUS -->
+    <div class="panel-tab" id="tab-bonus">
+      <div class="sec-label">🌟 Resultados reales bonus</div>
+      <div class="bonus-grid" id="bonus-reales"></div>
+
+      <div class="sec-label">👥 Pronósticos de cada participante</div>
+      <div class="tbl-wrap">
+        <table>
+          <thead><tr id="bonus-tabla-head"></tr></thead>
+          <tbody id="bonus-tabla-body"></tbody>
+        </table>
+      </div>
+    </div>
+
   </div>
 </div>
- 
-<footer>Generado con <strong>genera_json.py</strong> · Porra Dazia Mundial 2026</footer>
- 
+
+<footer>Generado con <strong>generador.html</strong> · Porra Dazia Mundial 2026</footer>
+
 <script>
-// ── Estado global ──────────────────────────────────────────────
-let CLAS = [], PARTIDOS = [], filtroActivo = 'todos';
- 
-// ── Carga de datos ─────────────────────────────────────────────
-async function cargarTodo() {
-  const [rC, rP] = await Promise.all([
-    fetch('clasificacion.json?t=' + Date.now()),
-    fetch('pronosticos.json?t='   + Date.now()),
-  ]);
-  if (!rC.ok || !rP.ok) throw new Error();
-  const [dC, dP] = await Promise.all([rC.json(), rP.json()]);
-  return { clas: dC.clasificacion, partidos: dP.partidos };
+// ════════════════════════════════════════════════════════════════
+// REGLAS DE PUNTUACIÓN
+// ════════════════════════════════════════════════════════════════
+const PTS_GRUPO_EXACTO  = 3;
+const PTS_GRUPO_GANADOR = 1;
+
+// id 1-31 → ronda + puntos
+const RONDAS_ELIM = {
+  "16avos":  { pExacto: 5,  pGanador: 2, ids: range(1,16)  },
+  "Octavos": { pExacto: 7,  pGanador: 3, ids: range(17,24) },
+  "Cuartos": { pExacto: 10, pGanador: 4, ids: range(25,28) },
+  "Semis":   { pExacto: 15, pGanador: 6, ids: range(29,30) },
+  "Final":   { pExacto: 20, pGanador: 8, ids: range(31,31) },
+};
+function range(a,b){ const r=[]; for(let i=a;i<=b;i++) r.push(i); return r; }
+function reglaElim(id){
+  for (const [ronda, info] of Object.entries(RONDAS_ELIM)) {
+    if (info.ids.includes(id)) return {ronda, ...info};
+  }
+  return null;
 }
- 
+
+const BONUS_KEYS  = ["campeon","subcampeon","tercero","bota_oro","total_goles_bota","guante_oro","revelacion"];
+const BONUS_PTS   = {campeon:25, subcampeon:10, tercero:5, bota_oro:10, total_goles_bota:5, guante_oro:8, revelacion:8};
+const BONUS_LABELS = {
+  campeon:"🏆 Campeón", subcampeon:"🥈 Subcampeón", tercero:"🥉 3er puesto",
+  bota_oro:"⚽ Bota de Oro", total_goles_bota:"📊 Total goles Bota", guante_oro:"🧤 Guante de Oro",
+  revelacion:"🌟 Revelación"
+};
+
+// ════════════════════════════════════════════════════════════════
+// FUNCIONES DE PUNTUACIÓN
+// ════════════════════════════════════════════════════════════════
+function ptsGrupo(real, pro) {
+  if (!real || !pro || real.gl===null || real.gv===null || pro.gl===null || pro.gv===null) return 0;
+  if (pro.gl===real.gl && pro.gv===real.gv) return PTS_GRUPO_EXACTO;
+  const signoReal = Math.sign(real.gl - real.gv);
+  const signoPro  = Math.sign(pro.gl  - pro.gv);
+  return (signoReal === signoPro) ? PTS_GRUPO_GANADOR : 0;
+}
+
+function ganadorDe(m) {
+  // m: {gl,gv,ganador,equipo1,equipo2}
+  if (m.gl===null || m.gv===null) return null;
+  if (m.gl > m.gv) return m.equipo1;
+  if (m.gl < m.gv) return m.equipo2;
+  return m.ganador; // empate → desempate por penaltis
+}
+function norm(s){ return s ? String(s).trim().toLowerCase() : null; }
+
+function ptsElim(real, pro, regla) {
+  if (!real || !pro || real.gl===null || real.gv===null) return 0;
+  if (pro.gl===null || pro.gv===null) return 0;
+  if (pro.gl===real.gl && pro.gv===real.gv) return regla.pExacto;
+  const gReal = ganadorDe(real);
+  const gPro  = ganadorDe(pro);
+  if (gReal && gPro && norm(gReal)===norm(gPro)) return regla.pGanador;
+  // Si no hay nombres de equipo (bracket aún no definido), comparamos por signo
+  if (!real.equipo1 && !pro.equipo1) {
+    const signoReal = Math.sign(real.gl-real.gv);
+    const signoPro  = Math.sign(pro.gl-pro.gv);
+    if (signoReal!==0 && signoReal===signoPro) return regla.pGanador;
+  }
+  return 0;
+}
+
+function ptsBonus(realVal, proVal, key) {
+  if (!realVal || !proVal) return 0;
+  if (norm(String(realVal)) === norm(String(proVal))) return BONUS_PTS[key];
+  return 0;
+}
+
+// ════════════════════════════════════════════════════════════════
+// CARGA Y CÁLCULO
+// ════════════════════════════════════════════════════════════════
+let RESULTADOS = null, PRONOSTICOS = null, CLAS = [];
+
+async function cargarTodo() {
+  const [rR, rP] = await Promise.all([
+    fetch('resultados.json?t='+Date.now()),
+    fetch('pronosticos.json?t='+Date.now()),
+  ]);
+  if (!rR.ok || !rP.ok) throw new Error();
+  return { resultados: await rR.json(), pronosticos: await rP.json() };
+}
+
+function calcularTodo(resultados, pronosticos) {
+  const grupoById = {};
+  resultados.grupos.forEach(g => grupoById[g.id] = g);
+  const elimById = {};
+  resultados.eliminatoria.forEach(e => elimById[e.id] = e);
+
+  const clas = pronosticos.participantes.map(part => {
+    const pGrupoById = {};
+    part.grupos.forEach(g => pGrupoById[g.id] = g);
+    const pElimById = {};
+    part.eliminatoria.forEach(e => pElimById[e.id] = e);
+
+    // Grupos
+    let ptsG = 0;
+    const detalleGrupos = resultados.grupos.map(real => {
+      const pro = pGrupoById[real.id] || {gl:null,gv:null};
+      const p = ptsGrupo(real, pro);
+      ptsG += p;
+      return {id: real.id, gl: pro.gl, gv: pro.gv, puntos: p};
+    });
+
+    // Eliminatoria
+    let ptsE = 0;
+    const detalleElim = resultados.eliminatoria.map(real => {
+      const pro = pElimById[real.id] || {gl:null,gv:null,ganador:null,equipo1:null,equipo2:null};
+      const regla = reglaElim(real.id);
+      const p = ptsElim(real, pro, regla);
+      ptsE += p;
+      return {id: real.id, gl: pro.gl, gv: pro.gv, ganador: pro.ganador, puntos: p};
+    });
+
+    // Bonus
+    let ptsB = 0;
+    const detalleBonus = {};
+    BONUS_KEYS.forEach(key => {
+      const real = resultados.bonus[key];
+      const pro  = part.bonus[key];
+      const p = ptsBonus(real, pro, key);
+      ptsB += p;
+      detalleBonus[key] = {valor: pro, puntos: p};
+    });
+
+    return {
+      nombre: part.nombre,
+      grupos: ptsG, eliminatoria: ptsE, bonus: ptsB,
+      total: ptsG + ptsE + ptsB,
+      detalleGrupos, detalleElim, detalleBonus,
+    };
+  });
+
+  clas.sort((a,b) => b.total - a.total);
+  return clas;
+}
+
 // ── TABS ───────────────────────────────────────────────────────
 document.querySelectorAll('.tab').forEach(btn => {
   btn.addEventListener('click', () => {
@@ -268,8 +424,9 @@ document.querySelectorAll('.tab').forEach(btn => {
     document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
   });
 });
- 
+
 // ── FILTROS pronósticos ────────────────────────────────────────
+let filtroActivo = 'todos';
 document.getElementById('filtros').addEventListener('click', e => {
   const btn = e.target.closest('.filtro-btn');
   if (!btn) return;
@@ -278,10 +435,9 @@ document.getElementById('filtros').addEventListener('click', e => {
   filtroActivo = btn.dataset.filtro;
   renderPronosticos();
 });
- 
+
 // ── RENDER CLASIFICACIÓN ───────────────────────────────────────
 function renderClasificacion(clas) {
-  // Podio
   const M = ['🥇','🥈','🥉'], CL = ['p1','p2','p3'], TG = ['LÍDER','2º PUESTO','3ER PUESTO'];
   const orden = [1,0,2];
   document.getElementById('podio').innerHTML = orden.map(i => {
@@ -299,12 +455,9 @@ function renderClasificacion(clas) {
       </div>
     </div>`;
   }).join('');
- 
-  // Tabla
-  const max = clas[0]?.total || 1;
+
   const PC = ['g','s','b'];
   document.getElementById('tabla-clas').innerHTML = clas.map((p, i) => {
-    const pct = max > 0 ? Math.round(p.total / max * 100) : 0;
     const pos = i < 3
       ? `<span class="pnum ${PC[i]}">${M[i]}</span>`
       : `<span class="pnum">${i+1}</span>`;
@@ -318,52 +471,163 @@ function renderClasificacion(clas) {
     </tr>`;
   }).join('');
 }
- 
-// ── RENDER PRONÓSTICOS ─────────────────────────────────────────
+
+// ── GRÁFICA EVOLUCIÓN DE PUNTOS ─────────────────────────────────
+const PALETA = ['#00C853','#FFD600','#2979FF','#E53935','#AB47BC','#FF7043','#26C6DA','#8D6E63','#9CCC65','#EC407A','#5C6BC0','#FFA726','#78909C','#4DD0E1','#BA68C8','#A1887F','#90A4AE','#7CB342'];
+
+function renderEvolucion(resultados, pronosticos, clas) {
+  // Solo partidos de GRUPOS jugados, en orden por id
+  const jugados = resultados.grupos.filter(g => g.gl !== null).sort((a,b)=>a.id-b.id);
+  if (!jugados.length) {
+    document.getElementById('chart-evolucion').parentElement.innerHTML =
+      '<div class="empty" style="padding:60px 0">Aún no hay partidos jugados para mostrar la evolución</div>';
+    return;
+  }
+
+  const labels = jugados.map((p, i) => `${p.jornada}·${i+1}`);
+
+  const pProById = {};
+  pronosticos.participantes.forEach(part => {
+    const m = {};
+    part.grupos.forEach(g => m[g.id] = g);
+    pProById[part.nombre] = m;
+  });
+
+  const datasets = clas.map((c, idx) => {
+    let acc = 0;
+    const data = jugados.map(real => {
+      const pro = pProById[c.nombre]?.[real.id] || {gl:null,gv:null};
+      acc += ptsGrupo(real, pro);
+      return acc;
+    });
+    const color = PALETA[idx % PALETA.length];
+    const top3 = idx < 3;
+    return {
+      label: c.nombre, data,
+      borderColor: color, backgroundColor: color,
+      borderWidth: top3 ? 3 : 1.5,
+      pointRadius: top3 ? 3 : 0,
+      pointHoverRadius: 5,
+      tension: 0.25,
+      order: top3 ? 0 : 1,
+    };
+  });
+
+  new Chart(document.getElementById('chart-evolucion'), {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { position: 'bottom', labels: { color: '#aaa', font: { family: 'Barlow', size: 11 }, boxWidth: 12, padding: 8 } },
+        tooltip: {
+          backgroundColor: '#181818', borderColor: '#333', borderWidth: 1,
+          titleColor: '#fff', bodyColor: '#ccc',
+          callbacks: { label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y} pts` }
+        }
+      },
+      scales: {
+        x: { ticks: { color: '#777', font: { family: 'Barlow Condensed', size: 11 } }, grid: { color: '#222' } },
+        y: { beginAtZero: true, ticks: { color: '#777', font: { family: 'Barlow Condensed', size: 11 }, precision:0 }, grid: { color: '#222' } }
+      }
+    }
+  });
+}
+
+// ── BANDERAS ─────────────────────────────────────────────────
+const BANDERAS = {
+  "México":"🇲🇽","Sudáfrica":"🇿🇦","Corea del Sur":"🇰🇷","Chequia":"🇨🇿",
+  "Canadá":"🇨🇦","Bosnia-Herz.":"🇧🇦","Catar":"🇶🇦","Suiza":"🇨🇭",
+  "Brasil":"🇧🇷","Marruecos":"🇲🇦","Haití":"🇭🇹","Escocia":"🏴",
+  "USA":"🇺🇸","Paraguay":"🇵🇾","Australia":"🇦🇺","Turquía":"🇹🇷",
+  "Alemania":"🇩🇪","Curazao":"🇨🇼","C. de Marfil":"🇨🇮","Ecuador":"🇪🇨",
+  "Países Bajos":"🇳🇱","Japón":"🇯🇵","Suecia":"🇸🇪","Túnez":"🇹🇳",
+  "Bélgica":"🇧🇪","Egipto":"🇪🇬","Irán":"🇮🇷","Nueva Zelanda":"🇳🇿",
+  "España":"🇪🇸","Cabo Verde":"🇨🇻","Arabia Saudí":"🇸🇦","Uruguay":"🇺🇾",
+  "Francia":"🇫🇷","Senegal":"🇸🇳","Irak":"🇮🇶","Noruega":"🇳🇴",
+  "Argentina":"🇦🇷","Argelia":"🇩🇿","Austria":"🇦🇹","Jordania":"🇯🇴",
+  "Portugal":"🇵🇹","RD Congo":"🇨🇩","Uzbekistán":"🇺🇿","Colombia":"🇨🇴",
+  "Inglaterra":"🏴","Croacia":"🇭🇷","Ghana":"🇬🇭","Panamá":"🇵🇦",
+};
+function bandera(nombre){ return BANDERAS[nombre] || '⚽'; }
+
+
+const LETRAS_GRUPO = ['A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H','I','I','J','J','K','K','L','L'];
+function extraerGrupo(id) {
+  const idx = (id - 1) % 24;
+  return LETRAS_GRUPO[idx] || '?';
+}
+
 function renderPronosticos() {
-  const lista = filtroActivo === 'todos'   ? PARTIDOS
-              : filtroActivo === 'jugados' ? PARTIDOS.filter(p => p.jugado)
-              : PARTIDOS.filter(p => p.jornada === filtroActivo);
- 
+  const grupos = RESULTADOS.grupos.map(g => ({...g, tipo:'grupo'}));
+  const elim    = RESULTADOS.eliminatoria.map(e => ({...e, tipo:'elim'}));
+  let lista;
+  if (filtroActivo === 'todos')        lista = [...grupos, ...elim];
+  else if (filtroActivo === 'jugados') lista = [...grupos, ...elim].filter(p => p.gl !== null);
+  else if (filtroActivo === 'elim')    lista = elim;
+  else                                  lista = grupos.filter(p => p.jornada === filtroActivo);
+
   if (!lista.length) {
     document.getElementById('lista-pronosticos').innerHTML =
       '<div class="empty">No hay partidos en esta selección</div>';
     return;
   }
- 
+
   document.getElementById('lista-pronosticos').innerHTML = lista.map(partido => {
-    const resStr = partido.jugado
-      ? `<span class="ph-resultado">${partido.gl_real} - ${partido.gv_real}</span>`
+    const jugado = partido.gl !== null && partido.gv !== null;
+    const resStr = jugado
+      ? `<span class="ph-resultado">${partido.gl} - ${partido.gv}</span>`
       : `<span class="ph-resultado pendiente">Pendiente</span>`;
- 
-    const prosHTML = partido.pronosticos.map(pro => {
-      if (pro.gl === null || pro.gl === undefined) {
+
+    const esElim = partido.tipo === 'elim';
+    const regla = esElim ? reglaElim(partido.id) : null;
+    const tituloPartido = esElim
+      ? (partido.equipo1 && partido.equipo2 ? `${bandera(partido.equipo1)} ${partido.equipo1} vs ${partido.equipo2} ${bandera(partido.equipo2)}` : `Partido ${partido.id - 72}`)
+      : `${bandera(partido.local)} ${partido.local} vs ${partido.visitante} ${bandera(partido.visitante)}`;
+    const etiquetaJornada = esElim ? partido.ronda : `${partido.jornada} · Grupo ${extraerGrupo(partido.id)}`;
+    const maxPts = esElim ? regla.pExacto : PTS_GRUPO_EXACTO;
+    const minPts = esElim ? regla.pGanador : PTS_GRUPO_GANADOR;
+
+    const prosHTML = PRONOSTICOS.participantes.map(part => {
+      let pro;
+      if (esElim) pro = part.eliminatoria.find(x => x.id === partido.id);
+      else        pro = part.grupos.find(x => x.id === partido.id);
+
+      if (!pro || pro.gl === null || pro.gl === undefined) {
         return `<div class="pro-item">
-          <span class="pro-nombre">${pro.nombre}</span>
+          <span class="pro-nombre">${part.nombre}</span>
           <span class="sin-pro">sin rellenar</span>
         </div>`;
       }
-      let clsMarca = 'pendiente', clsPts = 'pend';
-      if (partido.jugado) {
-        if (pro.puntos === 3)      { clsMarca = 'exacto';  clsPts = 'pts3'; }
-        else if (pro.puntos === 1) { clsMarca = 'ganador'; clsPts = 'pts1'; }
-        else                       { clsMarca = 'fallo';   clsPts = 'pts0'; }
+
+      let pts = 0;
+      if (jugado) {
+        pts = esElim ? ptsElim(partido, pro, regla) : ptsGrupo(partido, pro);
       }
-      const ptsLabel = partido.jugado ? pro.puntos : '—';
+
+      let clsMarca = 'pendiente', clsPts = 'pend';
+      if (jugado) {
+        if (pts === maxPts)      { clsMarca = 'exacto';  clsPts = 'ptsmax'; }
+        else if (pts === minPts) { clsMarca = 'ganador'; clsPts = 'ptsmin'; }
+        else                     { clsMarca = 'fallo';   clsPts = 'pts0'; }
+      }
+      const ptsLabel = jugado ? pts : '—';
+      const marcaTxt = `${pro.gl}-${pro.gv}`;
       return `<div class="pro-item">
-        <span class="pro-nombre">${pro.nombre}</span>
+        <span class="pro-nombre">${part.nombre}</span>
         <div class="pro-score">
-          <span class="pro-marca ${clsMarca}">${pro.gl}-${pro.gv}</span>
+          <span class="pro-marca ${clsMarca}">${marcaTxt}</span>
           <span class="pro-pts ${clsPts}">${ptsLabel}</span>
         </div>
       </div>`;
     }).join('');
- 
-    return `<div class="partido-bloque" data-jornada="${partido.jornada}">
+
+    return `<div class="partido-bloque">
       <div class="partido-head" onclick="togglePartido(this)">
         <div class="ph-left">
-          <span class="ph-jornada">${partido.jornada} · Grupo ${extraerGrupo(partido.id)}</span>
-          <span class="ph-partido">${partido.local} vs ${partido.visitante}</span>
+          <span class="ph-jornada">${etiquetaJornada}</span>
+          <span class="ph-partido">${tituloPartido}</span>
         </div>
         <div style="display:flex;align-items:center;gap:10px">
           ${resStr}
@@ -376,7 +640,7 @@ function renderPronosticos() {
     </div>`;
   }).join('');
 }
- 
+
 function togglePartido(head) {
   const pros = head.nextElementSibling;
   const toggle = head.querySelector('.ph-toggle');
@@ -384,142 +648,103 @@ function togglePartido(head) {
   pros.classList.toggle('open', !isOpen);
   toggle.classList.toggle('open', !isOpen);
 }
- 
-// Grupos: 24 partidos por jornada, 2 por grupo, 12 grupos
-const LETRAS_GRUPO = ['A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H','I','I','J','J','K','K','L','L'];
-function extraerGrupo(id) {
-  const idx = (id - 1) % 24;
-  return LETRAS_GRUPO[idx] || '?';
-}
- 
+
 // ── RENDER PARTIDOS ────────────────────────────────────────────
-function renderPartidos(partidos) {
-  const jugados  = partidos.filter(p => p.jugado);
-  const pendientes = partidos.filter(p => !p.jugado).slice(0, 8);
- 
+function renderPartidos(resultados) {
+  const grupos = resultados.grupos;
+  const jugados = grupos.filter(p => p.gl !== null);
+  const pendientes = grupos.filter(p => p.gl === null).slice(0, 8);
+
   const elJug = document.getElementById('jugados-lista');
   const elPro = document.getElementById('proximos-lista');
- 
+
   if (!jugados.length) {
     elJug.innerHTML = '<div class="empty">Sin resultados aún</div>';
   } else {
     elJug.innerHTML = [...jugados].reverse().map(p => `
       <div class="r-item">
         <div>
-          <div class="r-partido">${p.local} vs ${p.visitante}</div>
+          <div class="r-partido">${bandera(p.local)} ${p.local} vs ${p.visitante} ${bandera(p.visitante)}</div>
           <div class="r-fase">${p.jornada} · Grupo ${extraerGrupo(p.id)}</div>
         </div>
-        <div class="badge-r">${p.gl_real} - ${p.gv_real}</div>
+        <div class="badge-r">${p.gl} - ${p.gv}</div>
       </div>`).join('');
   }
- 
+
   if (!pendientes.length) {
     elPro.innerHTML = '<div class="empty">Sin partidos pendientes</div>';
   } else {
     elPro.innerHTML = pendientes.map(p => `
       <div class="r-item">
         <div>
-          <div class="r-partido">${p.local} vs ${p.visitante}</div>
+          <div class="r-partido">${bandera(p.local)} ${p.local} vs ${p.visitante} ${bandera(p.visitante)}</div>
           <div class="r-fase">${p.jornada} · Grupo ${extraerGrupo(p.id)}</div>
         </div>
         <div class="badge-f">Pendiente</div>
       </div>`).join('');
   }
 }
- 
-// ── GRÁFICA EVOLUCIÓN DE PUNTOS ─────────────────────────────────
-const PALETA = ['#00C853','#FFD600','#2979FF','#E53935','#AB47BC','#FF7043','#26C6DA','#8D6E63','#9CCC65','#EC407A','#5C6BC0','#FFA726','#78909C'];
- 
-function renderEvolucion(partidos, clas) {
-  // Solo partidos jugados, en orden
-  const jugados = partidos.filter(p => p.jugado);
-  if (!jugados.length) {
-    document.getElementById('chart-evolucion').parentElement.innerHTML =
-      '<div class="empty" style="padding:60px 0">Aún no hay partidos jugados para mostrar la evolución</div>';
-    return;
-  }
- 
-  // Etiquetas eje X: "J1·1", "J1·2", ...
-  const labels = jugados.map((p, i) => `${p.jornada}·${i+1}`);
- 
-  // Para cada participante, acumular puntos partido a partido
-  const nombres = clas.map(c => c.nombre);
-  const datasets = nombres.map((nombre, idx) => {
-    let acc = 0;
-    const data = jugados.map(partido => {
-      const pro = partido.pronosticos.find(x => x.nombre === nombre);
-      acc += (pro?.puntos || 0);
-      return acc;
-    });
-    const color = PALETA[idx % PALETA.length];
-    // Destacar top 3
-    const top3 = idx < 3;
-    return {
-      label: nombre,
-      data,
-      borderColor: color,
-      backgroundColor: color,
-      borderWidth: top3 ? 3 : 1.5,
-      pointRadius: top3 ? 3 : 0,
-      pointHoverRadius: 5,
-      tension: 0.25,
-      order: top3 ? 0 : 1,
-    };
-  });
- 
-  new Chart(document.getElementById('chart-evolucion'), {
-    type: 'line',
-    data: { labels, datasets },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      interaction: { mode: 'index', intersect: false },
-      plugins: {
-        legend: {
-          position: 'bottom',
-          labels: { color: '#aaa', font: { family: 'Barlow', size: 11 }, boxWidth: 12, padding: 8 }
-        },
-        tooltip: {
-          backgroundColor: '#181818', borderColor: '#333', borderWidth: 1,
-          titleColor: '#fff', bodyColor: '#ccc',
-          callbacks: {
-            label: ctx => `${ctx.dataset.label}: ${ctx.parsed.y} pts`
-          }
-        }
-      },
-      scales: {
-        x: { ticks: { color: '#777', font: { family: 'Barlow Condensed', size: 11 } }, grid: { color: '#222' } },
-        y: { beginAtZero: true, ticks: { color: '#777', font: { family: 'Barlow Condensed', size: 11 }, precision:0 }, grid: { color: '#222' } }
-      }
-    }
-  });
+
+// ── RENDER BONUS ───────────────────────────────────────────────
+function renderBonus(resultados, pronosticos) {
+  document.getElementById('bonus-reales').innerHTML = BONUS_KEYS.map(key => {
+    const val = resultados.bonus[key];
+    return `<div class="bonus-card">
+      <div class="bonus-q">${BONUS_LABELS[key]}</div>
+      <div class="bonus-a ${val ? '' : 'pendiente'}">${val || 'Pendiente'}</div>
+      <div class="bonus-pts">${BONUS_PTS[key]} pts si aciertas</div>
+    </div>`;
+  }).join('');
+
+  // Tabla
+  document.getElementById('bonus-tabla-head').innerHTML =
+    `<th>Participante</th>` + BONUS_KEYS.map(k => `<th class="tc">${BONUS_LABELS[k]}</th>`).join('') + `<th class="tc">Pts</th>`;
+
+  document.getElementById('bonus-tabla-body').innerHTML = pronosticos.participantes.map(part => {
+    let totalPts = 0;
+    const celdas = BONUS_KEYS.map(key => {
+      const val = part.bonus[key];
+      const real = resultados.bonus[key];
+      const p = ptsBonus(real, val, key);
+      totalPts += p;
+      const cls = p > 0 ? 'style="color:var(--verde);font-weight:700"' : '';
+      return `<td class="tc" ${cls}>${val || '—'}</td>`;
+    }).join('');
+    return `<tr><td class="nom-td">${part.nombre}</td>${celdas}<td class="tot-td">${totalPts}</td></tr>`;
+  }).join('');
 }
- 
- 
+
+// ── INIT ───────────────────────────────────────────────────────
 async function init() {
   try {
-    const { clas, partidos } = await cargarTodo();
-    CLAS = clas;
-    PARTIDOS = partidos;
- 
-    // Header: contar partidos jugados
-    const jugados = partidos.filter(p => p.jugado).length;
-    document.getElementById('hdr-fase').textContent = `${jugados}/72 partidos jugados`;
-    document.getElementById('hdr-act').textContent = `${clas.length} participantes`;
+    const { resultados, pronosticos } = await cargarTodo();
+    RESULTADOS = resultados;
+    PRONOSTICOS = pronosticos;
+
+    CLAS = calcularTodo(resultados, pronosticos);
+
+    const jugadosGrp = resultados.grupos.filter(p => p.gl !== null).length;
+    const jugadosElim = resultados.eliminatoria.filter(p => p.gl !== null).length;
+
+    document.getElementById('hdr-fase').textContent =
+      jugadosElim > 0 ? `${jugadosElim}/31 eliminatoria` : `${jugadosGrp}/72 partidos jugados`;
+    document.getElementById('hdr-act').textContent = `${pronosticos.participantes.length} participantes`;
     document.getElementById('hero-fase').textContent =
-      jugados === 0 ? 'Fase de Grupos — Inicio' :
-      jugados < 24  ? 'Fase de Grupos — 1ª Jornada' :
-      jugados < 48  ? 'Fase de Grupos — 2ª Jornada' :
-      jugados < 72  ? 'Fase de Grupos — 3ª Jornada' : 'Fase Eliminatoria';
- 
-    renderClasificacion(clas);
-    renderEvolucion(partidos, clas);
+      jugadosGrp === 0 ? 'Fase de Grupos — Inicio' :
+      jugadosGrp < 24  ? 'Fase de Grupos — 1ª Jornada' :
+      jugadosGrp < 48  ? 'Fase de Grupos — 2ª Jornada' :
+      jugadosGrp < 72  ? 'Fase de Grupos — 3ª Jornada' : 'Fase Eliminatoria';
+
+    renderClasificacion(CLAS);
+    renderEvolucion(resultados, pronosticos, CLAS);
     renderPronosticos();
-    renderPartidos(partidos);
- 
+    renderPartidos(resultados);
+    renderBonus(resultados, pronosticos);
+
     document.getElementById('loading').style.display = 'none';
     document.getElementById('app').style.display     = 'block';
   } catch(e) {
+    console.error(e);
     document.getElementById('loading').style.display = 'none';
     document.getElementById('err').style.display     = 'block';
   }
