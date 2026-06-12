@@ -11,6 +11,18 @@
       "jugado": true,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 3
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 1
+        },
+        {
           "nombre": "NG",
           "gl": 2,
           "gv": 0,
@@ -29,13 +41,19 @@
           "puntos": 3
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": 2,
           "gv": 0,
           "puntos": 3
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 3
+        },
+        {
+          "nombre": "Stefi",
           "gl": 2,
           "gv": 0,
           "puntos": 3
@@ -57,6 +75,18 @@
           "gl": 3,
           "gv": 0,
           "puntos": 1
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
         },
         {
           "nombre": "GIOVANNI",
@@ -77,16 +107,16 @@
           "puntos": 1
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 1,
+          "nombre": "Belén Sánchez",
+          "gl": 2,
           "gv": 1,
-          "puntos": 0
+          "puntos": 1
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 1,
+          "nombre": "Javi",
+          "gl": 2,
           "gv": 1,
-          "puntos": 0
+          "puntos": 1
         }
       ]
     },
@@ -95,10 +125,22 @@
       "jornada": "J1",
       "local": "Corea del Sur",
       "visitante": "Chequia",
-      "gl_real": null,
-      "gv_real": null,
-      "jugado": false,
+      "gl_real": 2,
+      "gv_real": 1,
+      "jugado": true,
       "pronosticos": [
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 1
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 3
+        },
         {
           "nombre": "NG",
           "gl": 1,
@@ -118,15 +160,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 1,
-          "gv": 0,
-          "puntos": 0
-        },
-        {
           "nombre": "ANTONIO",
           "gl": 1,
           "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 1,
+          "gv": 1,
           "puntos": 0
         },
         {
@@ -146,6 +194,18 @@
           "gl": 1,
           "gv": 3,
           "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 1
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 1
         },
         {
           "nombre": "GIOVANNI",
@@ -166,15 +226,15 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": 1,
-          "gv": 0,
+          "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": 1,
-          "gv": 0,
+          "gv": 1,
           "puntos": 0
         }
       ]
@@ -189,6 +249,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 1,
           "gv": 1,
@@ -207,15 +279,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 1,
+          "nombre": "ANTONIO",
+          "gl": 3,
           "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
-          "gl": 3,
-          "gv": 0,
+          "nombre": "alejo copilot",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 2,
+          "gv": 1,
           "puntos": 0
         },
         {
@@ -237,6 +315,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 1,
           "gv": 2,
@@ -255,14 +345,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 2,
-          "gv": 1,
+          "nombre": "Belén Sánchez",
+          "gl": 1,
+          "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 2,
+          "nombre": "Javi",
+          "gl": 0,
           "gv": 1,
           "puntos": 0
         }
@@ -278,6 +368,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 0,
           "gv": 2,
@@ -296,15 +398,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 0,
-          "gv": 1,
-          "puntos": 0
-        },
-        {
           "nombre": "ANTONIO",
           "gl": 1,
           "gv": 4,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 0,
+          "gv": 2,
           "puntos": 0
         },
         {
@@ -323,6 +431,18 @@
           "nombre": "JUAN DIEGO NAVARRO",
           "gl": 0,
           "gv": 4,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 2,
           "puntos": 0
         },
         {
@@ -344,15 +464,15 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 1,
-          "gv": 2,
+          "nombre": "Belén Sánchez",
+          "gl": 0,
+          "gv": 3,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": 1,
-          "gv": 2,
+          "gv": 3,
           "puntos": 0
         }
       ]
@@ -366,6 +486,18 @@
       "gv_real": null,
       "jugado": false,
       "pronosticos": [
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
         {
           "nombre": "NG",
           "gl": 2,
@@ -385,15 +517,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 2,
-          "gv": 2,
-          "puntos": 0
-        },
-        {
           "nombre": "ANTONIO",
           "gl": 2,
           "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 3,
+          "gv": 0,
           "puntos": 0
         },
         {
@@ -411,6 +549,18 @@
         {
           "nombre": "JUAN DIEGO NAVARRO",
           "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
           "gv": 2,
           "puntos": 0
         },
@@ -433,14 +583,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": 3,
           "gv": 2,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 3,
+          "nombre": "Javi",
+          "gl": 2,
           "gv": 2,
           "puntos": 0
         }
@@ -456,6 +606,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 0,
+          "gv": 4,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 0,
           "gv": 2,
@@ -474,15 +636,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
+          "gl": 0,
+          "gv": 5,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
           "gl": 0,
           "gv": 2,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "Stefi",
           "gl": 0,
-          "gv": 5,
+          "gv": 2,
           "puntos": 0
         },
         {
@@ -504,6 +672,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 0,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 0,
           "gv": 1,
@@ -522,15 +702,15 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": 0,
-          "gv": 1,
+          "gv": 3,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": 0,
-          "gv": 1,
+          "gv": 2,
           "puntos": 0
         }
       ]
@@ -544,6 +724,18 @@
       "gv_real": null,
       "jugado": false,
       "pronosticos": [
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
         {
           "nombre": "NG",
           "gl": 2,
@@ -563,14 +755,20 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": 1,
           "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
-          "gl": 1,
+          "nombre": "alejo copilot",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 2,
           "gv": 1,
           "puntos": 0
         },
@@ -593,6 +791,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 1,
           "gv": 1,
@@ -611,14 +821,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 2,
+          "nombre": "Belén Sánchez",
+          "gl": 0,
           "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 2,
+          "nombre": "Javi",
+          "gl": 1,
           "gv": 1,
           "puntos": 0
         }
@@ -634,6 +844,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 1,
           "gv": 2,
@@ -652,15 +874,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 0,
-          "gv": 3,
-          "puntos": 0
-        },
-        {
           "nombre": "ANTONIO",
           "gl": 1,
           "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 1,
+          "gv": 2,
           "puntos": 0
         },
         {
@@ -679,6 +907,18 @@
           "nombre": "JUAN DIEGO NAVARRO",
           "gl": 1,
           "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 2,
           "puntos": 0
         },
         {
@@ -700,15 +940,15 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 1,
-          "gv": 2,
+          "nombre": "Belén Sánchez",
+          "gl": 0,
+          "gv": 4,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": 1,
-          "gv": 2,
+          "gv": 3,
           "puntos": 0
         }
       ]
@@ -722,6 +962,18 @@
       "gv_real": null,
       "jugado": false,
       "pronosticos": [
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 5,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 6,
+          "gv": 0,
+          "puntos": 0
+        },
         {
           "nombre": "NG",
           "gl": 3,
@@ -741,14 +993,20 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": 5,
-          "gv": 1,
+          "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
-          "gl": 5,
+          "nombre": "alejo copilot",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 4,
           "gv": 0,
           "puntos": 0
         },
@@ -767,6 +1025,18 @@
         {
           "nombre": "JUAN DIEGO NAVARRO",
           "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
           "gv": 0,
           "puntos": 0
         },
@@ -789,14 +1059,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 3,
+          "nombre": "Belén Sánchez",
+          "gl": 7,
           "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 3,
+          "nombre": "Javi",
+          "gl": 4,
           "gv": 0,
           "puntos": 0
         }
@@ -812,6 +1082,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 1,
           "gv": 1,
@@ -830,15 +1112,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
           "gl": 1,
           "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
-          "gl": 0,
-          "gv": 2,
+          "nombre": "Stefi",
+          "gl": 1,
+          "gv": 1,
           "puntos": 0
         },
         {
@@ -860,6 +1148,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 1,
           "gv": 3,
@@ -878,14 +1178,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": 1,
           "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 1,
+          "nombre": "Javi",
+          "gl": 0,
           "gv": 1,
           "puntos": 0
         }
@@ -901,6 +1201,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 2,
           "gv": 1,
@@ -919,15 +1231,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 1,
+          "nombre": "ANTONIO",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
+          "gl": 2,
           "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "Stefi",
           "gl": 2,
-          "gv": 2,
+          "gv": 1,
           "puntos": 0
         },
         {
@@ -945,6 +1263,18 @@
         {
           "nombre": "JUAN DIEGO NAVARRO",
           "gl": 3,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
           "gv": 2,
           "puntos": 0
         },
@@ -967,15 +1297,15 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": 2,
-          "gv": 2,
+          "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": 2,
-          "gv": 2,
+          "gv": 1,
           "puntos": 0
         }
       ]
@@ -989,6 +1319,18 @@
       "gv_real": null,
       "jugado": false,
       "pronosticos": [
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
         {
           "nombre": "NG",
           "gl": 1,
@@ -1008,15 +1350,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 2,
+          "nombre": "ANTONIO",
+          "gl": 3,
           "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
-          "gl": 3,
-          "gv": 1,
+          "nombre": "alejo copilot",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 2,
+          "gv": 0,
           "puntos": 0
         },
         {
@@ -1038,6 +1386,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 1,
           "gv": 1,
@@ -1056,14 +1416,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": 2,
-          "gv": 1,
+          "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 2,
+          "nombre": "Javi",
+          "gl": 3,
           "gv": 1,
           "puntos": 0
         }
@@ -1079,6 +1439,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 2,
           "gv": 1,
@@ -1097,14 +1469,20 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
           "gl": 2,
           "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
-          "gl": 1,
+          "nombre": "Stefi",
+          "gl": 3,
           "gv": 0,
           "puntos": 0
         },
@@ -1127,6 +1505,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 4,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 4,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 2,
           "gv": 1,
@@ -1145,15 +1535,15 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 4,
-          "gv": 1,
+          "nombre": "Belén Sánchez",
+          "gl": 3,
+          "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 4,
-          "gv": 1,
+          "nombre": "Javi",
+          "gl": 2,
+          "gv": 0,
           "puntos": 0
         }
       ]
@@ -1168,6 +1558,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 1,
           "gv": 0,
@@ -1186,15 +1588,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 0,
+          "nombre": "ANTONIO",
+          "gl": 2,
           "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
           "gl": 2,
           "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 1,
+          "gv": 1,
           "puntos": 0
         },
         {
@@ -1216,6 +1624,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 1,
           "gv": 0,
@@ -1234,14 +1654,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 2,
+          "nombre": "Belén Sánchez",
+          "gl": 1,
           "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 2,
+          "nombre": "Javi",
+          "gl": 1,
           "gv": 0,
           "puntos": 0
         }
@@ -1257,6 +1677,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 4,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 3,
           "gv": 0,
@@ -1275,13 +1707,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": 4,
           "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": 4,
           "gv": 0,
           "puntos": 0
@@ -1305,6 +1743,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 2,
           "gv": 0,
@@ -1323,14 +1773,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": 3,
           "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 3,
+          "nombre": "Javi",
+          "gl": 4,
           "gv": 0,
           "puntos": 0
         }
@@ -1345,6 +1795,18 @@
       "gv_real": null,
       "jugado": false,
       "pronosticos": [
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
         {
           "nombre": "NG",
           "gl": 0,
@@ -1364,15 +1826,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 0,
-          "gv": 2,
-          "puntos": 0
-        },
-        {
           "nombre": "ANTONIO",
           "gl": 1,
           "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
+          "gl": 0,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 0,
+          "gv": 2,
           "puntos": 0
         },
         {
@@ -1394,6 +1862,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 1,
           "gv": 1,
@@ -1412,14 +1892,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 0,
-          "gv": 2,
+          "nombre": "Belén Sánchez",
+          "gl": 2,
+          "gv": 3,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 0,
+          "nombre": "Javi",
+          "gl": 1,
           "gv": 2,
           "puntos": 0
         }
@@ -1435,6 +1915,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 2,
           "gv": 1,
@@ -1453,15 +1945,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
+          "gl": 4,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
           "gl": 3,
           "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
-          "gl": 4,
-          "gv": 2,
+          "nombre": "Stefi",
+          "gl": 3,
+          "gv": 1,
           "puntos": 0
         },
         {
@@ -1483,6 +1981,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 2,
           "gv": 1,
@@ -1501,14 +2011,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 3,
-          "gv": 0,
+          "nombre": "Belén Sánchez",
+          "gl": 2,
+          "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 3,
+          "nombre": "Javi",
+          "gl": 2,
           "gv": 0,
           "puntos": 0
         }
@@ -1524,6 +2034,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 0,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 0,
           "gv": 2,
@@ -1542,15 +2064,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
+          "gl": 1,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
           "gl": 0,
           "gv": 2,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
-          "gl": 1,
-          "gv": 1,
+          "nombre": "Stefi",
+          "gl": 0,
+          "gv": 2,
           "puntos": 0
         },
         {
@@ -1572,6 +2100,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 3,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 1,
           "gv": 3,
@@ -1590,13 +2130,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 1,
-          "gv": 3,
+          "nombre": "Belén Sánchez",
+          "gl": 0,
+          "gv": 4,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": 1,
           "gv": 3,
           "puntos": 0
@@ -1613,6 +2153,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 2,
           "gv": 0,
@@ -1631,15 +2183,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 4,
+          "nombre": "ANTONIO",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
+          "gl": 3,
           "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
-          "gl": 2,
-          "gv": 1,
+          "nombre": "Stefi",
+          "gl": 3,
+          "gv": 0,
           "puntos": 0
         },
         {
@@ -1657,6 +2215,18 @@
         {
           "nombre": "JUAN DIEGO NAVARRO",
           "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
           "gv": 0,
           "puntos": 0
         },
@@ -1679,13 +2249,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": 2,
-          "gv": 0,
+          "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": 2,
           "gv": 0,
           "puntos": 0
@@ -1702,6 +2272,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 2,
           "gv": 0,
@@ -1720,13 +2302,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 1,
+          "nombre": "ANTONIO",
+          "gl": 2,
           "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": 2,
           "gv": 0,
           "puntos": 0
@@ -1750,6 +2338,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 2,
           "gv": 0,
@@ -1768,14 +2368,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": 2,
-          "gv": 1,
+          "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 2,
+          "nombre": "Javi",
+          "gl": 3,
           "gv": 1,
           "puntos": 0
         }
@@ -1791,6 +2391,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 4,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 3,
           "gv": 1,
@@ -1809,15 +2421,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 4,
+          "nombre": "ANTONIO",
+          "gl": 3,
           "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
           "gl": 3,
           "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 3,
+          "gv": 1,
           "puntos": 0
         },
         {
@@ -1834,6 +2452,18 @@
         },
         {
           "nombre": "JUAN DIEGO NAVARRO",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
           "gl": 3,
           "gv": 0,
           "puntos": 0
@@ -1857,15 +2487,15 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": 3,
-          "gv": 0,
+          "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 3,
-          "gv": 0,
+          "nombre": "Javi",
+          "gl": 2,
+          "gv": 1,
           "puntos": 0
         }
       ]
@@ -1879,6 +2509,18 @@
       "gv_real": null,
       "jugado": false,
       "pronosticos": [
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 0,
+          "gv": 4,
+          "puntos": 0
+        },
         {
           "nombre": "NG",
           "gl": 0,
@@ -1898,14 +2540,20 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": 0,
           "gv": 2,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
           "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 1,
           "gv": 2,
           "puntos": 0
         },
@@ -1928,6 +2576,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 0,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 0,
           "gv": 2,
@@ -1946,15 +2606,15 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 0,
+          "nombre": "Belén Sánchez",
+          "gl": 1,
           "gv": 2,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 0,
-          "gv": 2,
+          "nombre": "Javi",
+          "gl": 1,
+          "gv": 1,
           "puntos": 0
         }
       ]
@@ -1968,6 +2628,18 @@
       "gv_real": null,
       "jugado": false,
       "pronosticos": [
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 1,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
         {
           "nombre": "NG",
           "gl": 2,
@@ -1987,14 +2659,20 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 1,
-          "gv": 2,
+          "nombre": "ANTONIO",
+          "gl": 0,
+          "gv": 1,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
-          "gl": 0,
+          "nombre": "alejo copilot",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 2,
           "gv": 1,
           "puntos": 0
         },
@@ -2017,6 +2695,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 3,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 3,
+          "gv": 2,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 1,
           "gv": 1,
@@ -2035,13 +2725,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 3,
-          "gv": 2,
+          "nombre": "Belén Sánchez",
+          "gl": 2,
+          "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": 3,
           "gv": 2,
           "puntos": 0
@@ -2058,6 +2748,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": 2,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": 3,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": 1,
           "gv": 1,
@@ -2076,15 +2778,21 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
-          "gl": 2,
-          "gv": 0,
-          "puntos": 0
-        },
-        {
           "nombre": "ANTONIO",
           "gl": 2,
           "gv": 2,
+          "puntos": 0
+        },
+        {
+          "nombre": "alejo copilot",
+          "gl": 2,
+          "gv": 1,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
+          "gl": 1,
+          "gv": 1,
           "puntos": 0
         },
         {
@@ -2106,6 +2814,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": 1,
+          "gv": 0,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": 2,
           "gv": 0,
@@ -2124,14 +2844,14 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
-          "gl": 1,
+          "nombre": "Belén Sánchez",
+          "gl": 3,
           "gv": 0,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
-          "gl": 1,
+          "nombre": "Javi",
+          "gl": 2,
           "gv": 0,
           "puntos": 0
         }
@@ -2146,6 +2866,18 @@
       "gv_real": null,
       "jugado": false,
       "pronosticos": [
+        {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
         {
           "nombre": "NG",
           "gl": null,
@@ -2165,13 +2897,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2195,6 +2933,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -2213,13 +2963,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2236,6 +2986,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -2254,13 +3016,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2284,6 +3052,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -2302,13 +3082,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2325,6 +3105,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -2343,13 +3135,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2373,6 +3171,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -2391,13 +3201,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2414,6 +3224,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -2432,13 +3254,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2462,6 +3290,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -2480,13 +3320,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2503,6 +3343,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -2521,13 +3373,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2551,6 +3409,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -2569,13 +3439,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2592,6 +3462,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -2610,13 +3492,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2640,6 +3528,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -2658,13 +3558,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2681,6 +3581,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -2699,13 +3611,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2729,6 +3647,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -2747,13 +3677,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2770,6 +3700,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -2788,13 +3730,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2818,6 +3766,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -2836,13 +3796,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2859,6 +3819,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -2877,13 +3849,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2907,6 +3885,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -2925,13 +3915,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2948,6 +3938,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -2966,13 +3968,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -2996,6 +4004,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3014,13 +4034,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3037,6 +4057,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3055,13 +4087,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3085,6 +4123,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3103,13 +4153,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3126,6 +4176,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3144,13 +4206,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3174,6 +4242,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3192,13 +4272,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3215,6 +4295,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3233,13 +4325,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3263,6 +4361,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3281,13 +4391,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3304,6 +4414,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3322,13 +4444,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3352,6 +4480,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3370,13 +4510,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3393,6 +4533,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3411,13 +4563,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3441,6 +4599,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3459,13 +4629,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3482,6 +4652,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3500,13 +4682,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3530,6 +4718,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3548,13 +4748,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3571,6 +4771,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3589,13 +4801,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3619,6 +4837,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3637,13 +4867,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3660,6 +4890,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3678,13 +4920,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3708,6 +4956,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3726,13 +4986,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3749,6 +5009,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3767,13 +5039,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3797,6 +5075,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3815,13 +5105,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3838,6 +5128,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3856,13 +5158,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3886,6 +5194,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3904,13 +5224,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3927,6 +5247,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -3945,13 +5277,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -3975,6 +5313,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -3993,13 +5343,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4016,6 +5366,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4034,13 +5396,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4064,6 +5432,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4082,13 +5462,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4105,6 +5485,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4123,13 +5515,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4153,6 +5551,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4171,13 +5581,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4194,6 +5604,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4212,13 +5634,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4242,6 +5670,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4260,13 +5700,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4283,6 +5723,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4301,13 +5753,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4331,6 +5789,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4349,13 +5819,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4372,6 +5842,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4390,13 +5872,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4420,6 +5908,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4438,13 +5938,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4461,6 +5961,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4479,13 +5991,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4509,6 +6027,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4527,13 +6057,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4550,6 +6080,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4568,13 +6110,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4598,6 +6146,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4616,13 +6176,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4639,6 +6199,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4657,13 +6229,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4687,6 +6265,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4705,13 +6295,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4728,6 +6318,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4746,13 +6348,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4776,6 +6384,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4794,13 +6414,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4817,6 +6437,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4835,13 +6467,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4865,6 +6503,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4883,13 +6533,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4906,6 +6556,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -4924,13 +6586,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4954,6 +6622,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -4972,13 +6652,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -4995,6 +6675,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5013,13 +6705,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5043,6 +6741,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5061,13 +6771,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5084,6 +6794,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5102,13 +6824,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5132,6 +6860,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5150,13 +6890,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5173,6 +6913,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5191,13 +6943,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5221,6 +6979,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5239,13 +7009,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5262,6 +7032,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5280,13 +7062,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5310,6 +7098,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5328,13 +7128,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5351,6 +7151,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5369,13 +7181,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5399,6 +7217,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5417,13 +7247,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5440,6 +7270,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5458,13 +7300,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5488,6 +7336,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5506,13 +7366,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5529,6 +7389,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5547,13 +7419,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5577,6 +7455,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5595,13 +7485,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5618,6 +7508,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5636,13 +7538,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5666,6 +7574,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5684,13 +7604,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5707,6 +7627,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5725,13 +7657,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5755,6 +7693,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5773,13 +7723,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5796,6 +7746,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5814,13 +7776,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5844,6 +7812,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5862,13 +7842,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5885,6 +7865,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5903,13 +7895,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5933,6 +7931,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -5951,13 +7961,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -5974,6 +7984,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -5992,13 +8014,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -6022,6 +8050,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -6040,13 +8080,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -6063,6 +8103,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -6081,13 +8133,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -6111,6 +8169,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -6129,13 +8199,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -6152,6 +8222,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -6170,13 +8252,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -6200,6 +8288,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -6218,13 +8318,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -6241,6 +8341,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -6259,13 +8371,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -6289,6 +8407,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -6307,13 +8437,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -6330,6 +8460,18 @@
       "jugado": false,
       "pronosticos": [
         {
+          "nombre": "DAVID EL BRUJO",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Rafa",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "NG",
           "gl": null,
           "gv": null,
@@ -6348,13 +8490,19 @@
           "puntos": 0
         },
         {
-          "nombre": "DAVID EL BRUJO",
+          "nombre": "ANTONIO",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "ANTONIO",
+          "nombre": "alejo copilot",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Stefi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -6378,6 +8526,18 @@
           "puntos": 0
         },
         {
+          "nombre": "Inés Turegano",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
+          "nombre": "Víctor del Rey",
+          "gl": null,
+          "gv": null,
+          "puntos": 0
+        },
+        {
           "nombre": "GIOVANNI",
           "gl": null,
           "gv": null,
@@ -6396,13 +8556,13 @@
           "puntos": 0
         },
         {
-          "nombre": "Inés Turegano",
+          "nombre": "Belén Sánchez",
           "gl": null,
           "gv": null,
           "puntos": 0
         },
         {
-          "nombre": "Víctor del Rey",
+          "nombre": "Javi",
           "gl": null,
           "gv": null,
           "puntos": 0
@@ -6420,6 +8580,30 @@
     "revelacion": null
   },
   "bonus_participantes": [
+    {
+      "nombre": "DAVID EL BRUJO",
+      "bonus": {
+        "campeon": "ESPAÑA",
+        "subcampeon": "ARGENTINA",
+        "tercero": "FRANCIA",
+        "bota_oro": "OLISSE",
+        "total_goles_bota": "7",
+        "guante_oro": "ALISSON",
+        "revelacion": "SENEGAL"
+      }
+    },
+    {
+      "nombre": "Rafa",
+      "bonus": {
+        "campeon": "españa",
+        "subcampeon": "argentina",
+        "tercero": "francia",
+        "bota_oro": "oyarzabal",
+        "total_goles_bota": "6",
+        "guante_oro": "Dibu Martinez",
+        "revelacion": "Paraguay"
+      }
+    },
     {
       "nombre": "NG",
       "bonus": {
@@ -6457,18 +8641,6 @@
       }
     },
     {
-      "nombre": "DAVID EL BRUJO",
-      "bonus": {
-        "campeon": "ESPAÑA",
-        "subcampeon": "ARGENTINA",
-        "tercero": "FRANCIA",
-        "bota_oro": "OLISSE",
-        "total_goles_bota": "7",
-        "guante_oro": "ALISSON",
-        "revelacion": "SENEGAL"
-      }
-    },
-    {
       "nombre": "ANTONIO",
       "bonus": {
         "campeon": null,
@@ -6478,6 +8650,30 @@
         "total_goles_bota": null,
         "guante_oro": null,
         "revelacion": null
+      }
+    },
+    {
+      "nombre": "alejo copilot",
+      "bonus": {
+        "campeon": "España",
+        "subcampeon": "Francia",
+        "tercero": "Argentina",
+        "bota_oro": "Kylian Mbappé",
+        "total_goles_bota": "8",
+        "guante_oro": "Unai Simón",
+        "revelacion": "Marruecos"
+      }
+    },
+    {
+      "nombre": "Stefi",
+      "bonus": {
+        "campeon": "España",
+        "subcampeon": "Francia",
+        "tercero": "Brasil",
+        "bota_oro": "Kylian Mbappé",
+        "total_goles_bota": "8",
+        "guante_oro": "Unai Simón",
+        "revelacion": "Noruega"
       }
     },
     {
@@ -6517,6 +8713,30 @@
       }
     },
     {
+      "nombre": "Inés Turegano",
+      "bonus": {
+        "campeon": "España",
+        "subcampeon": "Francia",
+        "tercero": "Argentina",
+        "bota_oro": "Lamine Yamal",
+        "total_goles_bota": "8",
+        "guante_oro": "Courtois",
+        "revelacion": "Noruega"
+      }
+    },
+    {
+      "nombre": "Víctor del Rey",
+      "bonus": {
+        "campeon": "España",
+        "subcampeon": "Francia",
+        "tercero": "Brasil",
+        "bota_oro": "Kylian Mbappe",
+        "total_goles_bota": "8",
+        "guante_oro": "Courtois",
+        "revelacion": "Noruega"
+      }
+    },
+    {
       "nombre": "GIOVANNI",
       "bonus": {
         "campeon": "ARGENTINA",
@@ -6553,27 +8773,27 @@
       }
     },
     {
-      "nombre": "Inés Turegano",
+      "nombre": "Belén Sánchez",
       "bonus": {
-        "campeon": "España",
-        "subcampeon": "Francia",
-        "tercero": "Argentina",
-        "bota_oro": "Lamine Yamal",
+        "campeon": "Portugal",
+        "subcampeon": "Argentina",
+        "tercero": "Brasil",
+        "bota_oro": "Haaland",
         "total_goles_bota": "8",
-        "guante_oro": "Courtois",
+        "guante_oro": "Diogo Costa",
         "revelacion": "Noruega"
       }
     },
     {
-      "nombre": "Víctor del Rey",
+      "nombre": "Javi",
       "bonus": {
         "campeon": "España",
-        "subcampeon": "Francia",
-        "tercero": "Brasil",
-        "bota_oro": "Kylian Mbappe",
-        "total_goles_bota": "8",
-        "guante_oro": "Courtois",
-        "revelacion": "Noruega"
+        "subcampeon": "Inglaterra",
+        "tercero": "Francia",
+        "bota_oro": "Kane",
+        "total_goles_bota": "7",
+        "guante_oro": "Diogo Costa",
+        "revelacion": "Ecuador"
       }
     }
   ]
