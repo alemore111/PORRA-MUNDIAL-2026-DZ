@@ -29,24 +29,24 @@
       "jornada": "J1",
       "local": "Catar",
       "visitante": "Suiza",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 1
     },
     {
       "id": 5,
       "jornada": "J1",
       "local": "Brasil",
       "visitante": "Marruecos",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 1
     },
     {
       "id": 6,
       "jornada": "J1",
       "local": "Haití",
       "visitante": "Escocia",
-      "gl": null,
-      "gv": null
+      "gl": 0,
+      "gv": 1
     },
     {
       "id": 7,
@@ -61,8 +61,8 @@
       "jornada": "J1",
       "local": "Australia",
       "visitante": "Turquía",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 0
     },
     {
       "id": 9,
