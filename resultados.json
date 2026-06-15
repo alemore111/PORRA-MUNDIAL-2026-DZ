@@ -117,8 +117,8 @@
       "jornada": "J1",
       "local": "España",
       "visitante": "Cabo Verde",
-      "gl": null,
-      "gv": null
+      "gl": 0,
+      "gv": 0
     },
     {
       "id": 16,
