@@ -77,8 +77,8 @@
       "jornada": "J1",
       "local": "C. de Marfil",
       "visitante": "Ecuador",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 0
     },
     {
       "id": 11,
@@ -93,8 +93,8 @@
       "jornada": "J1",
       "local": "Suecia",
       "visitante": "Túnez",
-      "gl": null,
-      "gv": null
+      "gl": 5,
+      "gv": 1
     },
     {
       "id": 13,
