@@ -141,24 +141,24 @@
       "jornada": "J1",
       "local": "Irak",
       "visitante": "Noruega",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 4
     },
     {
       "id": 19,
       "jornada": "J1",
       "local": "Argentina",
       "visitante": "Argelia",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 0
     },
     {
       "id": 20,
       "jornada": "J1",
       "local": "Austria",
       "visitante": "Jordania",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 1
     },
     {
       "id": 21,
