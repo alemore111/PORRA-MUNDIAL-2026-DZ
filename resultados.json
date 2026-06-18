@@ -165,32 +165,32 @@
       "jornada": "J1",
       "local": "Portugal",
       "visitante": "RD Congo",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 1
     },
     {
       "id": 22,
       "jornada": "J1",
       "local": "Uzbekistán",
       "visitante": "Colombia",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 3
     },
     {
       "id": 23,
       "jornada": "J1",
       "local": "Inglaterra",
       "visitante": "Croacia",
-      "gl": null,
-      "gv": null
+      "gl": 4,
+      "gv": 2
     },
     {
       "id": 24,
       "jornada": "J1",
       "local": "Ghana",
       "visitante": "Panamá",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 0
     },
     {
       "id": 25,
