@@ -51,6 +51,19 @@ header{background:var(--panel);border-bottom:1px solid var(--borde);padding:0 20
 .hero h1 em{font-style:normal;color:var(--verde)}
 .hero-fase{display:inline-block;margin-top:14px;background:var(--verde-gl);border:1px solid rgba(0,122,51,.4);border-radius:20px;padding:4px 18px;font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:2.5px;text-transform:uppercase;color:var(--verde);animation:fadeUp .6s ease .15s both}
 
+/* ── ÚLTIMO RESULTADO ── */
+.last-result-bar{background:var(--panel);border-bottom:1px solid var(--borde);padding:10px 20px}
+.last-result-inner{max-width:1140px;margin:0 auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px}
+.lr-label{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--texto2);white-space:nowrap}
+.lr-match{font-weight:700;display:flex;align-items:center;gap:6px}
+.lr-score{font-family:'Bebas Neue',sans-serif;font-size:20px;color:var(--verde);margin:0 4px}
+.lr-sep{color:var(--borde2);font-size:16px}
+.lr-detail{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--texto3)}
+.lr-chip{background:var(--panel2);border:1px solid var(--borde);border-radius:6px;padding:2px 8px;font-size:11px;font-weight:600;display:inline-flex;align-items:center;gap:4px}
+.lr-chip.best{border-color:rgba(0,200,83,.3);color:var(--verde)}
+.lr-chip.exact{color:var(--oro);border-color:rgba(255,214,0,.2)}
+.lr-chip.movers{color:var(--azul);border-color:rgba(41,121,255,.2)}
+
 /* ── NEXT MATCH WIDGET ── */
 .next-match-bar{background:linear-gradient(90deg,rgba(0,200,83,.04),rgba(255,214,0,.04));border-bottom:1px solid var(--borde);padding:12px 20px}
 .next-match-inner{max-width:1140px;margin:0 auto;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
@@ -233,20 +246,35 @@ td.tot-td{text-align:center;font-family:'Bebas Neue',sans-serif;font-size:24px;c
 .pro-pts.pend{background:var(--panel2);color:var(--texto2);border:1px solid var(--borde)}
 .sin-pro{font-size:12px;color:var(--texto2);font-style:italic}
 
-/* ── RESULTADOS / PRÓXIMOS ── */
-.two-col{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-@media(max-width:620px){.two-col{grid-template-columns:1fr}}
-.card{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r2);overflow:hidden;box-shadow:var(--shadow)}
-.card-h{background:var(--panel2);border-bottom:1px solid var(--borde);padding:12px 18px;font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--texto2);display:flex;align-items:center;gap:8px}
-.card-count{background:var(--verde-gl);color:var(--verde);border-radius:10px;padding:1px 8px;font-size:11px;margin-left:auto}
-.r-item{padding:12px 18px;border-top:1px solid var(--borde);display:flex;align-items:center;justify-content:space-between;gap:10px;transition:background .1s}
-.r-item:first-of-type{border-top:none}
-.r-item:hover{background:var(--panel2)}
-.r-partido{font-size:14px;font-weight:600}
-.r-fase{font-size:11px;color:var(--texto2);margin-top:2px}
-.badge-r{background:var(--verde-gl);border:1px solid rgba(0,122,51,.3);border-radius:8px;padding:4px 14px;font-family:'Bebas Neue',sans-serif;font-size:19px;color:var(--verde);white-space:nowrap}
-.badge-f{background:var(--panel2);border:1px solid var(--borde);border-radius:8px;padding:4px 12px;font-size:11px;font-weight:600;color:var(--texto2);white-space:nowrap;text-align:right}
-.empty{padding:28px 16px;text-align:center;color:var(--texto2);font-size:13px}
+/* ── HEAD TO HEAD ── */
+.h2h-selectors{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-bottom:20px}
+.h2h-select{flex:1;min-width:160px;padding:10px 14px;border:1px solid var(--borde);border-radius:var(--r);background:var(--panel2);color:var(--texto);font-family:'Barlow',sans-serif;font-size:14px;font-weight:600;cursor:pointer;appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b7280' d='M6 8L1 3h10z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center}
+.h2h-select:focus{outline:none;border-color:var(--verde)}
+.h2h-select option{background:var(--panel);color:var(--texto)}
+.h2h-vs{font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--texto2);letter-spacing:2px}
+.h2h-summary{display:grid;grid-template-columns:1fr auto 1fr;gap:12px;margin-bottom:20px;align-items:center}
+.h2h-score-card{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r2);padding:18px;text-align:center}
+.h2h-score-card.winner{border-color:rgba(0,200,83,.3);background:rgba(0,200,83,.03)}
+.h2h-name{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--texto2);margin-bottom:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.h2h-big{font-family:'Bebas Neue',sans-serif;font-size:48px;line-height:1}
+.h2h-big.green{color:var(--verde)}
+.h2h-big.gold{color:var(--oro)}
+.h2h-draws{text-align:center}
+.h2h-draws-num{font-family:'Bebas Neue',sans-serif;font-size:36px;color:var(--texto2)}
+.h2h-draws-lbl{font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--texto2)}
+.h2h-table-wrap{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r2);overflow:hidden;box-shadow:var(--shadow)}
+.h2h-table{width:100%;border-collapse:collapse}
+.h2h-table thead th{background:var(--panel2);padding:10px 14px;font-family:'Barlow Condensed',sans-serif;font-size:11px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--texto2);text-align:center;border-bottom:1px solid var(--borde)}
+.h2h-table thead th:first-child{text-align:left}
+.h2h-table tbody tr{border-top:1px solid var(--borde)}
+.h2h-table tbody tr:hover{background:rgba(255,255,255,.02)}
+.h2h-table td{padding:10px 14px;font-size:13px;text-align:center;vertical-align:middle}
+.h2h-table td:first-child{text-align:left;font-weight:600;font-size:12px}
+.h2h-cell{display:inline-flex;align-items:center;gap:4px}
+.h2h-cell .pro-marca{font-size:16px}
+.h2h-winner-dot{width:6px;height:6px;border-radius:50%;background:var(--verde);display:inline-block}
+.h2h-empty{padding:48px 20px;text-align:center;color:var(--texto2);font-size:14px}
+.h2h-empty-icon{font-size:48px;margin-bottom:12px;opacity:.5}
 
 /* ── BONUS ── */
 .bonus-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
@@ -279,6 +307,10 @@ footer strong{color:var(--verde)}
   .bonus-grid{grid-template-columns:1fr 1fr}
   .modal-stats{grid-template-columns:repeat(2,1fr)}
   .nm-card{min-width:160px}
+  .h2h-summary{grid-template-columns:1fr;gap:8px}
+  .h2h-vs{display:none}
+  .h2h-selectors{flex-direction:column;gap:8px}
+  .h2h-select{min-width:100%}
 }
 @media(max-width:380px){.bonus-grid{grid-template-columns:1fr}}
 </style>
@@ -309,6 +341,10 @@ footer strong{color:var(--verde)}
     <div class="hero-fase" id="hero-fase"></div>
   </section>
 
+  <div class="last-result-bar" id="last-result-bar" style="display:none">
+    <div class="last-result-inner" id="last-result-inner"></div>
+  </div>
+
   <div class="next-match-bar" id="next-match-bar">
     <div class="next-match-inner" id="next-match-inner"></div>
   </div>
@@ -326,7 +362,7 @@ footer strong{color:var(--verde)}
     <div class="tabs">
       <div class="tab active" data-tab="clasificacion">🏅 <span class="tab-txt">Clasificación</span></div>
       <div class="tab" data-tab="pronosticos">🔍 <span class="tab-txt">Pronósticos</span></div>
-      <div class="tab" data-tab="partidos">⚽ <span class="tab-txt">Partidos</span></div>
+      <div class="tab" data-tab="h2h">⚔️ <span class="tab-txt">Head to Head</span></div>
       <div class="tab" data-tab="bonus">🌟 <span class="tab-txt">Bonus</span></div>
     </div>
   </div>
@@ -363,17 +399,15 @@ footer strong{color:var(--verde)}
       <div id="lista-pronosticos"></div>
     </div>
 
-    <div class="panel-tab" id="tab-partidos">
-      <div class="sec-label">⚽ Partidos</div>
-      <div class="two-col">
-        <div class="card">
-          <div class="card-h">✅ Jugados <span class="card-count" id="cnt-jugados">0</span></div>
-          <div id="jugados-lista"></div>
-        </div>
-        <div class="card">
-          <div class="card-h">🗓 Próximos <span class="card-count" id="cnt-proximos">0</span></div>
-          <div id="proximos-lista"></div>
-        </div>
+    <div class="panel-tab" id="tab-h2h">
+      <div class="sec-label">⚔️ Comparador Head to Head</div>
+      <div class="h2h-selectors">
+        <select class="h2h-select" id="h2h-a"><option value="">Selecciona jugador...</option></select>
+        <span class="h2h-vs">VS</span>
+        <select class="h2h-select" id="h2h-b"><option value="">Selecciona jugador...</option></select>
+      </div>
+      <div id="h2h-content">
+        <div class="h2h-empty"><div class="h2h-empty-icon">⚔️</div>Selecciona dos participantes para comparar sus pronósticos</div>
       </div>
     </div>
 
@@ -436,7 +470,6 @@ function ptsElim(real,pro,regla){
 }
 function ptsBonus(realVal,proVal,key){if(!realVal||!proVal)return 0;return norm(String(realVal))===norm(String(proVal))?BONUS_PTS[key]:0;}
 
-// ── HORARIOS ──
 const HORARIOS={
   1:["11 Jun","21:00"],2:["11 Jun","23:30"],3:["12 Jun","01:00"],4:["13 Jun","19:00"],
   5:["13 Jun","21:00"],6:["14 Jun","01:30"],7:["13 Jun","04:00"],8:["14 Jun","04:00"],
@@ -529,6 +562,57 @@ document.getElementById('filtros').addEventListener('click',e=>{
   document.querySelectorAll('.filtro-btn').forEach(b=>b.classList.remove('active'));
   btn.classList.add('active');filtroActivo=btn.dataset.filtro;renderPronosticos();
 });
+
+// ── ÚLTIMO RESULTADO ──
+function renderLastResult(resultados,pronosticos){
+  const jugadosG=resultados.grupos.filter(g=>g.gl!==null).sort((a,b)=>a.id-b.id);
+  const jugadosE=resultados.eliminatoria.filter(e=>e.gl!==null).sort((a,b)=>a.id-b.id);
+  const todos=[...jugadosG.map(g=>({...g,tipo:'grupo'})),...jugadosE.map(e=>({...e,tipo:'elim'}))];
+  if(!todos.length){document.getElementById('last-result-bar').style.display='none';return;}
+
+  const last=todos[todos.length-1];
+  const esElim=last.tipo==='elim';
+  const regla=esElim?reglaElim(last.id):null;
+  const maxPts=esElim?regla.pExacto:PTS_GRUPO_EXACTO;
+  const minPts=esElim?regla.pGanador:PTS_GRUPO_GANADOR;
+
+  const n1=esElim?(last.equipo1||'?'):last.local;
+  const n2=esElim?(last.equipo2||'?'):last.visitante;
+
+  let bestName='',bestPts=0,exactCount=0;
+  pronosticos.participantes.forEach(part=>{
+    let pro;
+    if(esElim)pro=part.eliminatoria.find(x=>x.id===last.id);
+    else pro=part.grupos.find(x=>x.id===last.id);
+    if(!pro||pro.gl===null)return;
+    const pts=esElim?ptsElim(last,pro,regla):ptsGrupo(last,pro);
+    if(pts===maxPts)exactCount++;
+    if(pts>bestPts){bestPts=pts;bestName=part.nombre;}
+  });
+
+  let biggestMover='',biggestDiff=0;
+  if(CLAS_PREV){
+    const prevMap={};CLAS_PREV.forEach((p,i)=>prevMap[p.nombre]=i);
+    CLAS.forEach((p,i)=>{
+      if(prevMap[p.nombre]!==undefined){
+        const diff=prevMap[p.nombre]-i;
+        if(diff>biggestDiff){biggestDiff=diff;biggestMover=p.nombre;}
+      }
+    });
+  }
+
+  let html=`<span class="lr-label">Último resultado</span>`;
+  html+=`<span class="lr-match">${bandera(n1)} ${n1} <span class="lr-score">${last.gl} - ${last.gv}</span> ${n2} ${bandera(n2)}</span>`;
+  html+=`<span class="lr-sep">·</span>`;
+  html+=`<div class="lr-detail">`;
+  if(exactCount>0)html+=`<span class="lr-chip exact">🎯 ${exactCount} exacto${exactCount!==1?'s':''}</span>`;
+  if(bestName)html+=`<span class="lr-chip best">⭐ Mejor: ${bestName} (+${bestPts})</span>`;
+  if(biggestMover&&biggestDiff>0)html+=`<span class="lr-chip movers">🚀 ${biggestMover} sube ${biggestDiff} pos.</span>`;
+  html+=`</div>`;
+
+  document.getElementById('last-result-inner').innerHTML=html;
+  document.getElementById('last-result-bar').style.display='block';
+}
 
 // ── NEXT MATCH WIDGET ──
 function renderNextMatch(resultados){
@@ -761,18 +845,142 @@ function togglePartido(head){
   pros.classList.toggle('open',!isOpen);toggle.classList.toggle('open',!isOpen);
 }
 
-// ── RENDER PARTIDOS ──
-function renderPartidos(resultados){
-  const grupos=resultados.grupos;
-  const jugados=grupos.filter(p=>p.gl!==null);
-  const pendientes=grupos.filter(p=>p.gl===null).slice(0,8);
-  document.getElementById('cnt-jugados').textContent=jugados.length;
-  document.getElementById('cnt-proximos').textContent=pendientes.length;
-  const elJug=document.getElementById('jugados-lista'),elPro=document.getElementById('proximos-lista');
-  if(!jugados.length){elJug.innerHTML='<div class="empty">Sin resultados aún</div>';}
-  else{elJug.innerHTML=[...jugados].reverse().map(p=>`<div class="r-item"><div><div class="r-partido">${bandera(p.local)} ${p.local} vs ${p.visitante} ${bandera(p.visitante)}</div><div class="r-fase">${p.jornada} · Grupo ${extraerGrupo(p.id)} · ${horarioPartido(p.id)}</div></div><div class="badge-r">${p.gl} - ${p.gv}</div></div>`).join('');}
-  if(!pendientes.length){elPro.innerHTML='<div class="empty">Sin partidos pendientes</div>';}
-  else{elPro.innerHTML=pendientes.map(p=>`<div class="r-item"><div><div class="r-partido">${bandera(p.local)} ${p.local} vs ${p.visitante} ${bandera(p.visitante)}</div><div class="r-fase">${p.jornada} · Grupo ${extraerGrupo(p.id)} · ${horarioPartido(p.id)}</div></div><div class="badge-f">${horarioPartido(p.id)||'Pendiente'}</div></div>`).join('');}
+// ── HEAD TO HEAD ──
+function initH2H(pronosticos){
+  const names=pronosticos.participantes.map(p=>p.nombre).sort();
+  const selA=document.getElementById('h2h-a'),selB=document.getElementById('h2h-b');
+  names.forEach(n=>{
+    selA.innerHTML+=`<option value="${n}">${n}</option>`;
+    selB.innerHTML+=`<option value="${n}">${n}</option>`;
+  });
+  selA.addEventListener('change',renderH2H);
+  selB.addEventListener('change',renderH2H);
+}
+
+function renderH2H(){
+  const nameA=document.getElementById('h2h-a').value;
+  const nameB=document.getElementById('h2h-b').value;
+  const el=document.getElementById('h2h-content');
+
+  if(!nameA||!nameB||nameA===nameB){
+    el.innerHTML=`<div class="h2h-empty"><div class="h2h-empty-icon">⚔️</div>${nameA===nameB&&nameA?'Selecciona dos participantes diferentes':'Selecciona dos participantes para comparar sus pronósticos'}</div>`;
+    return;
+  }
+
+  const partA=PRONOSTICOS.participantes.find(p=>p.nombre===nameA);
+  const partB=PRONOSTICOS.participantes.find(p=>p.nombre===nameB);
+  if(!partA||!partB)return;
+
+  const pAg={};partA.grupos.forEach(g=>pAg[g.id]=g);
+  const pBg={};partB.grupos.forEach(g=>pBg[g.id]=g);
+  const pAe={};partA.eliminatoria.forEach(e=>pAe[e.id]=e);
+  const pBe={};partB.eliminatoria.forEach(e=>pBe[e.id]=e);
+
+  const jugadosG=RESULTADOS.grupos.filter(g=>g.gl!==null);
+  const jugadosE=RESULTADOS.eliminatoria.filter(e=>e.gl!==null);
+
+  let winsA=0,winsB=0,draws=0,totalPtsA=0,totalPtsB=0;
+  const rows=[];
+
+  jugadosG.forEach(real=>{
+    const proA=pAg[real.id]||{gl:null,gv:null};
+    const proB=pBg[real.id]||{gl:null,gv:null};
+    const pA=ptsGrupo(real,proA);
+    const pB=ptsGrupo(real,proB);
+    totalPtsA+=pA;totalPtsB+=pB;
+    if(pA>pB)winsA++;else if(pB>pA)winsB++;else draws++;
+    const clsA=pA===PTS_GRUPO_EXACTO?'exacto':pA===PTS_GRUPO_GANADOR?'ganador':'fallo';
+    const clsB=pB===PTS_GRUPO_EXACTO?'exacto':pB===PTS_GRUPO_GANADOR?'ganador':'fallo';
+    rows.push({
+      match:`${bandera(real.local)} ${real.local} vs ${real.visitante} ${bandera(real.visitante)}`,
+      proA:`${proA.gl??'-'}-${proA.gv??'-'}`,proB:`${proB.gl??'-'}-${proB.gv??'-'}`,
+      real:`${real.gl}-${real.gv}`,pA,pB,clsA,clsB
+    });
+  });
+
+  jugadosE.forEach(real=>{
+    const proA=pAe[real.id]||{gl:null,gv:null};
+    const proB=pBe[real.id]||{gl:null,gv:null};
+    const regla=reglaElim(real.id);
+    const pA=ptsElim(real,proA,regla);
+    const pB=ptsElim(real,proB,regla);
+    totalPtsA+=pA;totalPtsB+=pB;
+    if(pA>pB)winsA++;else if(pB>pA)winsB++;else draws++;
+    const clsA=pA===regla.pExacto?'exacto':pA===regla.pGanador?'ganador':'fallo';
+    const clsB=pB===regla.pExacto?'exacto':pB===regla.pGanador?'ganador':'fallo';
+    const n1=real.equipo1||'?',n2=real.equipo2||'?';
+    rows.push({
+      match:`${bandera(n1)} ${n1} vs ${n2} ${bandera(n2)}`,
+      proA:`${proA.gl??'-'}-${proA.gv??'-'}`,proB:`${proB.gl??'-'}-${proB.gv??'-'}`,
+      real:`${real.gl}-${real.gv}`,pA,pB,clsA,clsB
+    });
+  });
+
+  if(!rows.length){
+    el.innerHTML=`<div class="h2h-empty"><div class="h2h-empty-icon">⏳</div>Aún no hay partidos jugados para comparar</div>`;
+    return;
+  }
+
+  const clsCardA=winsA>winsB?'winner':'';
+  const clsCardB=winsB>winsA?'winner':'';
+
+  let html=`<div class="h2h-summary">
+    <div class="h2h-score-card ${clsCardA}">
+      <div class="h2h-name">${nameA}</div>
+      <div class="h2h-big ${winsA>winsB?'green':''}">${winsA}</div>
+      <div style="font-size:11px;color:var(--texto2);margin-top:4px">${totalPtsA} pts totales</div>
+    </div>
+    <div class="h2h-draws">
+      <div class="h2h-draws-num">${draws}</div>
+      <div class="h2h-draws-lbl">Empates</div>
+    </div>
+    <div class="h2h-score-card ${clsCardB}">
+      <div class="h2h-name">${nameB}</div>
+      <div class="h2h-big ${winsB>winsA?'green':''}">${winsB}</div>
+      <div style="font-size:11px;color:var(--texto2);margin-top:4px">${totalPtsB} pts totales</div>
+    </div>
+  </div>`;
+
+  html+=`<div class="h2h-table-wrap"><table class="h2h-table"><thead><tr>
+    <th>Partido</th><th>Real</th><th>${nameA}</th><th>${nameB}</th>
+  </tr></thead><tbody>`;
+  rows.forEach(r=>{
+    const dotA=r.pA>r.pB?'<span class="h2h-winner-dot"></span>':'';
+    const dotB=r.pB>r.pA?'<span class="h2h-winner-dot"></span>':'';
+    html+=`<tr>
+      <td>${r.match}</td>
+      <td style="font-family:'Bebas Neue',sans-serif;font-size:16px;color:var(--verde)">${r.real}</td>
+      <td><div class="h2h-cell"><span class="pro-marca ${r.clsA}">${r.proA}</span> ${dotA}</div></td>
+      <td><div class="h2h-cell"><span class="pro-marca ${r.clsB}">${r.proB}</span> ${dotB}</div></td>
+    </tr>`;
+  });
+  html+=`</tbody></table></div>`;
+
+  // Bonus comparison
+  const bonusRows=BONUS_KEYS.map(key=>{
+    const real=RESULTADOS.bonus[key];
+    if(!real)return null;
+    const valA=partA.bonus[key],valB=partB.bonus[key];
+    const pA=ptsBonus(real,valA,key),pB=ptsBonus(real,valB,key);
+    return{label:BONUS_LABELS[key],valA:valA||'—',valB:valB||'—',pA,pB,real};
+  }).filter(Boolean);
+
+  if(bonusRows.length){
+    html+=`<div class="sec-label" style="margin-top:24px">🌟 Bonus</div>`;
+    html+=`<div class="h2h-table-wrap"><table class="h2h-table"><thead><tr>
+      <th>Categoría</th><th>Real</th><th>${nameA}</th><th>${nameB}</th>
+    </tr></thead><tbody>`;
+    bonusRows.forEach(r=>{
+      const clsA=r.pA>0?'exacto':'fallo';
+      const clsB=r.pB>0?'exacto':'fallo';
+      html+=`<tr><td>${r.label}</td><td style="color:var(--oro);font-weight:700">${r.real}</td>
+        <td><span class="pro-marca ${clsA}" style="font-size:14px">${r.valA}</span></td>
+        <td><span class="pro-marca ${clsB}" style="font-size:14px">${r.valB}</span></td></tr>`;
+    });
+    html+=`</tbody></table></div>`;
+  }
+
+  el.innerHTML=html;
 }
 
 // ── RENDER BONUS ──
@@ -810,11 +1018,12 @@ async function init(){
     document.getElementById('stat-participantes').textContent=pronosticos.participantes.length;
     document.getElementById('stat-goles').textContent=totalGoles;
 
+    renderLastResult(resultados,pronosticos);
     renderNextMatch(resultados);
     renderClasificacion(CLAS);
     renderEvolucion(resultados,pronosticos,CLAS);
     renderPronosticos();
-    renderPartidos(resultados);
+    initH2H(pronosticos);
     renderBonus(resultados,pronosticos);
 
     document.getElementById('loading').style.display='none';
