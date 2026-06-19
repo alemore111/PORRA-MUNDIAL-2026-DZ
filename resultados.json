@@ -197,32 +197,32 @@
       "jornada": "J2",
       "local": "México",
       "visitante": "Corea del Sur",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 0
     },
     {
       "id": 26,
       "jornada": "J2",
       "local": "Sudáfrica",
       "visitante": "Chequia",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 1
     },
     {
       "id": 27,
       "jornada": "J2",
       "local": "Canadá",
       "visitante": "Catar",
-      "gl": null,
-      "gv": null
+      "gl": 6,
+      "gv": 0
     },
     {
       "id": 28,
       "jornada": "J2",
       "local": "Bosnia-Herz.",
       "visitante": "Suiza",
-      "gl": null,
-      "gv": null
+      "gl": 4,
+      "gv": 1
     },
     {
       "id": 29,
@@ -245,8 +245,8 @@
       "jornada": "J2",
       "local": "USA",
       "visitante": "Australia",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 0
     },
     {
       "id": 32,
