@@ -229,16 +229,16 @@
       "jornada": "J2",
       "local": "Brasil",
       "visitante": "Haití",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 0
     },
     {
       "id": 30,
       "jornada": "J2",
       "local": "Marruecos",
       "visitante": "Escocia",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 0
     },
     {
       "id": 31,
@@ -253,8 +253,8 @@
       "jornada": "J2",
       "local": "Paraguay",
       "visitante": "Turquía",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 0
     },
     {
       "id": 33,
