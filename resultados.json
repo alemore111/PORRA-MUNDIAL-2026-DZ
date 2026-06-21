@@ -261,32 +261,32 @@
       "jornada": "J2",
       "local": "Alemania",
       "visitante": "C. de Marfil",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 1
     },
     {
       "id": 34,
       "jornada": "J2",
       "local": "Curazao",
       "visitante": "Ecuador",
-      "gl": null,
-      "gv": null
+      "gl": 0,
+      "gv": 0
     },
     {
       "id": 35,
       "jornada": "J2",
       "local": "Países Bajos",
       "visitante": "Suecia",
-      "gl": null,
-      "gv": null
+      "gl": 5,
+      "gv": 1
     },
     {
       "id": 36,
       "jornada": "J2",
       "local": "Japón",
       "visitante": "Túnez",
-      "gl": null,
-      "gv": null
+      "gl": 4,
+      "gv": 0
     },
     {
       "id": 37,
