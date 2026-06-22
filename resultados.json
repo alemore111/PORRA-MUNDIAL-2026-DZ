@@ -293,32 +293,32 @@
       "jornada": "J2",
       "local": "Bélgica",
       "visitante": "Irán",
-      "gl": null,
-      "gv": null
+      "gl": 0,
+      "gv": 0
     },
     {
       "id": 38,
       "jornada": "J2",
       "local": "Egipto",
       "visitante": "Nueva Zelanda",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 1
     },
     {
       "id": 39,
       "jornada": "J2",
       "local": "España",
       "visitante": "Arabia Saudí",
-      "gl": null,
-      "gv": null
+      "gl": 4,
+      "gv": 0
     },
     {
       "id": 40,
       "jornada": "J2",
       "local": "Cabo Verde",
       "visitante": "Uruguay",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 2
     },
     {
       "id": 41,
