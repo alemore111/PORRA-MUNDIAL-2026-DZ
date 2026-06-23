@@ -325,32 +325,32 @@
       "jornada": "J2",
       "local": "Francia",
       "visitante": "Irak",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 0
     },
     {
       "id": 42,
       "jornada": "J2",
       "local": "Senegal",
       "visitante": "Noruega",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 3
     },
     {
       "id": 43,
       "jornada": "J2",
       "local": "Argentina",
       "visitante": "Austria",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 0
     },
     {
       "id": 44,
       "jornada": "J2",
       "local": "Argelia",
       "visitante": "Jordania",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 1
     },
     {
       "id": 45,
