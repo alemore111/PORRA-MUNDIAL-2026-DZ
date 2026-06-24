@@ -278,6 +278,24 @@ td.tot-td{text-align:center;font-family:'Bebas Neue',sans-serif;font-size:24px;c
 .bonus-pts{font-size:11px;color:var(--texto2);margin-top:6px;display:flex;align-items:center;gap:4px}
 .bonus-pts::before{content:'';display:inline-block;width:6px;height:6px;background:var(--verde-gl);border:1px solid var(--verde-dk);border-radius:50%}
 
+/* ── CONFETI ── */
+.confetti-container{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:300;overflow:hidden}
+.confetti-piece{position:absolute;top:-10px;width:8px;height:8px;opacity:.9;animation:confettiFall linear forwards}
+@keyframes confettiFall{
+  0%{transform:translateY(0) rotate(0deg);opacity:1}
+  80%{opacity:.8}
+  100%{transform:translateY(100vh) rotate(720deg);opacity:0}
+}
+
+/* ── MURO VERGÜENZA ── */
+.shame-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.shame-card{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r2);padding:14px 16px;box-shadow:var(--shadow);display:flex;align-items:center;gap:12px}
+.shame-icon{font-size:24px;flex-shrink:0}
+.shame-info{flex:1;min-width:0}
+.shame-title{font-size:11px;color:var(--texto2);font-weight:600;letter-spacing:.5px;text-transform:uppercase}
+.shame-name{font-weight:700;font-size:14px;margin-top:2px}
+.shame-detail{font-size:11px;color:var(--texto3);margin-top:1px}
+
 /* ── LOADING / ERROR ── */
 #loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:50vh;gap:16px;color:var(--texto2)}
 .spin{width:36px;height:36px;border:3px solid var(--borde);border-top-color:var(--verde);border-radius:50%;animation:spin .7s linear infinite}
@@ -365,6 +383,9 @@ footer strong{color:var(--verde)}
       <div class="podio" id="podio"></div>
       <div class="sec-label">📈 Evolución de puntos</div>
       <div class="chart-wrap"><canvas id="chart-evolucion"></canvas></div>
+      <div class="sec-label" id="shame-label" style="display:none">😈 Muro de la vergüenza</div>
+      <div class="shame-grid" id="shame-grid"></div>
+
       <div class="sec-label">📊 Clasificación completa</div>
       <div class="tbl-wrap">
         <table>
@@ -428,6 +449,7 @@ footer strong{color:var(--verde)}
   </div>
 </div>
 
+<div class="confetti-container" id="confetti-container"></div>
 <footer>Porra <strong>Dazia</strong> · Mundial 2026 🇺🇸🇲🇽🇨🇦</footer>
 
 <script>
@@ -793,11 +815,12 @@ function renderEvolucion(resultados,pronosticos,clas){
   const jugados=resultados.grupos.filter(g=>g.gl!==null).sort((a,b)=>a.id-b.id);
   if(!jugados.length){document.getElementById('chart-evolucion').parentElement.innerHTML='<div class="empty" style="padding:60px 0">Aún no hay partidos jugados</div>';return;}
   const labels=jugados.map((p,i)=>`${p.jornada}·${i+1}`);
+  const top3=clas.slice(0,5);
   const pProById={};pronosticos.participantes.forEach(part=>{const m={};part.grupos.forEach(g=>m[g.id]=g);pProById[part.nombre]=m;});
-  const datasets=clas.map((c,idx)=>{
+  const datasets=top3.map((c,idx)=>{
     let acc=0;const data=jugados.map(real=>{const pro=pProById[c.nombre]?.[real.id]||{gl:null,gv:null};acc+=ptsGrupo(real,pro);return acc;});
-    const color=PALETA[idx%PALETA.length];const top3=idx<3;
-    return{label:c.nombre,data,borderColor:color,backgroundColor:color,borderWidth:top3?3:1.5,pointRadius:top3?4:0,pointHoverRadius:5,tension:.3,order:top3?0:1};
+    const color=PALETA[idx%PALETA.length];
+    return{label:c.nombre,data,borderColor:color,backgroundColor:color,borderWidth:3,pointRadius:5,pointHoverRadius:7,tension:.3};
   });
   new Chart(document.getElementById('chart-evolucion'),{type:'line',data:{labels,datasets},options:{
     responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
@@ -1035,6 +1058,110 @@ function renderBonus(resultados,pronosticos){
   }).join('');
 }
 
+// ── CONFETI ──
+function launchConfetti(){
+  const container=document.getElementById('confetti-container');
+  const colors=['#00C853','#FFD600','#2979FF','#E53935','#AB47BC','#FF7043','#fff'];
+  for(let i=0;i<60;i++){
+    const piece=document.createElement('div');
+    piece.className='confetti-piece';
+    piece.style.left=Math.random()*100+'%';
+    piece.style.backgroundColor=colors[Math.floor(Math.random()*colors.length)];
+    piece.style.width=(4+Math.random()*6)+'px';
+    piece.style.height=(4+Math.random()*6)+'px';
+    piece.style.borderRadius=Math.random()>.5?'50%':'0';
+    piece.style.animationDuration=(1.5+Math.random()*2)+'s';
+    piece.style.animationDelay=(Math.random()*.8)+'s';
+    container.appendChild(piece);
+  }
+  setTimeout(()=>container.innerHTML='',4000);
+}
+
+function checkConfetti(resultados,pronosticos){
+  const jugadosG=resultados.grupos.filter(g=>g.gl!==null).sort((a,b)=>a.id-b.id);
+  const jugadosE=resultados.eliminatoria.filter(e=>e.gl!==null).sort((a,b)=>a.id-b.id);
+  if(!jugadosG.length&&!jugadosE.length)return;
+
+  const last=jugadosG.length?jugadosG[jugadosG.length-1]:jugadosE[jugadosE.length-1];
+  const esElim=!jugadosG.length||jugadosE.length&&jugadosE[jugadosE.length-1].id>last.id;
+  const partido=esElim?jugadosE[jugadosE.length-1]:last;
+
+  const regla=esElim?reglaElim(partido.id):null;
+  const maxPts=esElim?regla.pExacto:PTS_GRUPO_EXACTO;
+  let anyExact=false;
+  pronosticos.participantes.forEach(part=>{
+    let pro;
+    if(esElim)pro=part.eliminatoria.find(x=>x.id===partido.id);
+    else pro=part.grupos.find(x=>x.id===partido.id);
+    if(!pro)return;
+    const pts=esElim?ptsElim(partido,pro,regla):ptsGrupo(partido,pro);
+    if(pts===maxPts)anyExact=true;
+  });
+
+  const newLeader=CLAS_PREV&&CLAS.length&&CLAS_PREV.length&&CLAS[0].nombre!==CLAS_PREV[0].nombre;
+  if(anyExact||newLeader)launchConfetti();
+}
+
+// ── MURO DE LA VERGÜENZA ──
+function renderShame(resultados,pronosticos,clas){
+  const jugadosG=resultados.grupos.filter(g=>g.gl!==null);
+  const jugadosE=resultados.eliminatoria.filter(e=>e.gl!==null);
+  if(!jugadosG.length&&!jugadosE.length)return;
+
+  const cards=[];
+
+  // Más fallos totales
+  let maxFallos=0,falloName='';
+  pronosticos.participantes.forEach(part=>{
+    const pG={};part.grupos.forEach(g=>pG[g.id]=g);
+    const pE={};part.eliminatoria.forEach(e=>pE[e.id]=e);
+    let f=0;
+    jugadosG.forEach(r=>{const pro=pG[r.id];if(!pro||ptsGrupo(r,pro)===0)f++;});
+    jugadosE.forEach(r=>{const pro=pE[r.id];const regla=reglaElim(r.id);if(!pro||ptsElim(r,pro,regla)===0)f++;});
+    if(f>maxFallos){maxFallos=f;falloName=part.nombre;}
+  });
+  if(maxFallos>=1)cards.push({icon:'💀',title:'Más fallos',name:falloName,detail:`${maxFallos} pronóstico${maxFallos!==1?'s':''} fallado${maxFallos!==1?'s':''}`});
+
+  // Peor racha sin acertar
+  let worstStreak=0,worstName='';
+  const sortedG=[...jugadosG].sort((a,b)=>a.id-b.id);
+  pronosticos.participantes.forEach(part=>{
+    const pG={};part.grupos.forEach(g=>pG[g.id]=g);
+    let streak=0;
+    for(let i=sortedG.length-1;i>=0;i--){
+      const pro=pG[sortedG[i].id];
+      if(!pro||ptsGrupo(sortedG[i],pro)===0)streak++;else break;
+    }
+    if(streak>worstStreak){worstStreak=streak;worstName=part.nombre;}
+  });
+  if(worstStreak>=2)cards.push({icon:'🥶',title:'Peor racha',name:worstName,detail:`${worstStreak} partidos seguidos sin acertar`});
+
+  // Pronóstico más desviado
+  let maxDev=0,devName='',devMatch='',devPro='';
+  pronosticos.participantes.forEach(part=>{
+    const pG={};part.grupos.forEach(g=>pG[g.id]=g);
+    jugadosG.forEach(r=>{
+      const pro=pG[r.id];if(!pro||pro.gl===null)return;
+      const dev=Math.abs(pro.gl-r.gl)+Math.abs(pro.gv-r.gv);
+      if(dev>maxDev){maxDev=dev;devName=part.nombre;devMatch=`${r.local} ${r.gl}-${r.gv} ${r.visitante}`;devPro=`${pro.gl}-${pro.gv}`;}
+    });
+  });
+  if(maxDev>=3)cards.push({icon:'🤡',title:'Pronóstico más loco',name:devName,detail:`Puso ${devPro} en el ${devMatch}`});
+
+  // Último de la clasificación
+  const ultimo=clas[clas.length-1];
+  if(clas.length>=3)cards.push({icon:'🐌',title:'Farolillo rojo',name:ultimo.nombre,detail:`Último con ${ultimo.total} punto${ultimo.total!==1?'s':''}`});
+
+  if(!cards.length)return;
+  document.getElementById('shame-grid').innerHTML=cards.map(c=>
+    `<div class="shame-card">
+      <span class="shame-icon">${c.icon}</span>
+      <div class="shame-info"><div class="shame-title">${c.title}</div><div class="shame-name">${c.name}</div><div class="shame-detail">${c.detail}</div></div>
+    </div>`
+  ).join('');
+  document.getElementById('shame-label').style.display='';
+}
+
 // ── INIT ──
 async function init(){
   try{
@@ -1063,9 +1190,12 @@ async function init(){
     renderPronosticos();
     initH2H(pronosticos);
     renderBonus(resultados,pronosticos);
+    renderShame(resultados,pronosticos,CLAS);
 
     document.getElementById('loading').style.display='none';
     document.getElementById('app').style.display='block';
+
+    checkConfetti(resultados,pronosticos);
 
     setInterval(()=>renderNextMatch(resultados),60000);
   }catch(e){
