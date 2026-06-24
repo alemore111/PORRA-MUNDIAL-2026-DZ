@@ -288,7 +288,7 @@ td.tot-td{text-align:center;font-family:'Bebas Neue',sans-serif;font-size:24px;c
 }
 
 /* ── MURO VERGÜENZA ── */
-.shame-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.shame-grid{display:flex;flex-wrap:wrap;justify-content:center;gap:12px}
 .shame-card{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r2);padding:14px 16px;box-shadow:var(--shadow);display:flex;align-items:center;gap:12px}
 .shame-icon{font-size:24px;flex-shrink:0}
 .shame-info{flex:1;min-width:0}
@@ -1147,6 +1147,20 @@ function renderShame(resultados,pronosticos,clas){
     });
   });
   if(maxDev>=3)cards.push({icon:'🤡',title:'Pronóstico más loco',name:devName,detail:`Puso ${devPro} en el ${devMatch}`});
+
+  // Gafe oficial — predijo ganador y ganó el contrario
+  let maxGafe=0,gafeName='';
+  pronosticos.participantes.forEach(part=>{
+    const pG={};part.grupos.forEach(g=>pG[g.id]=g);
+    let g=0;
+    jugadosG.forEach(r=>{
+      const pro=pG[r.id];if(!pro||pro.gl===null||r.gl===null)return;
+      const signR=Math.sign(r.gl-r.gv),signP=Math.sign(pro.gl-pro.gv);
+      if(signP!==0&&signR===-signP)g++;
+    });
+    if(g>maxGafe){maxGafe=g;gafeName=part.nombre;}
+  });
+  if(maxGafe>=1)cards.push({icon:'🧿',title:'Gafe oficial',name:gafeName,detail:`${maxGafe} vez${maxGafe!==1?'es':''} predijo al ganador y ganó el otro`});
 
   // Último de la clasificación
   const ultimo=clas[clas.length-1];
