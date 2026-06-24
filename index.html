@@ -1160,7 +1160,7 @@ function renderShame(resultados,pronosticos,clas){
     });
     if(g>maxGafe){maxGafe=g;gafeName=part.nombre;}
   });
-  if(maxGafe>=1)cards.push({icon:'🧿',title:'Gafe oficial',name:gafeName,detail:`${maxGafe} vez${maxGafe!==1?'es':''} predijo al ganador y ganó el otro`});
+  if(maxGafe>=1)cards.push({icon:'🧿',title:'Gafe oficial',name:gafeName,detail:`${maxGafe} vec${maxGafe!==1?'es':''} predijo al ganador y ganó el otro`});
 
   // Último de la clasificación
   const ultimo=clas[clas.length-1];
