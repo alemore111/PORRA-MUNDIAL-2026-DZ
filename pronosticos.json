@@ -245,123 +245,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 2
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 1
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 1
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 2
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 1
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         }
       ],
       "eliminatoria": [
@@ -869,63 +869,63 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 61,
@@ -939,53 +939,53 @@
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 2
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 2
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 4,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 2
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         }
       ],
       "eliminatoria": [
@@ -1493,123 +1493,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         }
       ],
       "eliminatoria": [
@@ -3365,123 +3365,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 50,
           "gl": null,
-          "gv": null
+          "gv": 1
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 2
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         }
       ],
       "eliminatoria": [
@@ -3989,123 +3989,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 1
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 4,
+          "gv": 0
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 0
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         }
       ],
       "eliminatoria": [
@@ -4613,123 +4613,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 2
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 1
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         }
       ],
       "eliminatoria": [
@@ -6485,123 +6485,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 4,
+          "gv": 0
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 0
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         }
       ],
       "eliminatoria": [
@@ -7109,123 +7109,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 1
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 0
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 1
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 4,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 1
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 1
         }
       ],
       "eliminatoria": [
@@ -7733,123 +7733,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 3
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 5,
+          "gv": 1
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 2
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 3
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 5,
+          "gv": 1
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         }
       ],
       "eliminatoria": [
@@ -8357,123 +8357,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 4,
+          "gv": 0
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 2
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 5,
+          "gv": 0
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 3
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 4,
+          "gv": 1
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 4,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 2
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 0
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         }
       ],
       "eliminatoria": [
@@ -8981,123 +8981,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         }
       ],
       "eliminatoria": [
@@ -9605,123 +9605,123 @@
         },
         {
           "id": 49,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 50,
-          "gl": null,
-          "gv": null
+          "gl": 0,
+          "gv": 2
         },
         {
           "id": 51,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 52,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 53,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 54,
-          "gl": null,
-          "gv": null
+          "gl": 4,
+          "gv": 0
         },
         {
           "id": 55,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 56,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 2
         },
         {
           "id": 57,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 58,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 3
         },
         {
           "id": 59,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 60,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 61,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 0
         },
         {
           "id": 62,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 63,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 64,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 2
         },
         {
           "id": 65,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         },
         {
           "id": 66,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 67,
-          "gl": null,
-          "gv": null
+          "gl": 4,
+          "gv": 0
         },
         {
           "id": 68,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 1
         },
         {
           "id": 69,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 1
         },
         {
           "id": 70,
-          "gl": null,
-          "gv": null
+          "gl": 1,
+          "gv": 0
         },
         {
           "id": 71,
-          "gl": null,
-          "gv": null
+          "gl": 3,
+          "gv": 0
         },
         {
           "id": 72,
-          "gl": null,
-          "gv": null
+          "gl": 2,
+          "gv": 1
         }
       ],
       "eliminatoria": [
