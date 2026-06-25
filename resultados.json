@@ -389,48 +389,48 @@
       "jornada": "J3",
       "local": "México",
       "visitante": "Chequia",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 0
     },
     {
       "id": 50,
       "jornada": "J3",
       "local": "Sudáfrica",
       "visitante": "Corea del Sur",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 0
     },
     {
       "id": 51,
       "jornada": "J3",
       "local": "Canadá",
       "visitante": "Suiza",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 2
     },
     {
       "id": 52,
       "jornada": "J3",
       "local": "Bosnia-Herz.",
       "visitante": "Catar",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 1
     },
     {
       "id": 53,
       "jornada": "J3",
       "local": "Brasil",
       "visitante": "Escocia",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 0
     },
     {
       "id": 54,
       "jornada": "J3",
       "local": "Marruecos",
       "visitante": "Haití",
-      "gl": null,
-      "gv": null
+      "gl": 4,
+      "gv": 2
     },
     {
       "id": 55,
