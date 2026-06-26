@@ -437,48 +437,48 @@
       "jornada": "J3",
       "local": "USA",
       "visitante": "Turquía",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 3
     },
     {
       "id": 56,
       "jornada": "J3",
       "local": "Paraguay",
       "visitante": "Australia",
-      "gl": null,
-      "gv": null
+      "gl": 0,
+      "gv": 0
     },
     {
       "id": 57,
       "jornada": "J3",
       "local": "Alemania",
       "visitante": "Ecuador",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 2
     },
     {
       "id": 58,
       "jornada": "J3",
       "local": "Curazao",
       "visitante": "C. de Marfil",
-      "gl": null,
-      "gv": null
+      "gl": 0,
+      "gv": 2
     },
     {
       "id": 59,
       "jornada": "J3",
       "local": "Países Bajos",
       "visitante": "Túnez",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 1
     },
     {
       "id": 60,
       "jornada": "J3",
       "local": "Japón",
       "visitante": "Suecia",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 1
     },
     {
       "id": 61,
