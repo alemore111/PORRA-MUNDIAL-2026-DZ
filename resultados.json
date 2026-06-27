@@ -485,48 +485,48 @@
       "jornada": "J3",
       "local": "Bélgica",
       "visitante": "Nueva Zelanda",
-      "gl": null,
-      "gv": null
+      "gl": 5,
+      "gv": 1
     },
     {
       "id": 62,
       "jornada": "J3",
       "local": "Egipto",
       "visitante": "Irán",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 1
     },
     {
       "id": 63,
       "jornada": "J3",
       "local": "España",
       "visitante": "Uruguay",
-      "gl": null,
-      "gv": null
+      "gl": 1,
+      "gv": 0
     },
     {
       "id": 64,
       "jornada": "J3",
       "local": "Cabo Verde",
       "visitante": "Arabia Saudí",
-      "gl": null,
-      "gv": null
+      "gl": 0,
+      "gv": 0
     },
     {
       "id": 65,
       "jornada": "J3",
       "local": "Francia",
       "visitante": "Noruega",
-      "gl": null,
-      "gv": null
+      "gl": 4,
+      "gv": 1
     },
     {
       "id": 66,
       "jornada": "J3",
       "local": "Senegal",
       "visitante": "Irak",
-      "gl": null,
-      "gv": null
+      "gl": 5,
+      "gv": 0
     },
     {
       "id": 67,
