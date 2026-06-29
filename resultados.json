@@ -533,48 +533,48 @@
       "jornada": "J3",
       "local": "Argentina",
       "visitante": "Jordania",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 1
     },
     {
       "id": 68,
       "jornada": "J3",
       "local": "Argelia",
       "visitante": "Austria",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 3
     },
     {
       "id": 69,
       "jornada": "J3",
       "local": "Portugal",
       "visitante": "Colombia",
-      "gl": null,
-      "gv": null
+      "gl": 0,
+      "gv": 0
     },
     {
       "id": 70,
       "jornada": "J3",
       "local": "RD Congo",
       "visitante": "Uzbekistán",
-      "gl": null,
-      "gv": null
+      "gl": 3,
+      "gv": 1
     },
     {
       "id": 71,
       "jornada": "J3",
       "local": "Inglaterra",
       "visitante": "Panamá",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 0
     },
     {
       "id": 72,
       "jornada": "J3",
       "local": "Croacia",
       "visitante": "Ghana",
-      "gl": null,
-      "gv": null
+      "gl": 2,
+      "gv": 0
     }
   ],
   "eliminatoria": [
