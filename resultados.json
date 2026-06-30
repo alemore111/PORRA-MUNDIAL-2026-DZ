@@ -577,21 +577,21 @@
       "gv": 0
     }
   ],
-  "eliminatoria": [
+"eliminatoria": [
     {
       "id": 1,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "Sudáfrica",
+      "equipo2": "Canadá",
+      "gl": 0,
+      "gv": 1,
+      "ganador": "Canadá"
     },
     {
       "id": 2,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Alemania",
+      "equipo2": "Paraguay",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -599,8 +599,8 @@
     {
       "id": 3,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Países Bajos",
+      "equipo2": "Marruecos",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -608,8 +608,8 @@
     {
       "id": 4,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Brasil",
+      "equipo2": "Japón",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -617,8 +617,8 @@
     {
       "id": 5,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Francia",
+      "equipo2": "Suecia",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -626,8 +626,8 @@
     {
       "id": 6,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Costa de Marfil",
+      "equipo2": "Noruega",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -635,8 +635,8 @@
     {
       "id": 7,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "México",
+      "equipo2": "Ecuador",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -644,8 +644,8 @@
     {
       "id": 8,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Inglaterra",
+      "equipo2": "RD Congo",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -653,8 +653,8 @@
     {
       "id": 9,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Estados Unidos",
+      "equipo2": "Bosnia-Herz.",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -662,8 +662,8 @@
     {
       "id": 10,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Bélgica",
+      "equipo2": "Senegal",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -671,8 +671,8 @@
     {
       "id": 11,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Portugal",
+      "equipo2": "Croacia",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -680,8 +680,8 @@
     {
       "id": 12,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "España",
+      "equipo2": "Austria",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -689,8 +689,8 @@
     {
       "id": 13,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Suiza",
+      "equipo2": "Argelia",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -698,8 +698,8 @@
     {
       "id": 14,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Argentina",
+      "equipo2": "Cabo Verde",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -707,8 +707,8 @@
     {
       "id": 15,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Colombia",
+      "equipo2": "Ghana",
       "gl": null,
       "gv": null,
       "ganador": null
@@ -716,8 +716,8 @@
     {
       "id": 16,
       "ronda": "16avos",
-      "equipo1": null,
-      "equipo2": null,
+      "equipo1": "Australia",
+      "equipo2": "Egipto",
       "gl": null,
       "gv": null,
       "ganador": null
