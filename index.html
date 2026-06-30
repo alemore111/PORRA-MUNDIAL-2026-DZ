@@ -296,6 +296,29 @@ td.tot-td{text-align:center;font-family:'Bebas Neue',sans-serif;font-size:24px;c
 .shame-name{font-weight:700;font-size:14px;margin-top:2px}
 .shame-detail{font-size:11px;color:var(--texto3);margin-top:1px}
 
+/* ── CUADRO ELIMINATORIA ── */
+.bracket-round{margin-bottom:4px}
+.bracket-toggle{width:100%;background:var(--panel);border:1px solid var(--borde);border-radius:var(--r2);padding:10px 16px;cursor:pointer;display:flex;align-items:center;justify-content:space-between;transition:background .2s}
+.bracket-toggle:hover{background:var(--panel2)}
+.bracket-toggle-label{font-family:'Barlow Condensed',sans-serif;font-size:12px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--texto2)}
+.bracket-toggle.final-toggle .bracket-toggle-label{color:var(--oro);font-size:13px}
+.bracket-toggle-info{font-size:11px;color:var(--texto3);margin-left:auto;margin-right:10px}
+.bracket-toggle-arrow{font-size:10px;color:var(--texto3);transition:transform .25s}
+.bracket-round.open .bracket-toggle-arrow{transform:rotate(180deg)}
+.bracket-body{max-height:0;overflow:hidden;transition:max-height .35s ease}
+.bracket-round.open .bracket-body{max-height:2000px}
+.bracket-matches{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;padding:12px 0 8px}
+.bracket-card{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r2);min-width:170px;flex:0 1 190px;overflow:hidden}
+.bracket-card.played{border-color:rgba(0,200,83,.15)}
+.bracket-card.final-card{border-color:rgba(255,214,0,.25);flex:0 1 220px}
+.bracket-team{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;font-size:13px;font-weight:500}
+.bracket-team+.bracket-team{border-top:1px solid var(--borde)}
+.bracket-team.winner{color:var(--ok);font-weight:700}
+.bracket-team.loser{opacity:.4}
+.bracket-team.tbd{color:var(--texto3);font-style:italic;font-size:12px}
+.bracket-score{font-family:'Bebas Neue',sans-serif;font-size:16px;min-width:18px;text-align:right}
+@media(max-width:480px){.bracket-card{flex:1 1 100%;min-width:0}}
+
 /* ── LOADING / ERROR ── */
 #loading{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:50vh;gap:16px;color:var(--texto2)}
 .spin{width:36px;height:36px;border:3px solid var(--borde);border-top-color:var(--verde);border-radius:50%;animation:spin .7s linear infinite}
@@ -386,6 +409,9 @@ footer strong{color:var(--verde)}
       <div class="sec-label" id="shame-label" style="display:none">😈 Muro de la vergüenza</div>
       <div class="shame-grid" id="shame-grid"></div>
 
+      <div class="sec-label">⚔️ Cuadro eliminatoria</div>
+      <div id="bracket-container"></div>
+
       <div class="sec-label">📊 Clasificación completa</div>
       <div class="tbl-wrap">
         <table>
@@ -462,6 +488,23 @@ const RONDAS_ELIM={
   "Final":{pExacto:20,pGanador:8,ids:range(31,31)},
 };
 function range(a,b){const r=[];for(let i=a;i<=b;i++)r.push(i);return r;}
+
+const BRACKET_MAP={
+  17:[2,5],18:[1,3],19:[4,6],20:[7,8],
+  21:[11,12],22:[9,10],23:[14,16],24:[13,15],
+  25:[17,18],26:[21,22],27:[19,20],28:[23,24],
+  29:[25,26],30:[27,28],
+  31:[29,30]
+};
+function deriveBracketTeams(elim){
+  const byId={};
+  elim.forEach(m=>byId[m.id]=m);
+  Object.entries(BRACKET_MAP).forEach(([id,[a,b]])=>{
+    const match=byId[parseInt(id)],mA=byId[a],mB=byId[b];
+    if(mA&&mA.gl!==null)match.equipo1=ganadorDe(mA);
+    if(mB&&mB.gl!==null)match.equipo2=ganadorDe(mB);
+  });
+}
 function reglaElim(id){for(const[ronda,info]of Object.entries(RONDAS_ELIM)){if(info.ids.includes(id))return{ronda,...info};}return null;}
 const BONUS_KEYS=["campeon","subcampeon","tercero","bota_oro","total_goles_bota","guante_oro","revelacion"];
 const BONUS_PTS={campeon:25,subcampeon:10,tercero:5,bota_oro:10,total_goles_bota:5,guante_oro:8,revelacion:8};
@@ -1102,6 +1145,54 @@ function checkConfetti(resultados,pronosticos){
   if(anyExact||newLeader)launchConfetti();
 }
 
+// ── CUADRO ELIMINATORIA ──
+function renderBracket(elim){
+  deriveBracketTeams(elim);
+  const ROUNDS=[
+    {key:'16avos',label:'16AVOS DE FINAL',n:16},
+    {key:'Octavos',label:'OCTAVOS DE FINAL',n:8},
+    {key:'Cuartos',label:'CUARTOS DE FINAL',n:4},
+    {key:'Semis',label:'SEMIFINALES',n:2},
+    {key:'Final',label:'FINAL',n:1}
+  ];
+  let html='';
+  ROUNDS.forEach(r=>{
+    const matches=elim.filter(m=>m.ronda===r.key);
+    if(!matches.length)return;
+    const played=matches.filter(m=>m.gl!==null&&m.gv!==null).length;
+    const isFinal=r.key==='Final';
+    const hasActivity=matches.some(m=>m.equipo1||m.equipo2);
+    const open=hasActivity?'open':'';
+    const info=played>0?`${played}/${r.n} jugados`:`${r.n} partidos`;
+    html+=`<div class="bracket-round ${open}">
+      <button class="bracket-toggle${isFinal?' final-toggle':''}" onclick="this.parentElement.classList.toggle('open')">
+        <span class="bracket-toggle-label">${r.label}</span>
+        <span class="bracket-toggle-info">${info}</span>
+        <span class="bracket-toggle-arrow">▼</span>
+      </button>
+      <div class="bracket-body"><div class="bracket-matches">`;
+    matches.forEach(m=>{
+      const mPlayed=m.gl!==null&&m.gv!==null;
+      const w=mPlayed?ganadorDe(m):null;
+      const t1=m.equipo1||'Por definir';
+      const t2=m.equipo2||'Por definir';
+      let c1='',c2='';
+      if(mPlayed&&w){
+        c1=norm(w)===norm(m.equipo1)?'winner':'loser';
+        c2=norm(w)===norm(m.equipo2)?'winner':'loser';
+      }
+      if(!m.equipo1)c1='tbd';
+      if(!m.equipo2)c2='tbd';
+      html+=`<div class="bracket-card${mPlayed?' played':''}${isFinal?' final-card':''}">
+        <div class="bracket-team ${c1}"><span>${t1}</span>${mPlayed?`<span class="bracket-score">${m.gl}</span>`:''}</div>
+        <div class="bracket-team ${c2}"><span>${t2}</span>${mPlayed?`<span class="bracket-score">${m.gv}</span>`:''}</div>
+      </div>`;
+    });
+    html+='</div></div></div>';
+  });
+  document.getElementById('bracket-container').innerHTML=html;
+}
+
 // ── MURO DE LA VERGÜENZA ──
 function renderShame(resultados,pronosticos,clas){
   const jugadosG=resultados.grupos.filter(g=>g.gl!==null);
@@ -1160,7 +1251,7 @@ function renderShame(resultados,pronosticos,clas){
     });
     if(g>maxGafe){maxGafe=g;gafeName=part.nombre;}
   });
-  if(maxGafe>=1)cards.push({icon:'🧿',title:'Gafe oficial',name:gafeName,detail:`${maxGafe} vec${maxGafe!==1?'es':''} predijo al ganador y ganó el otro`});
+  if(maxGafe>=1)cards.push({icon:'🧿',title:'Gafe oficial',name:gafeName,detail:`${maxGafe} vez${maxGafe!==1?'es':''} predijo al ganador y ganó el otro`});
 
   // Último de la clasificación
   const ultimo=clas[clas.length-1];
@@ -1205,6 +1296,7 @@ async function init(){
     initH2H(pronosticos);
     renderBonus(resultados,pronosticos);
     renderShame(resultados,pronosticos,CLAS);
+    renderBracket(resultados.eliminatoria);
 
     document.getElementById('loading').style.display='none';
     document.getElementById('app').style.display='block';
