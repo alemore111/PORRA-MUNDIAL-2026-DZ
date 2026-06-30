@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Porra Dazia Mundial 2026</title>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet"/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 <style>
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
@@ -69,6 +68,40 @@ header{background:var(--panel);border-bottom:1px solid var(--borde);padding:0 20
 .nm-countdown.live{color:var(--verde)}
 .nm-countdown.played{color:var(--texto2);font-size:14px;font-family:'Barlow',sans-serif}
 .nm-none{font-size:12px;color:var(--texto2);font-style:italic}
+.nm-elim{display:flex;flex-direction:column;align-items:center;gap:6px;width:100%}
+.nm-elim-ronda{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--verde);display:flex;align-items:center;gap:6px}
+.nm-elim-vs{display:flex;align-items:center;justify-content:center;gap:20px}
+.nm-elim-team{display:flex;flex-direction:column;align-items:center;gap:2px}
+.nm-elim-flag{font-size:32px;line-height:1}
+.nm-elim-name{font-weight:700;font-size:14px;text-align:center}
+.nm-elim-x{font-family:'Bebas Neue',sans-serif;font-size:22px;color:var(--texto3)}
+.nm-elim-cd{display:flex;gap:12px;margin-top:2px}
+.nm-elim-cd-unit{display:flex;flex-direction:column;align-items:center}
+.nm-elim-cd-num{font-family:'Bebas Neue',sans-serif;font-size:28px;color:var(--oro);line-height:1}
+.nm-elim-cd-lbl{font-size:9px;color:var(--texto3);text-transform:uppercase;letter-spacing:1px}
+
+/* ── QUIÉN APUESTA POR QUIÉN ── */
+.apuestas-bar{border-bottom:1px solid var(--borde);padding:14px 20px}
+.apuestas-wrap{max-width:700px;margin:0 auto}
+.apuestas-title{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:var(--texto2);text-align:center;margin-bottom:10px}
+.apuestas-poll{display:flex;height:24px;border-radius:12px;overflow:hidden;margin-bottom:12px}
+.apuestas-poll-seg{display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;transition:width .4s ease}
+.apuestas-poll-seg.seg-e1{background:var(--verde);color:#000}
+.apuestas-poll-seg.seg-draw{background:var(--texto3);color:#000}
+.apuestas-poll-seg.seg-e2{background:var(--oro);color:#000}
+.apuestas-cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+.apuestas-col-title{font-family:'Barlow Condensed',sans-serif;font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;text-align:center;margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid var(--borde)}
+.apuestas-col-title.ct-e1{color:var(--verde)}
+.apuestas-col-title.ct-draw{color:var(--texto3)}
+.apuestas-col-title.ct-e2{color:var(--oro)}
+.apuestas-entry{font-size:11px;text-align:center;padding:2px 0;color:var(--texto)}
+.apuestas-entry .ap-score{color:var(--texto2);font-weight:600;margin-left:3px}
+@media(max-width:480px){.apuestas-cols{grid-template-columns:1fr 1fr 1fr;gap:4px}.apuestas-entry{font-size:10px}}
+
+/* ── LEADER GLOW ── */
+@keyframes leaderGlow{0%,100%{box-shadow:0 0 8px rgba(255,214,0,.15)}50%{box-shadow:0 0 18px rgba(255,214,0,.35),0 0 4px rgba(255,214,0,.1)}}
+tr.leader-row td{position:relative}
+tr.leader-row{animation:leaderGlow 3s ease-in-out infinite;border-left:3px solid var(--oro)}
 
 /* ── STATS BAR ── */
 .stats-bar{background:var(--panel);border-bottom:1px solid var(--borde);padding:0 20px}
@@ -127,8 +160,6 @@ header{background:var(--panel);border-bottom:1px solid var(--borde);padding:0 20
 .chip{background:var(--panel2);border:1px solid var(--borde);border-radius:6px;padding:3px 8px;font-size:10px;color:var(--texto2);font-weight:600}
 
 /* ── GRÁFICA EVOLUCIÓN ── */
-.chart-wrap{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r2);padding:20px;position:relative;height:360px;box-shadow:var(--shadow)}
-@media(max-width:560px){.chart-wrap{height:280px;padding:12px}}
 
 /* ── TABLA CLASIFICACIÓN ── */
 .tbl-wrap{background:var(--panel);border:1px solid var(--borde);border-radius:var(--r2);overflow:hidden;box-shadow:var(--shadow)}
@@ -378,6 +409,10 @@ footer strong{color:var(--verde)}
     <div class="next-match-inner" id="next-match-inner"></div>
   </div>
 
+  <div class="apuestas-bar" id="apuestas-bar" style="display:none">
+    <div class="apuestas-wrap" id="apuestas-wrap"></div>
+  </div>
+
   <div class="highlight-bar" id="highlight-bar" style="display:none">
     <div class="highlight-text" id="highlight-text"></div>
   </div>
@@ -404,8 +439,6 @@ footer strong{color:var(--verde)}
     <div class="panel-tab active" id="tab-clasificacion">
       <div class="sec-label">🏅 Podio</div>
       <div class="podio" id="podio"></div>
-      <div class="sec-label">📈 Evolución de puntos</div>
-      <div class="chart-wrap"><canvas id="chart-evolucion"></canvas></div>
       <div class="sec-label" id="shame-label" style="display:none">😈 Muro de la vergüenza</div>
       <div class="shame-grid" id="shame-grid"></div>
 
@@ -556,11 +589,24 @@ function horarioToDate(id){
   return new Date(2026,MESES[m],parseInt(d),parseInt(hh),parseInt(mm));
 }
 
-const BANDERAS={"México":"🇲🇽","Sudáfrica":"🇿🇦","Corea del Sur":"🇰🇷","Chequia":"🇨🇿","Canadá":"🇨🇦","Bosnia-Herz.":"🇧🇦","Catar":"🇶🇦","Suiza":"🇨🇭","Brasil":"🇧🇷","Marruecos":"🇲🇦","Haití":"🇭🇹","Escocia":"🏴","USA":"🇺🇸","Paraguay":"🇵🇾","Australia":"🇦🇺","Turquía":"🇹🇷","Alemania":"🇩🇪","Curazao":"🇨🇼","C. de Marfil":"🇨🇮","Ecuador":"🇪🇨","Países Bajos":"🇳🇱","Japón":"🇯🇵","Suecia":"🇸🇪","Túnez":"🇹🇳","Bélgica":"🇧🇪","Egipto":"🇪🇬","Irán":"🇮🇷","Nueva Zelanda":"🇳🇿","España":"🇪🇸","Cabo Verde":"🇨🇻","Arabia Saudí":"🇸🇦","Uruguay":"🇺🇾","Francia":"🇫🇷","Senegal":"🇸🇳","Irak":"🇮🇶","Noruega":"🇳🇴","Argentina":"🇦🇷","Argelia":"🇩🇿","Austria":"🇦🇹","Jordania":"🇯🇴","Portugal":"🇵🇹","RD Congo":"🇨🇩","Uzbekistán":"🇺🇿","Colombia":"🇨🇴","Inglaterra":"🏴","Croacia":"🇭🇷","Ghana":"🇬🇭","Panamá":"🇵🇦"};
+const BANDERAS={"México":"🇲🇽","Sudáfrica":"🇿🇦","Corea del Sur":"🇰🇷","Chequia":"🇨🇿","Canadá":"🇨🇦","Bosnia-Herz.":"🇧🇦","Catar":"🇶🇦","Suiza":"🇨🇭","Brasil":"🇧🇷","Marruecos":"🇲🇦","Haití":"🇭🇹","Escocia":"🏴","USA":"🇺🇸","Paraguay":"🇵🇾","Australia":"🇦🇺","Turquía":"🇹🇷","Alemania":"🇩🇪","Curazao":"🇨🇼","C. de Marfil":"🇨🇮","Ecuador":"🇪🇨","Países Bajos":"🇳🇱","Japón":"🇯🇵","Suecia":"🇸🇪","Túnez":"🇹🇳","Bélgica":"🇧🇪","Egipto":"🇪🇬","Irán":"🇮🇷","Nueva Zelanda":"🇳🇿","España":"🇪🇸","Cabo Verde":"🇨🇻","Arabia Saudí":"🇸🇦","Uruguay":"🇺🇾","Francia":"🇫🇷","Senegal":"🇸🇳","Irak":"🇮🇶","Noruega":"🇳🇴","Argentina":"🇦🇷","Argelia":"🇩🇿","Austria":"🇦🇹","Jordania":"🇯🇴","Portugal":"🇵🇹","RD Congo":"🇨🇩","Uzbekistán":"🇺🇿","Colombia":"🇨🇴","Inglaterra":"🏴","Croacia":"🇭🇷","Ghana":"🇬🇭","Panamá":"🇵🇦","Costa de Marfil":"🇨🇮","Estados Unidos":"🇺🇸"};
 function bandera(n){return BANDERAS[n]||'⚽';}
 const LETRAS_GRUPO=['A','A','B','B','C','C','D','D','E','E','F','F','G','G','H','H','I','I','J','J','K','K','L','L'];
 function extraerGrupo(id){return LETRAS_GRUPO[(id-1)%24]||'?';}
 function getInitials(name){const p=name.split(/\s+/);return p.length===1?p[0].substring(0,2).toUpperCase():(p[0][0]+p[p.length-1][0]).toUpperCase();}
+
+const ELIM_SCHEDULE={
+  1:['2026-06-28T22:00'],2:['2026-06-29T22:00'],3:['2026-06-29T19:00'],4:['2026-06-29T16:00'],
+  5:['2026-06-30T22:00'],6:['2026-06-30T19:00'],7:['2026-06-30T16:00'],
+  8:['2026-07-01T22:00'],9:['2026-07-01T19:00'],10:['2026-07-01T16:00'],
+  11:['2026-07-02T22:00'],12:['2026-07-02T19:00'],13:['2026-07-02T16:00'],
+  14:['2026-07-03T22:00'],15:['2026-07-03T19:00'],16:['2026-07-03T16:00'],
+  17:['2026-07-05T22:00'],18:['2026-07-05T19:00'],19:['2026-07-06T22:00'],20:['2026-07-06T19:00'],
+  21:['2026-07-07T22:00'],22:['2026-07-07T19:00'],23:['2026-07-08T22:00'],24:['2026-07-08T19:00'],
+  25:['2026-07-11T22:00'],26:['2026-07-11T19:00'],27:['2026-07-12T22:00'],28:['2026-07-12T19:00'],
+  29:['2026-07-15T22:00'],30:['2026-07-16T22:00'],
+  31:['2026-07-19T21:00']
+};
 
 let RESULTADOS=null,PRONOSTICOS=null,CLAS=[],CLAS_PREV=[];
 
@@ -623,11 +669,42 @@ document.getElementById('filtros').addEventListener('click',e=>{
 // ── NEXT MATCH WIDGET ──
 function renderNextMatch(resultados){
   const now=new Date();
+  const el=document.getElementById('next-match-inner');
+
+  // Check elimination matches first
+  deriveBracketTeams(resultados.eliminatoria);
+  const elimPend=resultados.eliminatoria
+    .filter(m=>m.gl===null&&m.equipo1&&m.equipo2&&ELIM_SCHEDULE[m.id])
+    .map(m=>{const d=new Date(ELIM_SCHEDULE[m.id][0]);return{...m,date:d};})
+    .filter(m=>m.date>now)
+    .sort((a,b)=>a.date-b.date);
+
+  if(elimPend.length){
+    const m=elimPend[0];
+    const diff=m.date-now;
+    const d=Math.floor(diff/86400000),h=Math.floor((diff%86400000)/3600000),mn=Math.floor((diff%3600000)/60000);
+    const rondaLabel={'16avos':'16avos de final','Octavos':'Octavos de final','Cuartos':'Cuartos de final','Semis':'Semifinal','Final':'¡LA GRAN FINAL!'}[m.ronda]||m.ronda;
+    el.innerHTML=`<div class="nm-elim">
+      <div class="nm-elim-ronda"><span class="nm-live-dot"></span>${rondaLabel}</div>
+      <div class="nm-elim-vs">
+        <div class="nm-elim-team"><span class="nm-elim-flag">${bandera(m.equipo1)}</span><span class="nm-elim-name">${m.equipo1}</span></div>
+        <span class="nm-elim-x">VS</span>
+        <div class="nm-elim-team"><span class="nm-elim-flag">${bandera(m.equipo2)}</span><span class="nm-elim-name">${m.equipo2}</span></div>
+      </div>
+      <div class="nm-elim-cd">
+        ${d>0?`<div class="nm-elim-cd-unit"><span class="nm-elim-cd-num">${d}</span><span class="nm-elim-cd-lbl">días</span></div>`:''}
+        <div class="nm-elim-cd-unit"><span class="nm-elim-cd-num">${h}</span><span class="nm-elim-cd-lbl">horas</span></div>
+        <div class="nm-elim-cd-unit"><span class="nm-elim-cd-num">${mn}</span><span class="nm-elim-cd-lbl">min</span></div>
+      </div>
+    </div>`;
+    return;
+  }
+
+  // Fallback: group matches
   const pendientes=resultados.grupos.filter(p=>p.gl===null).map(p=>({...p,date:horarioToDate(p.id)})).filter(p=>p.date&&p.date>now).sort((a,b)=>a.date-b.date);
   const hoy=pendientes.filter(p=>{const d=p.date;return d.getFullYear()===now.getFullYear()&&d.getMonth()===now.getMonth()&&d.getDate()===now.getDate();});
   const proximos=hoy.length?hoy:pendientes.slice(0,3);
-  const el=document.getElementById('next-match-inner');
-  if(!proximos.length){el.innerHTML='<span class="nm-none">No hay más partidos de grupos pendientes</span>';return;}
+  if(!proximos.length){el.innerHTML='<span class="nm-none">No hay partidos pendientes</span>';return;}
   const label=hoy.length?'Hoy':'Próximos';
   el.innerHTML=`<div class="nm-label"><span class="nm-live-dot"></span>${label}</div><div class="nm-matches">${proximos.map(p=>{
     const diff=p.date-now;
@@ -635,6 +712,78 @@ function renderNextMatch(resultados){
     const cdTxt=h>24?`<span class="nm-countdown">${Math.floor(h/24)}d ${h%24}h</span>`:`<span class="nm-countdown">${h}h ${m}m</span>`;
     return`<div class="nm-card"><div class="nm-teams">${bandera(p.local)} ${p.local} vs ${p.visitante} ${bandera(p.visitante)}</div><div class="nm-time">${HORARIOS[p.id][1]}h</div>${cdTxt}</div>`;
   }).join('')}</div>`;
+}
+
+// ── QUIÉN APUESTA POR QUIÉN ──
+function renderApuestas(resultados,pronosticos){
+  const now=new Date();
+  let nextMatch=null,isElim=false;
+
+  // Try elimination first
+  deriveBracketTeams(resultados.eliminatoria);
+  const elimNext=resultados.eliminatoria
+    .filter(m=>m.gl===null&&m.equipo1&&m.equipo2&&ELIM_SCHEDULE[m.id])
+    .map(m=>({...m,date:new Date(ELIM_SCHEDULE[m.id][0])}))
+    .filter(m=>m.date>now)
+    .sort((a,b)=>a.date-b.date)[0];
+  if(elimNext){
+    // Check if any participant has predictions for this match
+    const hasPreds=pronosticos.participantes.some(p=>{const pr=p.eliminatoria.find(x=>x.id===elimNext.id);return pr&&pr.gl!==null&&pr.gl!==undefined;});
+    if(hasPreds){nextMatch={e1:elimNext.equipo1,e2:elimNext.equipo2,id:elimNext.id,tipo:'elim'};isElim=true;}
+  }
+
+  // Fallback: next unplayed group match (has predictions)
+  if(!nextMatch){
+    const grpPend=resultados.grupos.filter(p=>p.gl===null).sort((a,b)=>a.id-b.id);
+    for(const g of grpPend){
+      const hasPreds=pronosticos.participantes.some(p=>{const pr=p.grupos.find(x=>x.id===g.id);return pr&&pr.gl!==null&&pr.gl!==undefined;});
+      if(hasPreds){nextMatch={e1:g.local,e2:g.visitante,id:g.id,tipo:'grupo'};break;}
+    }
+  }
+
+  // Last fallback: next elimination match even without predictions
+  if(!nextMatch&&elimNext){
+    nextMatch={e1:elimNext.equipo1,e2:elimNext.equipo2,id:elimNext.id,tipo:'elim'};
+  }
+
+  if(!nextMatch){document.getElementById('apuestas-bar').style.display='none';return;}
+
+  const{e1,e2}=nextMatch;
+  const buckets={e1:[],draw:[],e2:[]};
+  pronosticos.participantes.forEach(part=>{
+    let pro;
+    if(nextMatch.tipo==='elim')pro=part.eliminatoria.find(x=>x.id===nextMatch.id);
+    else pro=part.grupos.find(x=>x.id===nextMatch.id);
+    if(!pro||pro.gl===null||pro.gl===undefined)return;
+    const sign=Math.sign(pro.gl-pro.gv);
+    const entry={name:part.nombre,gl:pro.gl,gv:pro.gv};
+    if(sign>0)buckets.e1.push(entry);
+    else if(sign<0)buckets.e2.push(entry);
+    else buckets.draw.push(entry);
+  });
+
+  const total=buckets.e1.length+buckets.draw.length+buckets.e2.length;
+  if(!total){document.getElementById('apuestas-bar').style.display='none';return;}
+
+  const p1=Math.round(buckets.e1.length/total*100);
+  const pD=Math.round(buckets.draw.length/total*100);
+  const p2=100-p1-pD;
+
+  const renderEntries=arr=>arr.map(e=>`<div class="apuestas-entry">${e.name} <span class="ap-score">${e.gl}-${e.gv}</span></div>`).join('');
+
+  document.getElementById('apuestas-wrap').innerHTML=`
+    <div class="apuestas-title">¿Quién apuesta por quién? — ${bandera(e1)} ${e1} vs ${e2} ${bandera(e2)}</div>
+    <div class="apuestas-poll">
+      ${p1>0?`<div class="apuestas-poll-seg seg-e1" style="width:${p1}%">${bandera(e1)} ${p1}%</div>`:''}
+      ${pD>0?`<div class="apuestas-poll-seg seg-draw" style="width:${pD}%">${pD}%</div>`:''}
+      ${p2>0?`<div class="apuestas-poll-seg seg-e2" style="width:${p2}%">${p2}% ${bandera(e2)}</div>`:''}
+    </div>
+    <div class="apuestas-cols">
+      <div><div class="apuestas-col-title ct-e1">${bandera(e1)} ${e1}</div>${renderEntries(buckets.e1)}</div>
+      <div><div class="apuestas-col-title ct-draw">Empate</div>${renderEntries(buckets.draw)}</div>
+      <div><div class="apuestas-col-title ct-e2">${bandera(e2)} ${e2}</div>${renderEntries(buckets.e2)}</div>
+    </div>`;
+  document.getElementById('apuestas-bar').style.display='';
 }
 
 // ── HIGHLIGHT / DATO CURIOSO ──
@@ -762,7 +911,7 @@ function renderClasificacion(clas){
     const pos=i<3?`<span class="pnum ${PC[i]}">${M[i]}</span>`:`<span class="pnum">${i+1}</span>`;
     const ini=getInitials(p.nombre);
     const barW=maxPts>0?(p.total/maxPts*100):0;
-    const rowClass=i===0?'top1':i<3?'top3':'';
+    const rowClass=i===0?'top1 leader-row':i<3?'top3':'';
 
     let movHtml='<span class="mov same">=</span>';
     if(CLAS_PREV&&prevMap[p.nombre]!==undefined){
@@ -852,26 +1001,6 @@ function openModal(nombre){
 }
 function closeModal(){document.getElementById('modal-overlay').classList.remove('open');}
 
-// ── GRÁFICA EVOLUCIÓN ──
-const PALETA=['#00C853','#FFD600','#2979FF','#E53935','#AB47BC','#FF7043','#26C6DA','#8D6E63','#9CCC65','#EC407A','#5C6BC0','#FFA726','#78909C','#4DD0E1','#BA68C8','#A1887F','#90A4AE','#7CB342'];
-function renderEvolucion(resultados,pronosticos,clas){
-  const jugados=resultados.grupos.filter(g=>g.gl!==null).sort((a,b)=>a.id-b.id);
-  if(!jugados.length){document.getElementById('chart-evolucion').parentElement.innerHTML='<div class="empty" style="padding:60px 0">Aún no hay partidos jugados</div>';return;}
-  const labels=jugados.map((p,i)=>`${p.jornada}·${i+1}`);
-  const top3=clas.slice(0,5);
-  const pProById={};pronosticos.participantes.forEach(part=>{const m={};part.grupos.forEach(g=>m[g.id]=g);pProById[part.nombre]=m;});
-  const datasets=top3.map((c,idx)=>{
-    let acc=0;const data=jugados.map(real=>{const pro=pProById[c.nombre]?.[real.id]||{gl:null,gv:null};acc+=ptsGrupo(real,pro);return acc;});
-    const color=PALETA[idx%PALETA.length];
-    return{label:c.nombre,data,borderColor:color,backgroundColor:color,borderWidth:3,pointRadius:5,pointHoverRadius:7,tension:.3};
-  });
-  new Chart(document.getElementById('chart-evolucion'),{type:'line',data:{labels,datasets},options:{
-    responsive:true,maintainAspectRatio:false,interaction:{mode:'index',intersect:false},
-    plugins:{legend:{position:'bottom',labels:{color:'#888',font:{family:'Barlow',size:11},boxWidth:10,padding:10,usePointStyle:true,pointStyle:'circle'}},
-      tooltip:{backgroundColor:'#181a1e',borderColor:'#333',borderWidth:1,titleColor:'#fff',bodyColor:'#ccc',padding:10,cornerRadius:8,callbacks:{label:ctx=>` ${ctx.dataset.label}: ${ctx.parsed.y} pts`}}},
-    scales:{x:{ticks:{color:'#555',font:{family:'Barlow Condensed',size:11}},grid:{color:'#1a1a1a'}},y:{beginAtZero:true,ticks:{color:'#555',font:{family:'Barlow Condensed',size:11},precision:0},grid:{color:'#1a1a1a'}}}
-  }});
-}
 
 // ── QUIÉN LO CLAVÓ ──
 function quienLoClavo(partido,esElim){
@@ -1289,9 +1418,9 @@ async function init(){
     document.getElementById('stat-goles').textContent=totalGoles;
 
     renderNextMatch(resultados);
+    renderApuestas(resultados,pronosticos);
     renderHighlight(resultados,pronosticos);
     renderClasificacion(CLAS);
-    renderEvolucion(resultados,pronosticos,CLAS);
     renderPronosticos();
     initH2H(pronosticos);
     renderBonus(resultados,pronosticos);
