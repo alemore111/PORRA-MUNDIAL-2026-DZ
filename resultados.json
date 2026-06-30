@@ -592,27 +592,27 @@
       "ronda": "16avos",
       "equipo1": "Alemania",
       "equipo2": "Paraguay",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 1,
+      "gv": 1,
+      "ganador": "Paraguay"
     },
     {
       "id": 3,
       "ronda": "16avos",
       "equipo1": "Países Bajos",
       "equipo2": "Marruecos",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 1,
+      "gv": 1,
+      "ganador": "Marruecos"
     },
     {
       "id": 4,
       "ronda": "16avos",
       "equipo1": "Brasil",
       "equipo2": "Japón",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 2,
+      "gv": 1,
+      "ganador": "Brasil"
     },
     {
       "id": 5,
