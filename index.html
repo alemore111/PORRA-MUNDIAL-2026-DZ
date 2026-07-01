@@ -523,8 +523,8 @@ const RONDAS_ELIM={
 function range(a,b){const r=[];for(let i=a;i<=b;i++)r.push(i);return r;}
 
 const BRACKET_MAP={
-  17:[2,5],18:[1,3],19:[4,6],20:[7,8],
-  21:[11,12],22:[9,10],23:[14,16],24:[13,15],
+  17:[1,2],18:[3,4],19:[9,10],20:[11,12],
+  21:[5,6],22:[7,8],23:[13,14],24:[15,16],
   25:[17,18],26:[21,22],27:[19,20],28:[23,24],
   29:[25,26],30:[27,28],
   31:[29,30]
@@ -550,13 +550,23 @@ function ptsGrupo(real,pro){
 }
 function ganadorDe(m){if(m.gl===null||m.gv===null)return null;if(m.gl>m.gv)return m.equipo1;if(m.gl<m.gv)return m.equipo2;return m.ganador;}
 function norm(s){return s?String(s).trim().toLowerCase():null;}
+function ladoGanador(m){
+  if(m.gl===null||m.gv===null)return 0;
+  if(m.gl>m.gv)return 1;
+  if(m.gl<m.gv)return 2;
+  if(!m.ganador)return 0;
+  const g=norm(m.ganador);
+  if(g===norm(m.equipo1))return 1;
+  if(g===norm(m.equipo2))return 2;
+  return 0;
+}
 function ptsElim(real,pro,regla){
   if(!real||!pro||real.gl===null||real.gv===null||pro.gl===null||pro.gv===null)return 0;
   let pts=0;
   const exact=pro.gl===real.gl&&pro.gv===real.gv;
   if(exact)pts+=regla.pExacto;
-  const gR=ganadorDe(real),gP=ganadorDe(pro);
-  const acertoPasa=gR&&gP&&norm(gR)===norm(gP);
+  const ladoR=ladoGanador(real),ladoP=ladoGanador(pro);
+  const acertoPasa=ladoR!==0&&ladoR===ladoP;
   if(real.gl===real.gv&&acertoPasa){
     pts+=regla.pGanador;
   }else if(!exact&&acertoPasa){
@@ -602,11 +612,11 @@ function extraerGrupo(id){return LETRAS_GRUPO[(id-1)%24]||'?';}
 function getInitials(name){const p=name.split(/\s+/);return p.length===1?p[0].substring(0,2).toUpperCase():(p[0][0]+p[p.length-1][0]).toUpperCase();}
 
 const ELIM_SCHEDULE={
-  1:['2026-06-28T22:00'],2:['2026-06-29T22:00'],3:['2026-06-29T19:00'],4:['2026-06-29T16:00'],
-  5:['2026-06-30T22:00'],6:['2026-06-30T19:00'],7:['2026-06-30T16:00'],
-  8:['2026-07-01T22:00'],9:['2026-07-01T19:00'],10:['2026-07-01T16:00'],
-  11:['2026-07-02T22:00'],12:['2026-07-02T19:00'],13:['2026-07-02T16:00'],
-  14:['2026-07-03T22:00'],15:['2026-07-03T19:00'],16:['2026-07-03T16:00'],
+  1:['2026-06-29T22:00'],2:['2026-06-30T22:00'],3:['2026-06-28T22:00'],4:['2026-06-29T19:00'],
+  5:['2026-07-02T22:00'],6:['2026-07-02T19:00'],7:['2026-07-01T19:00'],
+  8:['2026-07-01T16:00'],9:['2026-06-29T16:00'],10:['2026-06-30T19:00'],
+  11:['2026-06-30T16:00'],12:['2026-07-01T22:00'],13:['2026-07-03T22:00'],
+  14:['2026-07-03T16:00'],15:['2026-07-02T16:00'],16:['2026-07-03T19:00'],
   17:['2026-07-05T22:00'],18:['2026-07-05T19:00'],19:['2026-07-06T22:00'],20:['2026-07-06T19:00'],
   21:['2026-07-07T22:00'],22:['2026-07-07T19:00'],23:['2026-07-08T22:00'],24:['2026-07-08T19:00'],
   25:['2026-07-11T22:00'],26:['2026-07-11T19:00'],27:['2026-07-12T22:00'],28:['2026-07-12T19:00'],
