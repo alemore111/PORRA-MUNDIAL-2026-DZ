@@ -523,8 +523,8 @@ const RONDAS_ELIM={
 function range(a,b){const r=[];for(let i=a;i<=b;i++)r.push(i);return r;}
 
 const BRACKET_MAP={
-  17:[1,2],18:[3,4],19:[9,10],20:[11,12],
-  21:[5,6],22:[7,8],23:[13,14],24:[15,16],
+  17:[2,5],18:[1,3],19:[4,6],20:[7,8],
+  21:[11,12],22:[9,10],23:[14,16],24:[13,15],
   25:[17,18],26:[21,22],27:[19,20],28:[23,24],
   29:[25,26],30:[27,28],
   31:[29,30]
@@ -555,26 +555,47 @@ function ladoGanador(m){
   if(m.gl>m.gv)return 1;
   if(m.gl<m.gv)return 2;
   if(!m.ganador)return 0;
-  const g=norm(m.ganador);
-  if(g===norm(m.equipo1))return 1;
-  if(g===norm(m.equipo2))return 2;
+  const g=normEquipo(m.ganador);
+  if(g===normEquipo(m.equipo1))return 1;
+  if(g===normEquipo(m.equipo2))return 2;
   return 0;
 }
 function ptsElim(real,pro,regla){
   if(!real||!pro||real.gl===null||real.gv===null||pro.gl===null||pro.gv===null)return 0;
-  let pts=0;
   const exact=pro.gl===real.gl&&pro.gv===real.gv;
-  if(exact)pts+=regla.pExacto;
-  const ladoR=ladoGanador(real),ladoP=ladoGanador(pro);
-  const acertoPasa=ladoR!==0&&ladoR===ladoP;
-  if(real.gl===real.gv&&acertoPasa){
-    pts+=regla.pGanador;
-  }else if(!exact&&acertoPasa){
-    pts+=regla.pGanador;
+  if(!exact)return 0;
+  let pts=regla.pExacto;
+  if(real.gl===real.gv){
+    const ladoR=ladoGanador(real),ladoP=ladoGanador(pro);
+    if(ladoR!==0&&ladoR===ladoP)pts+=regla.pGanador;
   }
   return pts;
 }
 function ptsBonus(realVal,proVal,key){if(!realVal||!proVal)return 0;return norm(String(realVal))===norm(String(proVal))?BONUS_PTS[key]:0;}
+
+const EQUIPO_ALIAS={eeuu:'estadosunidos',usa:'estadosunidos',marreucos:'marruecos',bosniaherzegovina:'bosniaherz'};
+function normEquipo(s){
+  if(!s)return null;
+  const n=String(s).trim().toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').replace(/[^a-z]/g,'');
+  return EQUIPO_ALIAS[n]||n;
+}
+function elimKey(e1,e2){
+  const a=normEquipo(e1),b=normEquipo(e2);
+  if(!a||!b)return null;
+  return[a,b].sort().join('|');
+}
+// Empareja el pronóstico de un participante con el partido real por NOMBRES de equipo
+// (no por id), ya que resultados.json y pronosticos.json pueden numerar la eliminatoria
+// de forma distinta. Si no hay equipos definidos todavía, cae de vuelta al id.
+function findElimPred(elimArr,real){
+  const fallback={gl:null,gv:null,ganador:null,equipo1:null,equipo2:null};
+  if(real.equipo1&&real.equipo2){
+    const key=elimKey(real.equipo1,real.equipo2);
+    const found=elimArr.find(e=>e.equipo1&&e.equipo2&&elimKey(e.equipo1,e.equipo2)===key);
+    if(found)return found;
+  }
+  return elimArr.find(e=>e.id===real.id)||fallback;
+}
 
 const HORARIOS={
   1:["11 Jun","21:00"],2:["11 Jun","23:30"],3:["12 Jun","01:00"],4:["13 Jun","19:00"],
@@ -612,11 +633,11 @@ function extraerGrupo(id){return LETRAS_GRUPO[(id-1)%24]||'?';}
 function getInitials(name){const p=name.split(/\s+/);return p.length===1?p[0].substring(0,2).toUpperCase():(p[0][0]+p[p.length-1][0]).toUpperCase();}
 
 const ELIM_SCHEDULE={
-  1:['2026-06-29T22:00'],2:['2026-06-30T22:00'],3:['2026-06-28T22:00'],4:['2026-06-29T19:00'],
-  5:['2026-07-02T22:00'],6:['2026-07-02T19:00'],7:['2026-07-01T19:00'],
-  8:['2026-07-01T16:00'],9:['2026-06-29T16:00'],10:['2026-06-30T19:00'],
-  11:['2026-06-30T16:00'],12:['2026-07-01T22:00'],13:['2026-07-03T22:00'],
-  14:['2026-07-03T16:00'],15:['2026-07-02T16:00'],16:['2026-07-03T19:00'],
+  1:['2026-06-28T22:00'],2:['2026-06-29T22:00'],3:['2026-06-29T19:00'],4:['2026-06-29T16:00'],
+  5:['2026-06-30T22:00'],6:['2026-06-30T19:00'],7:['2026-06-30T16:00'],
+  8:['2026-07-01T22:00'],9:['2026-07-01T19:00'],10:['2026-07-01T16:00'],
+  11:['2026-07-02T22:00'],12:['2026-07-02T19:00'],13:['2026-07-02T16:00'],
+  14:['2026-07-03T22:00'],15:['2026-07-03T19:00'],16:['2026-07-03T16:00'],
   17:['2026-07-05T22:00'],18:['2026-07-05T19:00'],19:['2026-07-06T22:00'],20:['2026-07-06T19:00'],
   21:['2026-07-07T22:00'],22:['2026-07-07T19:00'],23:['2026-07-08T22:00'],24:['2026-07-08T19:00'],
   25:['2026-07-11T22:00'],26:['2026-07-11T19:00'],27:['2026-07-12T22:00'],28:['2026-07-12T19:00'],
@@ -635,7 +656,6 @@ async function cargarTodo(){
 function calcularTodo(resultados,pronosticos){
   const clas=pronosticos.participantes.map(part=>{
     const pGrupoById={};part.grupos.forEach(g=>pGrupoById[g.id]=g);
-    const pElimById={};part.eliminatoria.forEach(e=>pElimById[e.id]=e);
     let ptsG=0;
     const detalleGrupos=resultados.grupos.map(real=>{
       const pro=pGrupoById[real.id]||{gl:null,gv:null};
@@ -644,7 +664,7 @@ function calcularTodo(resultados,pronosticos){
     });
     let ptsE=0;
     const detalleElim=resultados.eliminatoria.map(real=>{
-      const pro=pElimById[real.id]||{gl:null,gv:null,ganador:null,equipo1:null,equipo2:null};
+      const pro=findElimPred(part.eliminatoria,real);
       const regla=reglaElim(real.id);const p=ptsElim(real,pro,regla);ptsE+=p;
       return{id:real.id,gl:pro.gl,gv:pro.gv,ganador:pro.ganador,puntos:p};
     });
@@ -744,7 +764,7 @@ function renderApuestas(resultados,pronosticos){
     .sort((a,b)=>a.date-b.date)[0];
   if(elimNext){
     // Check if any participant has predictions for this match
-    const hasPreds=pronosticos.participantes.some(p=>{const pr=p.eliminatoria.find(x=>x.id===elimNext.id);return pr&&pr.gl!==null&&pr.gl!==undefined;});
+    const hasPreds=pronosticos.participantes.some(p=>{const pr=findElimPred(p.eliminatoria,elimNext);return pr&&pr.gl!==null&&pr.gl!==undefined;});
     if(hasPreds){nextMatch={e1:elimNext.equipo1,e2:elimNext.equipo2,id:elimNext.id,tipo:'elim'};isElim=true;}
   }
 
@@ -768,7 +788,7 @@ function renderApuestas(resultados,pronosticos){
   const buckets={e1:[],draw:[],e2:[]};
   pronosticos.participantes.forEach(part=>{
     let pro;
-    if(nextMatch.tipo==='elim')pro=part.eliminatoria.find(x=>x.id===nextMatch.id);
+    if(nextMatch.tipo==='elim')pro=findElimPred(part.eliminatoria,{equipo1:e1,equipo2:e2,id:nextMatch.id});
     else pro=part.grupos.find(x=>x.id===nextMatch.id);
     if(!pro||pro.gl===null||pro.gl===undefined)return;
     const sign=Math.sign(pro.gl-pro.gv);
@@ -816,7 +836,7 @@ function renderHighlight(resultados,pronosticos){
     let exactos=0;
     pronosticos.participantes.forEach(part=>{
       let pro;
-      if(esElim)pro=part.eliminatoria.find(x=>x.id===p.id);
+      if(esElim)pro=findElimPred(part.eliminatoria,p);
       else pro=part.grupos.find(x=>x.id===p.id);
       if(!pro||pro.gl===null)return;
       const pts=esElim?ptsElim(p,pro,regla):ptsGrupo(p,pro);
@@ -873,10 +893,9 @@ function renderHighlight(resultados,pronosticos){
   let maxExactos=0,maxExName='';
   pronosticos.participantes.forEach(part=>{
     const pG={};part.grupos.forEach(g=>pG[g.id]=g);
-    const pE={};part.eliminatoria.forEach(e=>pE[e.id]=e);
     let ex=0;
     jugadosG.forEach(r=>{const pro=pG[r.id];if(pro&&ptsGrupo(r,pro)===PTS_GRUPO_EXACTO)ex++;});
-    jugadosE.forEach(r=>{const pro=pE[r.id];const regla=reglaElim(r.id);if(pro&&ptsElim(r,pro,regla)===regla.pExacto)ex++;});
+    jugadosE.forEach(r=>{const pro=findElimPred(part.eliminatoria,r);const regla=reglaElim(r.id);if(pro&&ptsElim(r,pro,regla)===regla.pExacto)ex++;});
     if(ex>maxExactos){maxExactos=ex;maxExName=part.nombre;}
   });
   if(maxExactos>=1)facts.push(`🏹 <strong>${maxExName}</strong> es quien más exactos lleva: <strong>${maxExactos}</strong> de ${todos.length} partidos`);
@@ -958,7 +977,6 @@ function openModal(nombre){
 
   let exactos=0,ganadores=0,fallos=0;
   const pGById={};part.grupos.forEach(g=>pGById[g.id]=g);
-  const pEById={};part.eliminatoria.forEach(e=>pEById[e.id]=e);
 
   const matchDetails=[];
   jugadosG.forEach(real=>{
@@ -968,7 +986,7 @@ function openModal(nombre){
     matchDetails.push({partido:`${bandera(real.local)} ${real.local} vs ${real.visitante} ${bandera(real.visitante)}`,pro:`${pro.gl??'-'}-${pro.gv??'-'}`,real:`${real.gl}-${real.gv}`,pts,maxPts:PTS_GRUPO_EXACTO,tipo:'grupo'});
   });
   jugadosE.forEach(real=>{
-    const pro=pEById[real.id]||{gl:null,gv:null};
+    const pro=findElimPred(part.eliminatoria,real);
     const regla=reglaElim(real.id);const pts=ptsElim(real,pro,regla);
     if(pts===regla.pExacto)exactos++;else if(pts===regla.pGanador)ganadores++;else fallos++;
     const n1=real.equipo1||'?',n2=real.equipo2||'?';
@@ -1026,7 +1044,7 @@ function quienLoClavo(partido,esElim){
   let exact=0,winner=0,fail=0;
   PRONOSTICOS.participantes.forEach(part=>{
     let pro;
-    if(esElim)pro=part.eliminatoria.find(x=>x.id===partido.id);
+    if(esElim)pro=findElimPred(part.eliminatoria,partido);
     else pro=part.grupos.find(x=>x.id===partido.id);
     if(!pro||pro.gl===null||pro.gl===undefined){fail++;return;}
     const pts=esElim?ptsElim(partido,pro,regla):ptsGrupo(partido,pro);
@@ -1068,7 +1086,7 @@ function renderPronosticos(){
     }
 
     const prosHTML=PRONOSTICOS.participantes.map(part=>{
-      let pro;if(esElim)pro=part.eliminatoria.find(x=>x.id===partido.id);else pro=part.grupos.find(x=>x.id===partido.id);
+      let pro;if(esElim)pro=findElimPred(part.eliminatoria,partido);else pro=part.grupos.find(x=>x.id===partido.id);
       if(!pro||pro.gl===null||pro.gl===undefined)return`<div class="pro-item"><span class="pro-nombre">${part.nombre}</span><span class="sin-pro">sin rellenar</span></div>`;
       let pts=0;if(jugado){pts=esElim?ptsElim(partido,pro,regla):ptsGrupo(partido,pro);}
       let clsMarca='pendiente',clsPts='pend';
@@ -1122,8 +1140,6 @@ function renderH2H(){
 
   const pAg={};partA.grupos.forEach(g=>pAg[g.id]=g);
   const pBg={};partB.grupos.forEach(g=>pBg[g.id]=g);
-  const pAe={};partA.eliminatoria.forEach(e=>pAe[e.id]=e);
-  const pBe={};partB.eliminatoria.forEach(e=>pBe[e.id]=e);
 
   const jugadosG=RESULTADOS.grupos.filter(g=>g.gl!==null);
   const jugadosE=RESULTADOS.eliminatoria.filter(e=>e.gl!==null);
@@ -1148,8 +1164,8 @@ function renderH2H(){
   });
 
   jugadosE.forEach(real=>{
-    const proA=pAe[real.id]||{gl:null,gv:null};
-    const proB=pBe[real.id]||{gl:null,gv:null};
+    const proA=findElimPred(partA.eliminatoria,real);
+    const proB=findElimPred(partB.eliminatoria,real);
     const regla=reglaElim(real.id);
     const pA=ptsElim(real,proA,regla);
     const pB=ptsElim(real,proB,regla);
@@ -1279,7 +1295,7 @@ function checkConfetti(resultados,pronosticos){
   let anyExact=false;
   pronosticos.participantes.forEach(part=>{
     let pro;
-    if(esElim)pro=part.eliminatoria.find(x=>x.id===partido.id);
+    if(esElim)pro=findElimPred(part.eliminatoria,partido);
     else pro=part.grupos.find(x=>x.id===partido.id);
     if(!pro)return;
     const pts=esElim?ptsElim(partido,pro,regla):ptsGrupo(partido,pro);
@@ -1350,10 +1366,9 @@ function renderShame(resultados,pronosticos,clas){
   let maxFallos=0,falloName='';
   pronosticos.participantes.forEach(part=>{
     const pG={};part.grupos.forEach(g=>pG[g.id]=g);
-    const pE={};part.eliminatoria.forEach(e=>pE[e.id]=e);
     let f=0;
     jugadosG.forEach(r=>{const pro=pG[r.id];if(!pro||ptsGrupo(r,pro)===0)f++;});
-    jugadosE.forEach(r=>{const pro=pE[r.id];const regla=reglaElim(r.id);if(!pro||ptsElim(r,pro,regla)===0)f++;});
+    jugadosE.forEach(r=>{const pro=findElimPred(part.eliminatoria,r);const regla=reglaElim(r.id);if(!pro||ptsElim(r,pro,regla)===0)f++;});
     if(f>maxFallos){maxFallos=f;falloName=part.nombre;}
   });
   if(maxFallos>=1)cards.push({icon:'💀',title:'Más fallos',name:falloName,detail:`${maxFallos} pronóstico${maxFallos!==1?'s':''} fallado${maxFallos!==1?'s':''}`});
