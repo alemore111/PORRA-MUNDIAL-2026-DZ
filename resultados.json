@@ -619,27 +619,27 @@
       "ronda": "16avos",
       "equipo1": "Francia",
       "equipo2": "Suecia",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 3,
+      "gv": 0,
+      "ganador": "Francia"
     },
     {
       "id": 6,
       "ronda": "16avos",
       "equipo1": "Costa de Marfil",
       "equipo2": "Noruega",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 1,
+      "gv": 2,
+      "ganador": "Noruega"
     },
     {
       "id": 7,
       "ronda": "16avos",
       "equipo1": "México",
       "equipo2": "Ecuador",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 2,
+      "gv": 1,
+      "ganador": "México"
     },
     {
       "id": 8,
