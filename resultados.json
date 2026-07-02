@@ -646,27 +646,27 @@
       "ronda": "16avos",
       "equipo1": "Inglaterra",
       "equipo2": "RD Congo",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 2,
+      "gv": 1,
+      "ganador": "Inglaterra"
     },
     {
       "id": 9,
       "ronda": "16avos",
       "equipo1": "Estados Unidos",
       "equipo2": "Bosnia-Herz.",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 2,
+      "gv": 0,
+      "ganador": "Estados Unidos"
     },
     {
       "id": 10,
       "ronda": "16avos",
       "equipo1": "Bélgica",
       "equipo2": "Senegal",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 2,
+      "gv": 2,
+      "ganador": "Bélgica"
     },
     {
       "id": 11,
