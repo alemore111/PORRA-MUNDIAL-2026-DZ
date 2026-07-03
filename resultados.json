@@ -673,27 +673,27 @@
       "ronda": "16avos",
       "equipo1": "Portugal",
       "equipo2": "Croacia",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 2,
+      "gv": 1,
+      "ganador": "Portugal"
     },
     {
       "id": 12,
       "ronda": "16avos",
       "equipo1": "España",
       "equipo2": "Austria",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 3,
+      "gv": 0,
+      "ganador": "España"
     },
     {
       "id": 13,
       "ronda": "16avos",
       "equipo1": "Suiza",
       "equipo2": "Argelia",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 2,
+      "gv": 0,
+      "ganador": "Suiza"
     },
     {
       "id": 14,
