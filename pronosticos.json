@@ -7407,18 +7407,18 @@
         },
         {
           "id": 23,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Argentina",
+          "equipo2": "Egipto",
+          "gl": 2,
+          "gv": 0,
           "ganador": null
         },
         {
           "id": 24,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Suiza",
+          "equipo2": "Colombia",
+          "gl": 0,
+          "gv": 1,
           "ganador": null
         },
         {
