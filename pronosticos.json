@@ -392,7 +392,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 2,
           "gv": 1,
           "ganador": null
@@ -495,66 +495,66 @@
         },
         {
           "id": 17,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Paraguay",
+          "equipo2": "Francia",
+          "gl": 0,
+          "gv": 1,
           "ganador": null
         },
         {
           "id": 18,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Canadá",
+          "equipo2": "Marruecos",
+          "gl": 1,
+          "gv": 1,
+          "ganador": "Canadá"
         },
         {
           "id": 19,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Brasil",
+          "equipo2": "Noruega",
+          "gl": 1,
+          "gv": 0,
           "ganador": null
         },
         {
           "id": 20,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "México",
+          "equipo2": "Inglaterra",
+          "gl": 0,
+          "gv": 1,
           "ganador": null
         },
         {
           "id": 21,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Portugal",
+          "equipo2": "España",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 22,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Estados Unidos",
+          "equipo2": "Bélgica",
+          "gl": 2,
+          "gv": 2,
+          "ganador": "Bélgica"
         },
         {
           "id": 23,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Argentina",
+          "equipo2": "Egipto",
+          "gl": 1,
+          "gv": 1,
           "ganador": null
         },
         {
           "id": 24,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Suiza",
+          "equipo2": "Colombia",
+          "gl": 1,
+          "gv": 0,
           "ganador": null
         },
         {
@@ -1016,7 +1016,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 1,
           "gv": 2,
           "ganador": null
@@ -1640,7 +1640,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 2,
           "gv": 1,
           "ganador": null
@@ -1743,66 +1743,66 @@
         },
         {
           "id": 17,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Paraguay",
+          "equipo2": "Francia",
+          "gl": 0,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 18,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Canadá",
+          "equipo2": "Marruecos",
+          "gl": 1,
+          "gv": 1,
+          "ganador": "Marruecos"
         },
         {
           "id": 19,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Brasil",
+          "equipo2": "Noruega",
+          "gl": 2,
+          "gv": 1,
           "ganador": null
         },
         {
           "id": 20,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "México",
+          "equipo2": "Inglaterra",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 21,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Portugal",
+          "equipo2": "España",
+          "gl": 1,
+          "gv": 1,
+          "ganador": "España"
         },
         {
           "id": 22,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Estados Unidos",
+          "equipo2": "Bélgica",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 23,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Argentina",
+          "equipo2": "Egipto",
+          "gl": 2,
+          "gv": 0,
           "ganador": null
         },
         {
           "id": 24,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Suiza",
+          "equipo2": "Colombia",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
@@ -2264,7 +2264,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 2,
           "gv": 1,
           "ganador": null
@@ -2888,7 +2888,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 2,
           "gv": 1,
           "ganador": null
@@ -3615,51 +3615,51 @@
         },
         {
           "id": 17,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Paraguay",
+          "equipo2": "Francia",
+          "gl": 1,
+          "gv": 3,
           "ganador": null
         },
         {
           "id": 18,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Canadá",
+          "equipo2": "Marruecos",
+          "gl": 0,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 19,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Brasil",
+          "equipo2": "Noruega",
+          "gl": 2,
+          "gv": 2,
+          "ganador": "Brasil"
         },
         {
           "id": 20,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "México",
+          "equipo2": "Inglaterra",
+          "gl": 1,
+          "gv": 1,
+          "ganador": "Inglaterra"
         },
         {
           "id": 21,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Portugal",
+          "equipo2": "España",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 22,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Estados Unidos",
+          "equipo2": "Bélgica",
+          "gl": 1,
+          "gv": 1,
+          "ganador": "Estados Unidos"
         },
         {
           "id": 23,
@@ -4136,7 +4136,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 2,
           "gv": 1,
           "ganador": null
@@ -4239,64 +4239,64 @@
         },
         {
           "id": 17,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Paraguay",
+          "equipo2": "Francia",
+          "gl": 0,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 18,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Canadá",
+          "equipo2": "Marruecos",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 19,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Brasil",
+          "equipo2": "Noruega",
+          "gl": 2,
+          "gv": 2,
+          "ganador": "Noruega"
         },
         {
           "id": 20,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "México",
+          "equipo2": "Inglaterra",
+          "gl": 1,
+          "gv": 3,
           "ganador": null
         },
         {
           "id": 21,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Portugal",
+          "equipo2": "España",
+          "gl": 1,
+          "gv": 1,
+          "ganador": "España"
         },
         {
           "id": 22,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Estados Unidos",
+          "equipo2": "Bélgica",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 23,
-          "equipo1": null,
-          "equipo2": null,
+          "equipo1": "Argentina",
+          "equipo2": "Egipto",
           "gl": null,
           "gv": null,
           "ganador": null
         },
         {
           "id": 24,
-          "equipo1": null,
-          "equipo2": null,
+          "equipo1": "Suiza",
+          "equipo2": "Colombia",
           "gl": null,
           "gv": null,
           "ganador": null
@@ -4760,7 +4760,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 2,
           "gv": 1,
           "ganador": null
@@ -5384,7 +5384,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 2,
           "gv": 2,
           "ganador": "Marruecos"
@@ -5983,194 +5983,194 @@
       "eliminatoria": [
         {
           "id": 1,
-          "equipo1": null,
-          "equipo2": null,
+          "equipo1": "Alemania",
+          "equipo2": "Paraguay",
           "gl": null,
           "gv": null,
-          "ganador": null
+          "ganador": "Alemania"
         },
         {
           "id": 2,
-          "equipo1": null,
-          "equipo2": null,
+          "equipo1": "Francia",
+          "equipo2": "Suecia",
           "gl": null,
           "gv": null,
           "ganador": null
         },
         {
           "id": 3,
-          "equipo1": null,
-          "equipo2": null,
+          "equipo1": "Sudafrica",
+          "equipo2": "Canada",
           "gl": null,
           "gv": null,
           "ganador": null
         },
         {
           "id": 4,
-          "equipo1": null,
-          "equipo2": null,
+          "equipo1": "Paises Bajos",
+          "equipo2": "Marruecos",
           "gl": null,
           "gv": null,
           "ganador": null
         },
         {
           "id": 5,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Portugal",
+          "equipo2": "Croacia",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 6,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "España",
+          "equipo2": "Austria",
+          "gl": 3,
+          "gv": 1,
           "ganador": null
         },
         {
           "id": 7,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "EEUU",
+          "equipo2": "Bosnia-Herzegovina",
+          "gl": 3,
+          "gv": 0,
           "ganador": null
         },
         {
           "id": 8,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Belgica",
+          "equipo2": "Senegal",
+          "gl": 2,
+          "gv": 1,
           "ganador": null
         },
         {
           "id": 9,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Brasil",
+          "equipo2": "Japón",
+          "gl": 1,
+          "gv": 0,
           "ganador": null
         },
         {
           "id": 10,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Costa de Marfíl",
+          "equipo2": "Noruega",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 11,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "México",
+          "equipo2": "Ecuador",
+          "gl": 2,
+          "gv": 1,
           "ganador": null
         },
         {
           "id": 12,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Inglaterra",
+          "equipo2": "RD Congo",
+          "gl": 1,
+          "gv": 1,
+          "ganador": "Inglaterra"
         },
         {
           "id": 13,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Argentina",
+          "equipo2": "Cabo Verde",
+          "gl": 2,
+          "gv": 0,
           "ganador": null
         },
         {
           "id": 14,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Australia",
+          "equipo2": "Egipto",
+          "gl": 1,
+          "gv": 1,
+          "ganador": "Australia"
         },
         {
           "id": 15,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Suiza",
+          "equipo2": "Argelia",
+          "gl": 1,
+          "gv": 1,
+          "ganador": "Suiza"
         },
         {
           "id": 16,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Colombia",
+          "equipo2": "Ghana",
+          "gl": 2,
+          "gv": 0,
           "ganador": null
         },
         {
           "id": 17,
-          "equipo1": null,
-          "equipo2": null,
+          "equipo1": "Paraguay",
+          "equipo2": "Francia",
           "gl": null,
           "gv": null,
           "ganador": null
         },
         {
           "id": 18,
-          "equipo1": null,
-          "equipo2": null,
+          "equipo1": "Canadá",
+          "equipo2": "Marruecos",
           "gl": null,
           "gv": null,
           "ganador": null
         },
         {
           "id": 19,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Brasil",
+          "equipo2": "Noruega",
+          "gl": 2,
+          "gv": 2,
+          "ganador": "Brasil"
         },
         {
           "id": 20,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "México",
+          "equipo2": "Inglaterra",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 21,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Portugal",
+          "equipo2": "España",
+          "gl": 2,
+          "gv": 3,
           "ganador": null
         },
         {
           "id": 22,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Estados Unidos",
+          "equipo2": "Bélgica",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 23,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Suiza",
+          "equipo2": "Colombia",
+          "gl": 2,
+          "gv": 2,
+          "ganador": "Colombia"
         },
         {
           "id": 24,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Argentina",
+          "equipo2": "Egipto",
+          "gl": 2,
+          "gv": 0,
           "ganador": null
         },
         {
@@ -6632,7 +6632,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 2,
           "gv": 1,
           "ganador": null
@@ -6735,50 +6735,50 @@
         },
         {
           "id": 17,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Paraguay",
+          "equipo2": "Francia",
+          "gl": 1,
+          "gv": 3,
           "ganador": null
         },
         {
           "id": 18,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Canadá",
+          "equipo2": "Marruecos",
+          "gl": 1,
+          "gv": 1,
+          "ganador": "Marruecos"
         },
         {
           "id": 19,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Brasil",
+          "equipo2": "Noruega",
+          "gl": 2,
+          "gv": 1,
           "ganador": null
         },
         {
           "id": 20,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "México",
+          "equipo2": "Inglaterra",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 21,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Portugal",
+          "equipo2": "España",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 22,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Estados Unidos",
+          "equipo2": "Bélgica",
+          "gl": 2,
+          "gv": 1,
           "ganador": null
         },
         {
@@ -7256,7 +7256,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 1,
           "gv": 0,
           "ganador": null
@@ -7359,50 +7359,50 @@
         },
         {
           "id": 17,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Paraguay",
+          "equipo2": "Francia",
+          "gl": 0,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 18,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Canadá",
+          "equipo2": "Marruecos",
+          "gl": 0,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 19,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Brasil",
+          "equipo2": "Noruega",
+          "gl": 1,
+          "gv": 0,
           "ganador": null
         },
         {
           "id": 20,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "México",
+          "equipo2": "Inglaterra",
+          "gl": 1,
+          "gv": 0,
           "ganador": null
         },
         {
           "id": 21,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Portugal",
+          "equipo2": "España",
+          "gl": 0,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 22,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Estados Unidos",
+          "equipo2": "Bélgica",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
@@ -7880,7 +7880,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 2,
           "gv": 1,
           "ganador": null
@@ -7983,66 +7983,66 @@
         },
         {
           "id": 17,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Paraguay",
+          "equipo2": "Francia",
+          "gl": 0,
+          "gv": 3,
           "ganador": null
         },
         {
           "id": 18,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Canadá",
+          "equipo2": "Marruecos",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 19,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Brasil",
+          "equipo2": "Noruega",
+          "gl": 3,
+          "gv": 1,
           "ganador": null
         },
         {
           "id": 20,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "México",
+          "equipo2": "Inglaterra",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 21,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Portugal",
+          "equipo2": "España",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
           "id": 22,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
-          "ganador": null
+          "equipo1": "Estados Unidos",
+          "equipo2": "Bélgica",
+          "gl": 2,
+          "gv": 2,
+          "ganador": "Bélgica"
         },
         {
           "id": 23,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Argentina",
+          "equipo2": "Egipto",
+          "gl": 3,
+          "gv": 1,
           "ganador": null
         },
         {
           "id": 24,
-          "equipo1": null,
-          "equipo2": null,
-          "gl": null,
-          "gv": null,
+          "equipo1": "Suiza",
+          "equipo2": "Colombia",
+          "gl": 1,
+          "gv": 2,
           "ganador": null
         },
         {
@@ -8504,7 +8504,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": null,
           "gv": null,
           "ganador": null
@@ -9752,7 +9752,7 @@
         {
           "id": 4,
           "equipo1": "Paises Bajos",
-          "equipo2": "Marruecos",
+          "equipo2": "Marreucos",
           "gl": 2,
           "gv": 1,
           "ganador": null
