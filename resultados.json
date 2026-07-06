@@ -700,63 +700,63 @@
       "ronda": "16avos",
       "equipo1": "Argentina",
       "equipo2": "Cabo Verde",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 3,
+      "gv": 2,
+      "ganador": "Argentina"
     },
     {
       "id": 15,
       "ronda": "16avos",
       "equipo1": "Colombia",
       "equipo2": "Ghana",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 1,
+      "gv": 0,
+      "ganador": "Colombia"
     },
     {
       "id": 16,
       "ronda": "16avos",
       "equipo1": "Australia",
       "equipo2": "Egipto",
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "gl": 1,
+      "gv": 1,
+      "ganador": "Egipto"
     },
     {
       "id": 17,
       "ronda": "Octavos",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "Paraguay",
+      "equipo2": "Francia",
+      "gl": 0,
+      "gv": 1,
+      "ganador": "Francia"
     },
     {
       "id": 18,
       "ronda": "Octavos",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "Canadá",
+      "equipo2": "Marruecos",
+      "gl": 0,
+      "gv": 3,
+      "ganador": "Marruecos"
     },
     {
       "id": 19,
       "ronda": "Octavos",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "Brasil",
+      "equipo2": "Noruega",
+      "gl": 1,
+      "gv": 2,
+      "ganador": "Noruega"
     },
     {
       "id": 20,
       "ronda": "Octavos",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "México",
+      "equipo2": "Inglaterra",
+      "gl": 2,
+      "gv": 3,
+      "ganador": "Inglaterra"
     },
     {
       "id": 21,
