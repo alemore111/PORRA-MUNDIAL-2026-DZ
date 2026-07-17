@@ -664,7 +664,7 @@
       "ronda": "16avos",
       "equipo1": "Bélgica",
       "equipo2": "Senegal",
-      "gl": 2,
+      "gl": 3,
       "gv": 2,
       "ganador": "Bélgica"
     },
@@ -797,56 +797,56 @@
     {
       "id": 25,
       "ronda": "Cuartos",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "Francia",
+      "equipo2": "Marruecos",
+      "gl": 2,
+      "gv": 0,
+      "ganador": "Francia"
     },
     {
       "id": 26,
       "ronda": "Cuartos",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "España",
+      "equipo2": "Bélgica",
+      "gl": 2,
+      "gv": 1,
+      "ganador": "España"
     },
     {
       "id": 27,
       "ronda": "Cuartos",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "Noruega",
+      "equipo2": "Inglaterra",
+      "gl": 1,
+      "gv": 2,
+      "ganador": "Inglaterra"
     },
     {
       "id": 28,
       "ronda": "Cuartos",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "Argentina",
+      "equipo2": "Suiza",
+      "gl": 3,
+      "gv": 1,
+      "ganador": "Argentina"
     },
     {
       "id": 29,
       "ronda": "Semis",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "Francia",
+      "equipo2": "España",
+      "gl": 0,
+      "gv": 2,
+      "ganador": "España"
     },
     {
       "id": 30,
       "ronda": "Semis",
-      "equipo1": null,
-      "equipo2": null,
-      "gl": null,
-      "gv": null,
-      "ganador": null
+      "equipo1": "Inglaterra",
+      "equipo2": "Argentina",
+      "gl": 1,
+      "gv": 2,
+      "ganador": "Argentina"
     },
     {
       "id": 31,
@@ -861,10 +861,4 @@
   "bonus": {
     "campeon": null,
     "subcampeon": null,
-    "tercero": null,
-    "bota_oro": null,
-    "total_goles_bota": null,
-    "guante_oro": null,
-    "revelacion": null
-  }
-}
+    "ter
