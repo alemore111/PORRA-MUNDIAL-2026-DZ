@@ -861,4 +861,10 @@
   "bonus": {
     "campeon": null,
     "subcampeon": null,
-    "ter
+    "tercero": null,
+    "bota_oro": null,
+    "total_goles_bota": null,
+    "guante_oro": null,
+    "revelacion": null
+  }
+}
